@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Job Radar</title>
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--ink:#14181f;--mute:#667085;--line:#e4e7ec;--acc:#1f6feb;--ok:#12805c}
+@media(prefers-color-scheme:dark){:root{--bg:#0e1116;--card:#161b22;--ink:#e6edf3;--mute:#8b949e;--line:#2a313c;--acc:#58a6ff;--ok:#3fb950}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 system-ui,sans-serif}
+main{max-width:1000px;margin:0 auto;padding:20px 16px 60px}
+h1{font-size:22px;margin:0 0 2px}.sub{color:var(--mute);font-size:13px;margin-bottom:16px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(110px,1fr));gap:8px;margin-bottom:14px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:10px 12px}.stat b{display:block;font-size:20px}.stat span{font-size:12px;color:var(--mute)}
+.bar{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px}
+input,select{background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:6px;padding:7px 9px;font:inherit}
+input{flex:1;min-width:160px}
+.job{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:12px 14px;margin-bottom:8px;display:grid;grid-template-columns:48px 1fr auto;gap:12px;align-items:start}
+.sc{font-weight:700;font-size:18px;color:var(--acc);text-align:center}.sc small{display:block;font-size:10px;color:var(--mute);font-weight:400}
+.job a{color:var(--ink);font-weight:600;text-decoration:none}.job a:hover{color:var(--acc)}
+.meta{color:var(--mute);font-size:13px}.why{font-size:12px;color:var(--mute);margin-top:4px}
+.tag{display:inline-block;font-size:11px;border:1px solid var(--line);border-radius:10px;padding:0 7px;margin-right:4px}
+.new{color:var(--ok);border-color:var(--ok)}
+.health{font-size:12px;color:var(--mute);margin-top:18px}.bad{color:#d1242f}
+@media(max-width:560px){.job{grid-template-columns:40px 1fr}.job select{grid-column:2}}
+</style></head><body><main>
+<h1>Job Radar</h1><div class="sub" id="gen"></div>
+<div class="stats" id="stats"></div>
+<div class="bar">
+<input id="q" placeholder="Filter by title, company, skill…">
+<select id="reg"><option value="">All regions</option><option value="tunisia">Tunisia</option><option value="europe">Europe</option><option value="khalij">Khalij (Gulf)</option><option value="remote">Remote</option></select>
+<select id="st"><option value="">Any status</option><option>new</option><option>saved</option><option>applied</option><option>interview</option><option>rejected</option><option>ignored</option></select>
+<select id="min"><option value="0">Any score</option><option value="50">50+</option><option value="70">70+</option></select>
+</div>
+<div id="list"></div><div class="health" id="health"></div>
+</main><script>
+const STATUSES=["new","saved","applied","interview","rejected","ignored"];
+let DATA={jobs:[]},ST={};
+try{ST=JSON.parse(localStorage.getItem("jr-status")||"{}")}catch(e){}
+const save=()=>{try{localStorage.setItem("jr-status",JSON.stringify(ST))}catch(e){}};
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const st=j=>ST[j.id]||"new";
+function render(){
+  const q=document.getElementById("q").value.toLowerCase(),r=document.getElementById("reg").value,
+        s=document.getElementById("st").value,m=+document.getElementById("min").value;
+  const rows=DATA.jobs.filter(j=>(!r||j.region===r)&&(!s||st(j)===s)&&j.score>=m&&
+    (!q||(j.title+j.company+j.location+j.why.join(" ")).toLowerCase().includes(q)))
+    .filter(j=>s||st(j)!=="ignored");
+  const week=Date.now()-7*864e5;
+  document.getElementById("stats").innerHTML=[["Matches",DATA.jobs.length],
+    ["New (7d)",DATA.jobs.filter(j=>new Date(j.first_seen)>week&&st(j)==="new").length],
+    ...["saved","applied","interview","rejected"].map(k=>[k[0].toUpperCase()+k.slice(1),DATA.jobs.filter(j=>st(j)===k).length])]
+    .map(([a,b])=>`<div class="stat"><b>${b}</b><span>${a}</span></div>`).join("");
+  document.getElementById("list").innerHTML=rows.map(j=>`<div class="job">
+   <div class="sc">${j.score}<small>score</small></div>
+   <div><a href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>
+   <div class="meta">${esc(j.company)} · ${esc(j.location)} · <span class="tag">${esc(j.region)}</span>${new Date(j.first_seen)>week?'<span class="tag new">new</span>':""}</div>
+   <div class="why">${esc(j.why.join(" · "))}</div></div>
+   <select data-id="${j.id}">${STATUSES.map(x=>`<option${x===st(j)?" selected":""}>${x}</option>`).join("")}</select></div>`).join("")
+   ||'<div class="meta">No matches for these filters.</div>';
+  document.querySelectorAll(".job select").forEach(e=>e.onchange=()=>{ST[e.dataset.id]=e.value;save();render()});
+}
+fetch("jobs.json").then(r=>r.json()).then(d=>{DATA=d;
+  document.getElementById("gen").textContent="Updated "+new Date(d.generated).toLocaleString()+" · "+d.total_fetched+" listings scanned";
+  document.getElementById("health").innerHTML="Sources: "+Object.entries(d.health).map(([k,v])=>`<span class="${String(v).startsWith("FAILED")?"bad":""}">${esc(k)}: ${esc(v)}</span>`).join(" · ");
+  render()}).catch(()=>document.getElementById("list").textContent="Could not load jobs.json");
+["q","reg","st","min"].forEach(i=>document.getElementById(i).addEventListener("input",render));
+</script></body></html>

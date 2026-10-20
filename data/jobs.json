@@ -1,0 +1,90 @@
+{
+ "generated": "2026-10-20T10:23:41.404411+00:00",
+ "health": {
+  "fixtures": 9
+ },
+ "total_fetched": 9,
+ "jobs": [
+  {
+   "source": "fx",
+   "src_id": "1",
+   "title": "Junior Full Stack Developer (React/NestJS)",
+   "company": "Acme GmbH",
+   "location": "Berlin, Germany",
+   "description": "Junior role. React, NestJS, PostgreSQL, Docker. Visa sponsorship and relocation support. English working language.",
+   "url": "https://example.com/1",
+   "posted": "2026-10-18T10:23:41.317755+00:00",
+   "remote": false,
+   "id": "ab1e60eff79c2eab",
+   "score": 100,
+   "why": [
+    "title",
+    "skills: react, nestjs, docker, postgresql",
+    "junior-friendly",
+    "visa/relocation"
+   ],
+   "region": "europe",
+   "first_seen": "2026-10-20T10:23:41.404411+00:00"
+  },
+  {
+   "source": "fx",
+   "src_id": "3",
+   "title": "Développeur Angular / Java",
+   "company": "SSII Tunis",
+   "location": "Tunis, Tunisie",
+   "description": "Débutant accepté. Angular, Java, PostgreSQL, CI/CD Jenkins.",
+   "url": "https://example.com/3",
+   "posted": "2026-10-18T10:23:41.317755+00:00",
+   "remote": false,
+   "id": "be8c31dea7f0b44b",
+   "score": 90,
+   "why": [
+    "title",
+    "skills: angular, java, ci/cd, postgresql, jenkins",
+    "junior-friendly"
+   ],
+   "region": "tunisia",
+   "first_seen": "2026-10-20T10:23:41.404411+00:00"
+  },
+  {
+   "source": "fx",
+   "src_id": "4",
+   "title": "Software Engineer - Graduate Programme",
+   "company": "GulfTech",
+   "location": "Dubai, UAE",
+   "description": "Graduate programme. Python, Django, AWS, machine learning.",
+   "url": "https://example.com/4",
+   "posted": "2026-10-18T10:23:41.317755+00:00",
+   "remote": false,
+   "id": "1bf15d6a0009b318",
+   "score": 78,
+   "why": [
+    "title",
+    "skills: python, django, machine learning, aws",
+    "junior-friendly"
+   ],
+   "region": "khalij",
+   "first_seen": "2026-10-20T10:23:41.404411+00:00"
+  },
+  {
+   "source": "fx",
+   "src_id": "9",
+   "title": "Frontend Developer",
+   "company": "RemoteInc",
+   "location": "Worldwide",
+   "description": "React, TypeScript, Docker. Entry-level welcome.",
+   "url": "https://example.com/9",
+   "posted": "2026-10-18T10:23:41.317755+00:00",
+   "remote": true,
+   "id": "d52864785487e94c",
+   "score": 73,
+   "why": [
+    "title",
+    "skills: react, typescript, docker",
+    "junior-friendly"
+   ],
+   "region": "remote",
+   "first_seen": "2026-10-20T10:23:41.404411+00:00"
+  }
+ ]
+}

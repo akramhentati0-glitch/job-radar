@@ -1,0 +1,101 @@
+[
+ {
+  "source": "fx",
+  "src_id": "1",
+  "title": "Junior Full Stack Developer (React/NestJS)",
+  "company": "Acme GmbH",
+  "location": "Berlin, Germany",
+  "description": "Junior role. React, NestJS, PostgreSQL, Docker. Visa sponsorship and relocation support. English working language.",
+  "url": "https://example.com/1",
+  "posted": "2026-10-18T10:23:41.317755+00:00",
+  "remote": false
+ },
+ {
+  "source": "fx",
+  "src_id": "2",
+  "title": "Senior Backend Engineer",
+  "company": "BigCo",
+  "location": "Paris, France",
+  "description": "5+ years of experience with Java and Python.",
+  "url": "https://example.com/2",
+  "posted": "2026-10-18T10:23:41.317755+00:00",
+  "remote": false
+ },
+ {
+  "source": "fx",
+  "src_id": "3",
+  "title": "D\u00e9veloppeur Angular / Java",
+  "company": "SSII Tunis",
+  "location": "Tunis, Tunisie",
+  "description": "D\u00e9butant accept\u00e9. Angular, Java, PostgreSQL, CI/CD Jenkins.",
+  "url": "https://example.com/3",
+  "posted": "2026-10-18T10:23:41.317755+00:00",
+  "remote": false
+ },
+ {
+  "source": "fx",
+  "src_id": "4",
+  "title": "Software Engineer - Graduate Programme",
+  "company": "GulfTech",
+  "location": "Dubai, UAE",
+  "description": "Graduate programme. Python, Django, AWS, machine learning.",
+  "url": "https://example.com/4",
+  "posted": "2026-10-18T10:23:41.317755+00:00",
+  "remote": false
+ },
+ {
+  "source": "fx",
+  "src_id": "5",
+  "title": "Software Engineer",
+  "company": "Deutsche X",
+  "location": "Munich, Germany",
+  "description": "Fluent German required. React, Node.js.",
+  "url": "https://example.com/5",
+  "posted": "2026-10-18T10:23:41.317755+00:00",
+  "remote": false
+ },
+ {
+  "source": "fx",
+  "src_id": "6",
+  "title": "Marketing Manager",
+  "company": "Foo",
+  "location": "Paris",
+  "description": "Brand strategy.",
+  "url": "https://example.com/6",
+  "posted": "2026-10-18T10:23:41.317755+00:00",
+  "remote": false
+ },
+ {
+  "source": "fx",
+  "src_id": "7",
+  "title": "Junior Developer",
+  "company": "OldCo",
+  "location": "Sfax, Tunisia",
+  "description": "React, Node.js, MongoDB.",
+  "url": "https://example.com/7",
+  "posted": "2026-07-22T10:23:41.317755+00:00",
+  "remote": false
+ },
+ {
+  "source": "fx",
+  "src_id": "8",
+  "title": "Junior Full Stack Developer (React/NestJS)",
+  "company": "Acme GmbH",
+  "location": "Berlin, Germany",
+  "description": "Duplicate posting.",
+  "url": "https://example.com/8",
+  "posted": "2026-10-18T10:23:41.317755+00:00",
+  "remote": false
+ },
+ {
+  "source": "fx",
+  "src_id": "9",
+  "title": "Frontend Developer",
+  "company": "RemoteInc",
+  "location": "Worldwide",
+  "description": "React, TypeScript, Docker. Entry-level welcome.",
+  "url": "https://example.com/9",
+  "posted": "2026-10-18T10:23:41.317755+00:00",
+  "remote": true
+ }
+]
