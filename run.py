@@ -6,7 +6,7 @@ from html import unescape
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 CFG = json.load(open(os.path.join(ROOT, "config.json"), encoding="utf-8"))
-UA = {"User-Agent": "job-radar/1.0 (personal job search)", "Accept": "application/json"}
+UA = {"User-Agent": "job-radar/1.0 (personal job search; github.com/akramhentati0-glitch/job-radar)", "Accept": "application/json"}
 
 
 def http(url, data=None, headers=None, timeout=25):
@@ -16,6 +16,13 @@ def http(url, data=None, headers=None, timeout=25):
     req = urllib.request.Request(url, data=body, headers=h)
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return json.loads(r.read().decode("utf-8", "replace"))
+
+
+def http_text(url, timeout=25):
+    h = dict(UA); h["Accept"] = "text/plain, text/markdown, */*"
+    req = urllib.request.Request(url, headers=h)
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        return r.read().decode("utf-8", "replace")
 
 
 def strip(html):
@@ -100,6 +107,55 @@ def f_adzuna(cfg):
                            j.get("description", ""), j["redirect_url"], to_iso(j.get("created"))))
     return out
 
+# ---- Keejob (Tunisia). Uses the site's own published machine-readable list (llms-full.txt) and the
+# per-offer Markdown pages it links to. No HTML scraping, no search URLs, a few requests per run.
+KJ_LINE = re.compile(r"^- \[(.+?)\]\((https://www\.keejob\.com/offres-emploi/(\d+)/[^)\s]+?)\.md\): (.*)$")
+KJ_MODES = {"sur site", "hybride", "télétravail", "teletravail"}
+KJ_TECH = re.compile(r"d[ée]velop|informatique|software|full.?stack|front|back.?end|devops|data|\bia\b|\bai\b|"
+                     r"cyber|r[ée]seau|syst[èe]me|\bqa\b|\btest|\bux\b|\bui\b|web|mobile|\berp\b|\bit\b|cloud|"
+                     r"programm|python|java|react|angular|\.net", re.I)
+
+
+def parse_keejob(text):
+    rows = []
+    for line in text.splitlines():
+        m = KJ_LINE.match(line.strip())
+        if not m: continue
+        title, base, id_, rest = m.groups()
+        title = re.sub(r"\\(.)", r"\1", title)
+        parts = [p.strip() for p in rest.split(" · ")]
+        posted = None
+        if parts and parts[-1].startswith("publiée le "):
+            posted = to_iso(parts.pop()[len("publiée le "):] + "T00:00:00+00:00")
+        company = parts[0] if parts else ""
+        location = parts[1] if len(parts) > 1 else "Tunisie"
+        extra = parts[2:]
+        mode = next((p for p in extra if p.lower() in KJ_MODES), "")
+        contract = ", ".join(p for p in extra if p.lower() not in KJ_MODES)
+        rows.append({"id": id_, "title": title, "company": company, "location": location, "contract": contract,
+                     "mode": mode, "posted": posted, "md": base + ".md", "url": base + "/"})
+    return rows
+
+
+def f_keejob(max_details=30):
+    rows = parse_keejob(http_text("https://www.keejob.com/llms-full.txt"))
+    tech = [r for r in rows if KJ_TECH.search(r["title"])]
+    out, fetched = [], 0
+    for r in tech:
+        desc = ""
+        if fetched < max_details:
+            try:
+                time.sleep(1.5); desc = http_text(r["md"]); fetched += 1
+            except urllib.error.HTTPError as e:
+                if e.code in (403, 429): fetched = max_details  # asked to slow down: stop fetching details
+            except Exception:
+                pass
+        extra = f"Contrat: {r['contract']}. " if r["contract"] else ""
+        out.append(job("keejob", r["id"], r["title"], r["company"], r["location"],
+                       extra + (f"Mode: {r['mode']}. " if r["mode"] else "") + desc, r["url"], r["posted"],
+                       remote=r["mode"].lower() in ("télétravail", "teletravail")))
+    return out
+
 # ---------------- scoring ----------------
 def has(text, term):
     return re.search(r"(?<![a-z0-9])" + re.escape(term) + r"(?![a-z0-9])", text) is not None
@@ -139,7 +195,8 @@ def main(argv):
     else:
         S = CFG["sources"]
         tasks = {"arbeitnow": f_arbeitnow, "jobtech_sweden": f_jobtech, "remotive": f_remotive, "jobicy": f_jobicy,
-                 "jooble": lambda: f_jooble(S["jooble"]), "adzuna": lambda: f_adzuna(S["adzuna"])}
+                 "jooble": lambda: f_jooble(S["jooble"]), "adzuna": lambda: f_adzuna(S["adzuna"]),
+                 "keejob": f_keejob}
         for name, fn in tasks.items():
             if not S.get(name): continue
             try:
