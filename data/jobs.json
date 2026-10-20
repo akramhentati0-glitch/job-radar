@@ -1,14 +1,14 @@
 {
- "generated": "2026-10-20T11:55:42.855688+00:00",
+ "generated": "2026-10-20T12:13:18.080607+00:00",
  "health": {
   "arbeitnow": "ok (900)",
   "jobtech_sweden": "ok (18)",
   "remotive": "ok (10)",
   "jobicy": "ok (50)",
   "jooble": "FAILED: RuntimeError: JOOBLE_KEY not set (free key at jooble.org/api/about)",
-  "adzuna": "FAILED: RuntimeError: ADZUNA_ID/ADZUNA_KEY not set (free at developer.adzuna.com)"
+  "adzuna": "ok (73)"
  },
- "total_fetched": 978,
+ "total_fetched": 1051,
  "jobs": [
   {
    "source": "jobtech",
@@ -127,6 +127,25 @@
    "first_seen": "2026-10-20T11:55:42.855688+00:00"
   },
   {
+   "source": "adzuna",
+   "src_id": "5926650610",
+   "title": "Junior Software Developer (React / Supabase) @ MindPal Sp. z o. o.",
+   "company": "MindPal Sp. z o. o.",
+   "location": "Gliwice, śląskie, PL",
+   "description": "What We Value: 1 year of commercial experience in software development. Good understanding of JavaScript/TypeScript and React fundamentals. Understanding of SQL, relational databases, and PostgreSQL fundamentals. Familiarity with REST APIs, asynchronous programming, and Git. Experience with Supabase, Firebase, Node.js, or serverless functions is a plus. Communicative English and Polish at B2 level (written and spoken). We are looking for a Junior Software Developer (React / Supabase)! Do you…",
+   "url": "https://www.adzuna.pl/details/5926650610?utm_medium=api&utm_source=04d4f8bc",
+   "posted": "2026-10-14T04:15:14+00:00",
+   "remote": false,
+   "id": "39f9f4d280be422c",
+   "score": 60,
+   "why": [
+    "skills: react, node, node.js, typescript, postgresql, rest",
+    "junior-friendly"
+   ],
+   "region": "other",
+   "first_seen": "2026-10-20T12:13:18.080607+00:00"
+  },
+  {
    "source": "arbeitnow",
    "src_id": "ai-engineer-den-haag-337711",
    "title": "AI Engineer",
@@ -160,25 +179,6 @@
    "why": [
     "skills: react, nestjs, node, node.js, typescript, ci/cd",
     "junior-friendly"
-   ],
-   "region": "other",
-   "first_seen": "2026-10-20T11:55:42.855688+00:00"
-  },
-  {
-   "source": "arbeitnow",
-   "src_id": "full-stack-entwickler-react-nextjs-mit-ui-ux-fokus-kosching-324697",
-   "title": "Full-Stack-Entwickler (m/w/d) – React / Next.js mit UI/UX-Fokus",
-   "company": "REGION10 GROUP GmbH",
-   "location": "Kösching",
-   "description": "Über die REGION10 GROUP GmbH Seit 2017 agiert die REGION10 GROUP GmbH als Holding-Gesellschaft in der Wirtschaftsregion 10 und vereint Unternehmen aus Branchen wie Softwareentwicklung, Autovermietung, Bauwesen und Marketing unter einem Dach. Am Standort Kösching entwickeln wir mit unserem Team Produkte und Kundenlösungen von der Idee bis zum Livegang. Wir sind als kununu Top Company 2025 und 2026 ausgezeichnet und bilden als IHK-Ausbildungsbetrieb selbst Fachinformatiker/-innen aus. Ihre Aufgaben Sie entwickeln moderne Web-Anwendungen mit React, Next.js, Tailwind CSS und shadcn/ui – vom Backend bis zur Oberfläche. Dabei legen Sie einen klaren Schwerpunkt auf UI/UX: Sie denken Design und Funktion zusammen und setzen intuitive, saubere Benutzeroberflächen direkt im Code um. Sie modellieren und binden Datenbanken an (PostgreSQL, MySQL, MariaDB), arbeiten mit Git/GitHub inklusive automatisierter CI/CD-Pipelines über GitHub Actions und bringen Anwendungen über KeyHelp in den Betrieb. Die Zusammenarbeit im Team organisieren Sie über Jira und Confluence. Sie arbeiten vor Ort an unserem Standort in Kösching. Das bringen Sie mit Mehrjährige Berufserfahrung in der Full-Stack-Entwicklung Fundierte Kenntnisse in React, Next.js, Tailwind, shadcn/ui und Node.js Erfahrung mit relationalen Datenbanken (PostgreSQL, MySQL, MariaDB) Ausgeprägtes Gespür für gutes UI/UX-Design und dessen saubere Umsetzung im Code Routine im Umgang mit Jira, Confluence und Microsoft Office 365 Erfahrung mit Git/GitHub und GitHub Actions (CI/CD, automatisierte Deployments) Kenntnisse in Server-/Hosting-Umgebungen wie KeyHelp von Vorteil Bereitschaft, vor Ort an unserem Standort in Kösching zu arbeiten Das bieten wir Ihnen Flexible Arbeitszeiten / Gleitzeit Firmenlaptop und Firmenhandy Unterstützung Ihrer beruflichen Weiterbildung Kostenlose Getränke, Kaffee und Snacks im Büro Kostenlose Parkplätze direkt vor Ort Modernes Büro mit aktuellster, sehr hochwertiger Ausstattung Betriebliche Altersvorsorge Vorteile bei öffentlichen Verkehrsmitteln Zusätzliche Urlaubstage für Ihre Erholung Regelmäßige Teamevents und Firmenfeiern Lockere Kleiderordnung, Haustiere im Büro erlaubt Vergütung Das Jahresgehalt für diese Position liegt zwischen 50.000 und 70.000 EUR. Ihre ersten Monate bei der REGION10 GROUP GmbH In den ersten Monaten lernen Sie unsere Tochtergesellschaften und internen Abläufe kennen. Sie übernehmen Ihre ersten Projekte in der Web-Entwicklung und bringen Ihre Ideen für die Gestaltung intuitiver Benutzeroberflächen ein. Wenn Sie den Großteil der Anforderungen erfüllen, freuen wir uns auf Ihre Bewerbung. Find more English Speaking Jobs in Germany on Arbeitnow",
-   "url": "https://www.arbeitnow.com/jobs/companies/region10-group-gmbh/full-stack-entwickler-react-nextjs-mit-ui-ux-fokus-kosching-324697",
-   "posted": "2026-10-19T10:31:27+00:00",
-   "remote": false,
-   "id": "671de6cfcf9cf8b5",
-   "score": 60,
-   "why": [
-    "title",
-    "skills: react, node, node.js, ci/cd, postgresql, github actions"
    ],
    "region": "other",
    "first_seen": "2026-10-20T11:55:42.855688+00:00"
@@ -347,7 +347,7 @@
    "title": "Praktikum AI Software Engineer im eCommerce (m/w/d)",
    "company": "Epic Brands GmbH",
    "location": "Berlin",
-   "description": "Werde Teil unseres Teams, um einen ambitionierten Brand Builder bei seinem Wachstum mit Software und KI zu begleiten und aktiv zu unterstützen. Epic Brands ist ein schnell wachsendes eCommerce Startup aus dem Herzen von Berlin. Wir entwickeln und vermarkten erfolgreich High Quality Produkte in den Bereichen Küche, Home & Living, Sport und Outdoor mit eigenen Brands wie KLAMER, Steinwood und Fitleap und verkaufen über unsere eigenen Onlineshops sowie Marktplätze wie Amazon, OTTO und weiteren. In bereits 26 Ländern freuen sich unsere Kunden über Produkte, die sie im Alltag und auf Reisen zuverlässig begleiten. Um unsere ambitionierten Ziele zu realisieren, unsere Abläufe mit eigener Software und KI weiter zu automatisieren und weitere neue Produkte im Markt zu etablieren, suchen wir nun einen AI Software Engineer im Praktikum, der/die bereit ist, Verantwortung zu übernehmen und gemeinsam mit uns unsere Vision in die Realität umsetzt. Deine Aufgaben Du wirst Teil unseres Teams, wo du zusammen mit den Gründern und dem Tech Team unsere internen Tools und eigenen Backend Services konzipierst und weiterentwickelst Du baust / orchestrierst konkret KI Agenten und Automatisierungen, die wiederkehrende Aufgaben im Team übernehmen, integrierst Business Kontext und testest neue Modelle Du verbesserst unsere eigenen Onlineshops, setzt Integrationen um und steuerst Implementierung und Tests von Frontend Optimierungen Du gehst bei technischen Entscheidungen selbst in den Lead und verantwortest Projekte von der ersten Idee bis zum laufenden Tool. Du bist direkter Ansprechpartner für Kollegen aus anderen Business-Bereichen Du unterstützt durch deine Expertise die Optimierung von internen Prozessen und sorgst für stabile Systeme, um uns zu helfen, kontinuierlich besser und effizienter zu werden Das bringst du mit Du hast Interesse an KI, Automatisierung und Softwareentwicklung im eCommerce Du hast einen Hochschulabschluss in Informatik oder einem verwandten Fach oder bist dabei, dein Studium abzuschließen Du bist sicher in JS/TS bzw. Node, hast Erfahrung mit Backend Services, Cloud Infrastruktur oder eCommerce Systemen und arbeitest idealerweise schon mit LLM APIs und AI Coding Tools Du beherrschst Deutsch und Englisch in Wort und Schrift Du bringst “Hands on Mentalität” und Initiative mit, bist motiviert und denkst ergebnisorientiert Du übernimmst gerne Verantwortung und kannst unabhängig arbeiten Mit dir zusammenarbeiten macht Spaß! Das bekommst du Du arbeitest direkt mit den Gründern zusammen und bekommst persönliches Mentoring, wenn du das möchtest Du wirst ein integraler Bestandteil des Teams. Deine Arbeit hat direkten Einfluss auf den Erfolg des Unternehmens und unsere Produkte und Kunden Du lernst aus erster Hand, wie ein Unternehmen und seine Brands von Beginn an aufgebaut werden und international wachsen, und was “unter der Haube” läuft Du wirst zum/zur Expert/in für KI Agenten, Automatisierung und Softwareentwicklung im eCommerce Du erhältst von Anfang an Verantwortung und löst echte Herausforderungen Du lernst die Berliner Startup Szene direkt aus dem Zentrum kennen, in unserem Office an der Oranienburger Straße 91 nahe Hackescher Markt Eine überdurchschnittliche Vergütung bekommst du bei uns auch Wir freuen uns, dich kennen zu lernen! Epic Brands Find more English Speaking Jobs in Germany on Arbeitnow",
+   "description": "Werde Teil unseres Teams, um einen ambitionierten Brand Builder bei seinem Wachstum mit Software und KI zu begleiten und aktiv zu unterstützen. Epic Brands ist ein schnell wachsendes eCommerce Startup aus dem Herzen von Berlin. Wir entwickeln und vermarkten erfolgreich High Quality Produkte in den Bereichen Küche, Home & Living, Sport und Outdoor mit eigenen Brands wie KLAMER, Steinwood und Fitleap und verkaufen über unsere eigenen Onlineshops sowie Marktplätze wie Amazon, OTTO und weiteren. In bereits 26 Ländern freuen sich unsere Kunden über Produkte, die sie im Alltag und auf Reisen zuverlässig begleiten. Um unsere ambitionierten Ziele zu realisieren, unsere Abläufe mit eigener Software und KI weiter zu automatisieren und weitere neue Produkte im Markt zu etablieren, suchen wir nun einen AI Software Engineer im Praktikum, der/die bereit ist, Verantwortung zu übernehmen und gemeinsam mit uns unsere Vision in die Realität umsetzt. Deine Aufgaben Du wirst Teil unseres Teams, wo du zusammen mit den Gründern und dem Tech Team unsere internen Tools und eigenen Backend Services konzipierst und weiterentwickelst Du baust / orchestrierst konkret KI Agenten und Automatisierungen, die wiederkehrende Aufgaben im Team übernehmen, integrierst Business Kontext und testest neue Modelle Du verbesserst unsere eigenen Onlineshops, setzt Integrationen um und steuerst Implementierung und Tests von Frontend Optimierungen Du gehst bei technischen Entscheidungen selbst in den Lead und verantwortest Projekte von der ersten Idee bis zum laufenden Tool. Du bist direkter Ansprechpartner für Kollegen aus anderen Business-Bereichen Du unterstützt durch deine Expertise die Optimierung von internen Prozessen und sorgst für stabile Systeme, um uns zu helfen, kontinuierlich besser und effizienter zu werden Das bringst du mit Du hast Interesse an KI, Automatisierung und Softwareentwicklung im eCommerce Du hast einen Hochschulabschluss in Informatik oder einem verwandten Fach oder bist dabei, dein Studium abzuschließen Du bist sicher in JS/TS bzw. Node, hast Erfahrung mit Backend Services, Cloud Infrastruktur oder eCommerce Systemen und arbeitest idealerweise schon mit LLM APIs und AI Coding Tools Du beherrschst Deutsch und Englisch in Wort und Schrift Du bringst “Hands on Mentalität” und Initiative mit, bist motiviert und denkst ergebnisorientiert Du übernimmst gerne Verantwortung und kannst unabhängig arbeiten Mit dir zusammenarbeiten macht Spaß! Das bekommst du Du arbeitest direkt mit den Gründern zusammen und bekommst persönliches Mentoring, wenn du das möchtest Du wirst ein integraler Bestandteil des Teams. Deine Arbeit hat direkten Einfluss auf den Erfolg des Unternehmens und unsere Produkte und Kunden Du lernst aus erster Hand, wie ein Unternehmen und seine Brands von Beginn an aufgebaut werden und international wachsen, und was “unter der Haube” läuft Du wirst zum/zur Expert/in für KI Agenten, Automatisierung und Softwareentwicklung im eCommerce Du erhältst von Anfang an Verantwortung und löst echte Herausforderungen Du lernst die Berliner Startup Szene direkt aus dem Zentrum kennen, in unserem Office an der Oranienburger Straße 91 nahe Hackescher Markt Eine überdurchschnittliche Vergütung bekommst du bei uns auch Wir freuen uns, dich kennen zu lernen! Epic Brands Find Jobs in Germany on Arbeitnow",
    "url": "https://www.arbeitnow.com/jobs/companies/epic-brands-gmbh/praktikum-ai-software-engineer-im-ecommerce-berlin-80656",
    "posted": "2026-10-19T16:00:56+00:00",
    "remote": false,
@@ -400,6 +400,205 @@
    "first_seen": "2026-10-20T11:55:42.855688+00:00"
   },
   {
+   "source": "adzuna",
+   "src_id": "5919315919",
+   "title": "Junior Developer & Data Scientist: Posizioni Entry-Level in Ambito Tech",
+   "company": "Joinrs Italia",
+   "location": "Napoli, Provincia di Napoli, IT",
+   "description": "Stiamo cercando profili junior, studenti e neo-laureati in Informatica, Ingegneria, Data Science, Matematica, Statistica e discipline STEM che vogliano lanciare (o accelerare) la propria carriera Tech in aziende top in Italia e in Europa. Su Joinrs in questo momento trovi centinaia di posizioni attive, tra cui: Junior Software Developer (Frontend, Backend, Full Stack) Junior Data Scientist Data Analyst Machine Learning Engineer Junior Cloud Engineer Cybersecurity Analyst DevOps Engineer Junior …",
+   "url": "https://www.adzuna.it/details/5919315919?utm_medium=api&utm_source=04d4f8bc",
+   "posted": "2026-10-08T18:15:17+00:00",
+   "remote": false,
+   "id": "ca32c6a2d70038f4",
+   "score": 48,
+   "why": [
+    "title",
+    "skills: machine learning",
+    "junior-friendly"
+   ],
+   "region": "other",
+   "first_seen": "2026-10-20T12:13:18.080607+00:00"
+  },
+  {
+   "source": "adzuna",
+   "src_id": "5919315943",
+   "title": "Junior Developer & Data Scientist: Posizioni Entry-Level in Ambito Tech",
+   "company": "Joinrs Italia",
+   "location": "Padova, Provincia di Padova, IT",
+   "description": "Stiamo cercando profili junior, studenti e neo-laureati in Informatica, Ingegneria, Data Science, Matematica, Statistica e discipline STEM che vogliano lanciare (o accelerare) la propria carriera Tech in aziende top in Italia e in Europa. Su Joinrs in questo momento trovi centinaia di posizioni attive, tra cui: Junior Software Developer (Frontend, Backend, Full Stack) Junior Data Scientist Data Analyst Machine Learning Engineer Junior Cloud Engineer Cybersecurity Analyst DevOps Engineer Junior …",
+   "url": "https://www.adzuna.it/details/5919315943?utm_medium=api&utm_source=04d4f8bc",
+   "posted": "2026-10-08T18:15:18+00:00",
+   "remote": false,
+   "id": "c2e0f51402f95d97",
+   "score": 48,
+   "why": [
+    "title",
+    "skills: machine learning",
+    "junior-friendly"
+   ],
+   "region": "other",
+   "first_seen": "2026-10-20T12:13:18.080607+00:00"
+  },
+  {
+   "source": "adzuna",
+   "src_id": "5919315956",
+   "title": "Junior Developer & Data Scientist: Posizioni Entry-Level in Ambito Tech",
+   "company": "Joinrs Italia",
+   "location": "Bari, Provincia di Bari, IT",
+   "description": "Stiamo cercando profili junior, studenti e neo-laureati in Informatica, Ingegneria, Data Science, Matematica, Statistica e discipline STEM che vogliano lanciare (o accelerare) la propria carriera Tech in aziende top in Italia e in Europa. Su Joinrs in questo momento trovi centinaia di posizioni attive, tra cui: Junior Software Developer (Frontend, Backend, Full Stack) Junior Data Scientist Data Analyst Machine Learning Engineer Junior Cloud Engineer Cybersecurity Analyst DevOps Engineer Junior …",
+   "url": "https://www.adzuna.it/details/5919315956?utm_medium=api&utm_source=04d4f8bc",
+   "posted": "2026-10-08T18:15:18+00:00",
+   "remote": false,
+   "id": "b28e173f3319754d",
+   "score": 48,
+   "why": [
+    "title",
+    "skills: machine learning",
+    "junior-friendly"
+   ],
+   "region": "other",
+   "first_seen": "2026-10-20T12:13:18.080607+00:00"
+  },
+  {
+   "source": "adzuna",
+   "src_id": "5919315983",
+   "title": "Junior Developer & Data Scientist: Posizioni Entry-Level in Ambito Tech",
+   "company": "Joinrs Italia",
+   "location": "Roma, Provincia di Roma, IT",
+   "description": "Stiamo cercando profili junior, studenti e neo-laureati in Informatica, Ingegneria, Data Science, Matematica, Statistica e discipline STEM che vogliano lanciare (o accelerare) la propria carriera Tech in aziende top in Italia e in Europa. Su Joinrs in questo momento trovi centinaia di posizioni attive, tra cui: Junior Software Developer (Frontend, Backend, Full Stack) Junior Data Scientist Data Analyst Machine Learning Engineer Junior Cloud Engineer Cybersecurity Analyst DevOps Engineer Junior …",
+   "url": "https://www.adzuna.it/details/5919315983?utm_medium=api&utm_source=04d4f8bc",
+   "posted": "2026-10-08T18:15:18+00:00",
+   "remote": false,
+   "id": "b4204f901572b06e",
+   "score": 48,
+   "why": [
+    "title",
+    "skills: machine learning",
+    "junior-friendly"
+   ],
+   "region": "other",
+   "first_seen": "2026-10-20T12:13:18.080607+00:00"
+  },
+  {
+   "source": "adzuna",
+   "src_id": "5919316016",
+   "title": "Junior Developer & Data Scientist: Posizioni Entry-Level in Ambito Tech",
+   "company": "Joinrs Italia",
+   "location": "Cagliari, Provincia di Cagliari, IT",
+   "description": "Stiamo cercando profili junior, studenti e neo-laureati in Informatica, Ingegneria, Data Science, Matematica, Statistica e discipline STEM che vogliano lanciare (o accelerare) la propria carriera Tech in aziende top in Italia e in Europa. Su Joinrs in questo momento trovi centinaia di posizioni attive, tra cui: Junior Software Developer (Frontend, Backend, Full Stack) Junior Data Scientist Data Analyst Machine Learning Engineer Junior Cloud Engineer Cybersecurity Analyst DevOps Engineer Junior …",
+   "url": "https://www.adzuna.it/details/5919316016?utm_medium=api&utm_source=04d4f8bc",
+   "posted": "2026-10-08T18:15:18+00:00",
+   "remote": false,
+   "id": "8c960cf10e86e0c4",
+   "score": 48,
+   "why": [
+    "title",
+    "skills: machine learning",
+    "junior-friendly"
+   ],
+   "region": "other",
+   "first_seen": "2026-10-20T12:13:18.080607+00:00"
+  },
+  {
+   "source": "adzuna",
+   "src_id": "5919315966",
+   "title": "Junior Developer & Data Scientist: Posizioni Entry-Level in Ambito Tech",
+   "company": "Joinrs Italia",
+   "location": "Torino, Provincia di Torino, IT",
+   "description": "Stiamo cercando profili junior, studenti e neo-laureati in Informatica, Ingegneria, Data Science, Matematica, Statistica e discipline STEM che vogliano lanciare (o accelerare) la propria carriera Tech in aziende top in Italia e in Europa. Su Joinrs in questo momento trovi centinaia di posizioni attive, tra cui: Junior Software Developer (Frontend, Backend, Full Stack) Junior Data Scientist Data Analyst Machine Learning Engineer Junior Cloud Engineer Cybersecurity Analyst DevOps Engineer Junior …",
+   "url": "https://www.adzuna.it/details/5919315966?utm_medium=api&utm_source=04d4f8bc",
+   "posted": "2026-10-08T18:15:18+00:00",
+   "remote": false,
+   "id": "458692e12c0997e0",
+   "score": 48,
+   "why": [
+    "title",
+    "skills: machine learning",
+    "junior-friendly"
+   ],
+   "region": "other",
+   "first_seen": "2026-10-20T12:13:18.080607+00:00"
+  },
+  {
+   "source": "adzuna",
+   "src_id": "5919316019",
+   "title": "Junior Developer & Data Scientist: Posizioni Entry-Level in Ambito Tech",
+   "company": "Joinrs Italia",
+   "location": "Bologna, Provincia di Bologna, IT",
+   "description": "Stiamo cercando profili junior, studenti e neo-laureati in Informatica, Ingegneria, Data Science, Matematica, Statistica e discipline STEM che vogliano lanciare (o accelerare) la propria carriera Tech in aziende top in Italia e in Europa. Su Joinrs in questo momento trovi centinaia di posizioni attive, tra cui: Junior Software Developer (Frontend, Backend, Full Stack) Junior Data Scientist Data Analyst Machine Learning Engineer Junior Cloud Engineer Cybersecurity Analyst DevOps Engineer Junior …",
+   "url": "https://www.adzuna.it/details/5919316019?utm_medium=api&utm_source=04d4f8bc",
+   "posted": "2026-10-08T18:15:18+00:00",
+   "remote": false,
+   "id": "7876dd2a8689ffbd",
+   "score": 48,
+   "why": [
+    "title",
+    "skills: machine learning",
+    "junior-friendly"
+   ],
+   "region": "other",
+   "first_seen": "2026-10-20T12:13:18.080607+00:00"
+  },
+  {
+   "source": "adzuna",
+   "src_id": "5919315945",
+   "title": "Junior Developer & Data Scientist: Posizioni Entry-Level in Ambito Tech",
+   "company": "Joinrs Italia",
+   "location": "Catania, Provincia di Catania, IT",
+   "description": "Stiamo cercando profili junior, studenti e neo-laureati in Informatica, Ingegneria, Data Science, Matematica, Statistica e discipline STEM che vogliano lanciare (o accelerare) la propria carriera Tech in aziende top in Italia e in Europa. Su Joinrs in questo momento trovi centinaia di posizioni attive, tra cui: Junior Software Developer (Frontend, Backend, Full Stack) Junior Data Scientist Data Analyst Machine Learning Engineer Junior Cloud Engineer Cybersecurity Analyst DevOps Engineer Junior …",
+   "url": "https://www.adzuna.it/details/5919315945?utm_medium=api&utm_source=04d4f8bc",
+   "posted": "2026-10-08T18:15:18+00:00",
+   "remote": false,
+   "id": "14221d84c955ff01",
+   "score": 48,
+   "why": [
+    "title",
+    "skills: machine learning",
+    "junior-friendly"
+   ],
+   "region": "other",
+   "first_seen": "2026-10-20T12:13:18.080607+00:00"
+  },
+  {
+   "source": "adzuna",
+   "src_id": "5919316055",
+   "title": "Junior Developer & Data Scientist: Posizioni Entry-Level in Ambito Tech",
+   "company": "Joinrs Italia",
+   "location": "Milano, Provincia di Milano, IT",
+   "description": "Stiamo cercando profili junior, studenti e neo-laureati in Informatica, Ingegneria, Data Science, Matematica, Statistica e discipline STEM che vogliano lanciare (o accelerare) la propria carriera Tech in aziende top in Italia e in Europa. Su Joinrs in questo momento trovi centinaia di posizioni attive, tra cui: Junior Software Developer (Frontend, Backend, Full Stack) Junior Data Scientist Data Analyst Machine Learning Engineer Junior Cloud Engineer Cybersecurity Analyst DevOps Engineer Junior …",
+   "url": "https://www.adzuna.it/details/5919316055?utm_medium=api&utm_source=04d4f8bc",
+   "posted": "2026-10-08T18:15:19+00:00",
+   "remote": false,
+   "id": "dac3acf9431e67f8",
+   "score": 48,
+   "why": [
+    "title",
+    "skills: machine learning",
+    "junior-friendly"
+   ],
+   "region": "other",
+   "first_seen": "2026-10-20T12:13:18.080607+00:00"
+  },
+  {
+   "source": "adzuna",
+   "src_id": "5933900457",
+   "title": "(Junior-) Software Developer/ Softwareentwickler*in Java, Python, Oracle Technologien",
+   "company": "TEAM GmbH",
+   "location": "Deutschland, DE",
+   "description": "(Junior-) Software Developer/ Softwareentwickler*in Java, Python, Oracle Technologien Berufserfahrung und Qualifikationen sind für diese Stelle zwar von entscheidender Bedeutung, doch sollten Sie sich vor der Bewerbung vergewissern, dass Sie über die gewünschten Soft Skills verfügen, falls erforderlich. Festanstellung, Voll- oder Teilzeit. Paderborn. Das erwartet dich bei uns Als erfolgreiches und innovatives Software- und Systemhaus bieten wir unterschiedlichste Softwareentwicklungsbereiche mi…",
+   "url": "https://www.adzuna.de/land/ad/5933900457?se=AqiToH_M8RGDdvJW8eCByg&utm_medium=api&utm_source=04d4f8bc&v=DB01FB6AA0CE97F5B98DAC956F0AD2888E5B8EB9",
+   "posted": "2026-10-19T06:03:48+00:00",
+   "remote": false,
+   "id": "f896c8d38b4fe409",
+   "score": 46,
+   "why": [
+    "skills: java, python",
+    "junior-friendly"
+   ],
+   "region": "europe",
+   "first_seen": "2026-10-20T12:13:18.080607+00:00"
+  },
+  {
    "source": "arbeitnow",
    "src_id": "cloud-and-platform-engineer-zurich-252231",
    "title": "Cloud and Platform Engineer",
@@ -416,6 +615,46 @@
    ],
    "region": "europe",
    "first_seen": "2026-10-20T11:55:42.855688+00:00"
+  },
+  {
+   "source": "adzuna",
+   "src_id": "5931059674",
+   "title": "Junior Software Engineer",
+   "company": "Bluetown",
+   "location": "Birmingham, West Midlands, GB",
+   "description": "Job Title: Junior Software Engineer Location: Birmingham / Hybrid Salary: £28,000 - £35,000 per annum Position: Permanent, full-time About The Company: The Company is a long-established web and app development agency based in the Jewellery Quarter, specialising in AI integration, SaaS products, apps and portals. We build high-quality web and mobile solutions for a wide range of clients, from innovative start-ups to established enterprises. We embrace modern technologies, and have frontier adopt…",
+   "url": "https://www.adzuna.co.uk/jobs/details/5931059674?utm_medium=api&utm_source=04d4f8bc",
+   "posted": "2026-10-16T19:25:03+00:00",
+   "remote": false,
+   "id": "5475c112086c0817",
+   "score": 44,
+   "why": [
+    "title",
+    "skills: ai",
+    "junior-friendly"
+   ],
+   "region": "other",
+   "first_seen": "2026-10-20T12:13:18.080607+00:00"
+  },
+  {
+   "source": "adzuna",
+   "src_id": "5934318435",
+   "title": "Junior Software Engineer",
+   "company": "Anonymous",
+   "location": "Balsall Heath, Birmingham, GB",
+   "description": "Job Title: Junior Software Engineer Location: Birmingham / Hybrid Salary: £28,000 - £35,000 per annum Position: Permanent, full-time About The Company: The Company is a long-established web and app development agency based in the Jewellery Quarter, specialising in AI integration, SaaS products, apps and portals. We build high-quality web and mobile solutions for a wide range of clients, from innovative start-ups to established enterprises. We embrace modern technologies, and have frontier adopt…",
+   "url": "https://www.adzuna.co.uk/jobs/land/ad/5934318435?se=dMwFon_M8RGskJsVjq-jQQ&utm_medium=api&utm_source=04d4f8bc&v=A8E12EBDBCF0523E415342E7AA7EB2ADD6B8CE82",
+   "posted": "2026-10-19T16:12:28+00:00",
+   "remote": false,
+   "id": "56105d9691ab3537",
+   "score": 44,
+   "why": [
+    "title",
+    "skills: ai",
+    "junior-friendly"
+   ],
+   "region": "other",
+   "first_seen": "2026-10-20T12:13:18.080607+00:00"
   },
   {
    "source": "arbeitnow",
@@ -457,23 +696,23 @@
    "first_seen": "2026-10-20T11:55:42.855688+00:00"
   },
   {
-   "source": "arbeitnow",
-   "src_id": "ai-operations-business-support-hildesheim-336248",
-   "title": "AI Operations & Business Support (m/w/d)",
-   "company": "Greenstein Designagentur",
-   "location": "Hildesheim",
-   "description": "Du nutzt KI nicht nur, du baust damit: Workflows, Agenten, Automatisierungen. Und du willst erleben, wie eine Designagentur KI in ihren Alltag bringt, nicht als Spielerei, sondern als echten Hebel? Dann passt du zu uns. Greenstein ist eine Designagentur mit Fokus auf Markenbildung und Branding. Wir arbeiten komplett remote und setzen schon heute stark auf KI: Unser CRM haben wir selbst entwickelt, und wir bauen es laufend weiter aus. In dieser Rolle verantwortest du das Thema KI bei uns. Du bringst KI in unsere Prozesse, von der Projektabwicklung über Content bis zur internen Organisation. Gleichzeitig arbeitest du eng mit dem Geschäftsführer zusammen und setzt Dinge um, die ihm Zeit freischaufeln. Der Schwerpunkt liegt auf AI Operations (ca. 60–70 %), der Rest ist Support der Geschäftsführung. Deine Aufgaben AI Operations Prozesse identifizieren, die sich mit KI beschleunigen oder automatisieren lassen KI-Workflows, Agenten und interne Tools aufbauen und pflegen (z. B. mit Claude, Claude Code, GitHub) Unser selbst entwickeltes CRM betreuen und um neue Features erweitern KI-gestützte Workflows für Kundenprojekte entwickeln, z. B. für Markenrecherche, Content oder Website-Erstellung Neue KI-Tools testen, auswählen und im Team einführen Das Team im effektiven Einsatz von KI schulen Support der Geschäftsführung Kalender, E-Mails und Termine des Geschäftsführers organisieren, idealerweise selbst KI-gestützt Meetings vor- und nachbereiten, Protokolle schreiben, To-dos nachhalten Recherchen, Entscheidungsvorlagen und Sonderprojekte Unterstützung bei administrativen Themen Was du mitbringst KI-Praxis: Erfahrung mit LLMs wie Claude oder ChatGPT, die über Chatten hinausgeht: Prompt-Design, Agenten, API-Nutzung, eigene Workflows Technik: Erfahrung mit GitHub und Grundkenntnisse in Python oder JavaScript. Claude Code, Cursor o. Ä. sind ein großes Plus Automatisierung: Idealerweise Erfahrung mit Make, Zapier oder n8n Gespür für Design: Kein Muss, aber ein Plus: Interesse an Marken und Gestaltung oder Erfahrung mit WordPress, Elementor oder Figma Hands-on-Mentalität: Du übernimmst auch operative Aufgaben gern und siehst darin eine Chance, die Agentur von innen kennenzulernen Organisation & Diskretion: Du behältst den Überblick, priorisierst sauber und gehst vertraulich mit sensiblen Informationen um Kommunikation: klar, präzise und proaktiv, intern wie extern Sehr gutes Deutsch Was wir dir bieten Direkter Draht zur Geschäftsführung: Du lernst unternehmerisches Denken aus erster Hand Echte Verantwortung: Du entscheidest mit, welche KI-Tools und Automatisierungen wir einsetzen, und setzt sie selbst um Eigenes Produkt zum Mitgestalten: Unser CRM ist selbst gebaut, deine Ideen landen direkt im Code Flexibilität: Remote von überall, Arbeitszeiten, die sich mit Studium oder anderen Projekten vereinbaren lassen Perspektive: Weiterbildung und die Möglichkeit, in eine Vollzeitrolle als AI Lead hineinzuwachsen Find more English Speaking Jobs in Germany on Arbeitnow",
-   "url": "https://www.arbeitnow.com/jobs/companies/greenstein-designagentur/ai-operations-business-support-hildesheim-336248",
-   "posted": "2026-10-19T10:01:05+00:00",
-   "remote": true,
-   "id": "6508c71189d3a1e7",
-   "score": 41,
+   "source": "adzuna",
+   "src_id": "5919241973",
+   "title": "Software Engineer (Junior Developer)",
+   "company": "CWBI",
+   "location": "Padova, Provincia di Padova, IT",
+   "description": "Questa posizione è in CWBI Il processo di selezione sarà interamente gestito CWBI. CWBI è una software house italiana con sede a Padova specializzata nel settore Fintech e del Banking. L'azienda si posiziona come partner tecnologico per soggetti vigilati, banche, istituti di pagamento (PSP) e aziende che necessitano di soluzioni avanzate per la gestione dei flussi finanziari e la digitalizzazione dei processi. Lavorare in un contesto come CWBI significa immergersi nel cuore pulsante dell'ingeg…",
+   "url": "https://www.adzuna.it/details/5919241973?utm_medium=api&utm_source=04d4f8bc",
+   "posted": "2026-10-08T18:00:18+00:00",
+   "remote": false,
+   "id": "9bc21ed631fb0be1",
+   "score": 40,
    "why": [
-    "skills: python, rest, ai",
+    "title",
     "junior-friendly"
    ],
-   "region": "remote",
-   "first_seen": "2026-10-20T11:55:42.855688+00:00"
+   "region": "other",
+   "first_seen": "2026-10-20T12:13:18.080607+00:00"
   },
   {
    "source": "arbeitnow",
@@ -500,7 +739,7 @@
    "title": "Working Student Software Engineering",
    "company": "NAIRON",
    "location": "Zürich",
-   "description": "Intro For this position we are looking for students or recent graduates in Zürich , working hybrid at the ETH Student Project House (SPH) and remotely. Nairon GmbH is a Swiss startup building AI voice agents that answer and make phone calls for businesses. Our platform runs real-time conversations over the phone and on the web, connected to our customers' telephony and business tools. We value clear communication, thoughtful engineering, and a collaborative approach to problem-solving. Join us as we continue to develop tools that make a difference. We are looking for a Working Student (30–60%) who wants to work on real production systems next to their studies. We are flexible on the duration of the employment. Tasks As a Working Student at Nairon GmbH, you will work with our team on one or more of these areas, depending on your interests and skills: Voice AI: turn-taking, latency measurements, LLM prompting and tool calls, and evaluating speech models (STT and TTS). Voice model training: training foundational speech models (TTS and STT) on GPUs: data collection and preparation, training runs, fine-tuning for German and Swiss-German voices, and evaluation. Realtime backend: Python services around our LiveKit -based media platform, messaging and integrations with customer systems. Web and mobile: features in our Next.js / React / TypeScript web application and our Expo / React Native app. Platform: Docker , Kubernetes , monitoring and the tooling that keeps our services running. Commercial and tech sales: preparing demos and pilot agents, answering customers' technical questions, market and competitor research, and supporting offers and partner conversations. Building test calls, benchmarks and small internal tools, and writing down what you learn. Requirements Experience: Currently enrolled at ETH Zürich or another university or Fachhochschule, or graduated recently, in computer science, electrical engineering, data science, business and engineering (e.g. MTEC, Wirtschaftsingenieurwesen) or a related field. First project or work experience is a plus, not a must. Technical Skills: Required: Programming in Python or TypeScript ; for the engineering areas, good fundamentals in Git, APIs and debugging. For commercial work: a solid technical understanding and the ability to explain technology to customers. Nice to have: Experience with LLMs, speech or audio processing, or machine learning. Deep learning with PyTorch , training on GPUs, or a related thesis or research project. Next.js , React or mobile development. Docker , Linux or cloud platforms. Interest in sales, business development or startups. Communication: English proficiency is essential , both written and spoken, as it is the working language for all positions. German is a plus, and important for customer-facing work. Soft Skills: Curious, quick to learn and able to work independently. Reliable with the hours you commit to, next to your studies. Benefits Flexible Work Setup: Hybrid: work at the ETH Student Project House in Zürich and remotely, around your study schedule. Equipment Provided: Company laptop provided. Collaborative Environment: Join a small, agile team where your contributions go into production. Growth Opportunities: Real experience in AI voice technology and in building a startup, with the possibility of a thesis topic or a full-time role in engineering or sales after your studies. Closing If you want to build AI that talks on real phone lines while you study, we'd love to hear from you. Please tell us which areas interest you most, technical or commercial, and how many hours per week you can work. Find more English Speaking Jobs in Switzerland on Arbeitnow",
+   "description": "Intro For this position we are looking for students or recent graduates in Zürich , working hybrid at the ETH Student Project House (SPH) and remotely. Nairon GmbH is a Swiss startup building AI voice agents that answer and make phone calls for businesses. Our platform runs real-time conversations over the phone and on the web, connected to our customers' telephony and business tools. We value clear communication, thoughtful engineering, and a collaborative approach to problem-solving. Join us as we continue to develop tools that make a difference. We are looking for a Working Student (30–60%) who wants to work on real production systems next to their studies. We are flexible on the duration of the employment. Tasks As a Working Student at Nairon GmbH, you will work with our team on one or more of these areas, depending on your interests and skills: Voice AI: turn-taking, latency measurements, LLM prompting and tool calls, and evaluating speech models (STT and TTS). Voice model training: training foundational speech models (TTS and STT) on GPUs: data collection and preparation, training runs, fine-tuning for German and Swiss-German voices, and evaluation. Realtime backend: Python services around our LiveKit -based media platform, messaging and integrations with customer systems. Web and mobile: features in our Next.js / React / TypeScript web application and our Expo / React Native app. Platform: Docker , Kubernetes , monitoring and the tooling that keeps our services running. Commercial and tech sales: preparing demos and pilot agents, answering customers' technical questions, market and competitor research, and supporting offers and partner conversations. Building test calls, benchmarks and small internal tools, and writing down what you learn. Requirements Experience: Currently enrolled at ETH Zürich or another university or Fachhochschule, or graduated recently, in computer science, electrical engineering, data science, business and engineering (e.g. MTEC, Wirtschaftsingenieurwesen) or a related field. First project or work experience is a plus, not a must. Technical Skills: Required: Programming in Python or TypeScript ; for the engineering areas, good fundamentals in Git, APIs and debugging. For commercial work: a solid technical understanding and the ability to explain technology to customers. Nice to have: Experience with LLMs, speech or audio processing, or machine learning. Deep learning with PyTorch , training on GPUs, or a related thesis or research project. Next.js , React or mobile development. Docker , Linux or cloud platforms. Interest in sales, business development or startups. Communication: English proficiency is essential , both written and spoken, as it is the working language for all positions. German is a plus, and important for customer-facing work. Soft Skills: Curious, quick to learn and able to work independently. Reliable with the hours you commit to, next to your studies. Benefits Flexible Work Setup: Hybrid: work at the ETH Student Project House in Zürich and remotely, around your study schedule. Equipment Provided: Company laptop provided. Collaborative Environment: Join a small, agile team where your contributions go into production. Growth Opportunities: Real experience in AI voice technology and in building a startup, with the possibility of a thesis topic or a full-time role in engineering or sales after your studies. Closing If you want to build AI that talks on real phone lines while you study, we'd love to hear from you. Please tell us which areas interest you most, technical or commercial, and how many hours per week you can work. Find Jobs in Switzerland on Arbeitnow",
    "url": "https://www.arbeitnow.ch/jobs/companies/nairon/working-student-software-engineering-zurich-476563",
    "posted": "2026-10-18T19:30:58+00:00",
    "remote": false,
@@ -629,27 +868,6 @@
   },
   {
    "source": "arbeitnow",
-   "src_id": "developpeur-full-stack-station-f-6-mois-paris-44084",
-   "title": "Développeur Full Stack Station F || 6 mois",
-   "company": "Intersektion",
-   "location": "Paris",
-   "description": "Intersektion, c’est une startup tech engagée qui accompagne les entreprises dans le pilotage de leurs démarches RSE, qualité et durabilité. Nous développons une plateforme SaaS innovante permettant de centraliser les données ESG, automatiser le reporting, piloter des plans d’action et répondre à différents référentiels et normes. Tu veux avoir un vrai impact ? Coder sur des sujets concrets qui comptent ? Voir les fonctionnalités que tu développes utilisées rapidement par des entreprises et des experts RSE ? Ce stage est fait pour toi. On est une petite équipe très soudée, bienveillante, qui avance vite. Sur 6 mois, l’objectif est de te permettre de prendre progressivement la responsabilité de vrais sujets produit et techniques. Tu ne seras pas un·e stagiaire planqué·e derrière une doc Notion jamais mise à jour : tu seras intégré·e comme un·e membre à part entière de l’équipe produit. Vos missions En lien direct avec les fondateurs et les utilisateurs, tu participeras activement à toutes les étapes du développement produit : Développement front-end et back-end Conception et développement de nouvelles fonctionnalités : dashboards de pilotage, reporting RSE, gestion documentaire, systèmes de scoring, automatisations… Connexion et intégration d’APIs externes Amélioration continue de l’UX/UI et contribution à la roadmap produit Développement de fonctionnalités autour de la collecte, du traitement et de la visualisation de données Implémentation de modules d’analyse : calculs de KPI, benchmarks, indicateurs et tableaux de bord Participation aux choix techniques et à l’évolution de l’architecture du produit Développement et intégration de fonctionnalités basées sur l’IA : analyse documentaire, extraction de données, génération de contenu, assistants intelligents… Tests, débogage et amélioration continue des fonctionnalités existantes Échanges avec les utilisateurs pour comprendre leurs besoins et les transformer en fonctionnalités concrètes Sur 6 mois, tu auras la possibilité de prendre en charge plusieurs projets de bout en bout : compréhension du besoin, réflexion produit, développement, mise en production et amélioration à partir des retours utilisateurs. Vos compétences Tu n’as pas besoin d’avoir 10 ans d’expérience, mais on attend de toi : Une bonne maîtrise du développement web : JavaScript, Node.js, Python ou un langage backend équivalent De bonnes bases en API REST et en bases de données Une compréhension des problématiques front-end et back-end Une vraie curiosité technique et l’envie d’apprendre rapidement Une capacité à chercher, tester et résoudre des problèmes de manière autonome L’envie de construire des fonctionnalités concrètes plutôt que de rester dans la théorie Une forte autonomie et une appétence pour les environnements startup Un intérêt pour l’IA, la data, la RSE, la durabilité ou la tech for good est un vrai plus, mais n’est pas obligatoire On cherche surtout quelqu’un qui aime comprendre, construire, tester et itérer . Avantages Un vrai rôle dans le développement d’un produit utilisé quotidiennement par des clients réels6 mois pour monter en puissance et devenir autonome sur des sujets completsDes fonctionnalités mises en production rapidement : tu verras concrètement l’impact de ton travailUne proximité directe avec les fondateurs, les utilisateurs et les décisions produitUne culture d’équipe bienveillante : tu seras écouté·e, challengé·e et responsabilisé·eUne montée en compétences rapide sur des sujets techniques, IA, produit et stratégiquesUne expérience complète du développement d’un SaaS en environnement startupUn environnement de travail au cœur de l’écosystème startup à Station FEt surtout : la sensation de bosser pour un projet qui a du sens Ce stage est une opportunité si tu veux passer 6 mois à construire réellement un produit tech , plutôt qu’à travailler sur un projet isolé qui ne verra jamais la production. Si tu aimes coder, proposer, inventer, itérer et prendre progressivement des responsabilit",
-   "url": "https://www.arbeitnow.fr/jobs/companies/intersektion/developpeur-full-stack-station-f-6-mois-paris-44084",
-   "posted": "2026-10-18T19:01:05+00:00",
-   "remote": false,
-   "id": "aaeb3be1884cd954",
-   "score": 38,
-   "why": [
-    "title",
-    "skills: node, node.js, python, rest",
-    "junior-friendly",
-    "seniority mismatch"
-   ],
-   "region": "europe",
-   "first_seen": "2026-10-20T11:55:42.855688+00:00"
-  },
-  {
-   "source": "arbeitnow",
    "src_id": "software-engineer-b2b-lending-payments-paris-426881",
    "title": "Software Engineer - B2B Lending & Payments",
    "company": "Infinit",
@@ -723,6 +941,25 @@
    ],
    "region": "other",
    "first_seen": "2026-10-20T11:55:42.855688+00:00"
+  },
+  {
+   "source": "adzuna",
+   "src_id": "5933890239",
+   "title": "(Junior-) Software Developer/ Softwareentwickler*in Java, Python, Oracle Technologien",
+   "company": "TEAM GmbH",
+   "location": "Elsen, Paderborn, DE",
+   "description": "Ihre Aufgaben Dein Wissensaufbau : Du eignest dir fundiertes Wissen über Logistik, innovative Lösungen und spannende Projekte an Deine Entwicklungsarbeit: Gemeinsam mit unserem erfahrenen Team entwickelst du mit Oracle PL/SQL, Java, JavaScript und Python Individuelle Kundenlösungen: Du realisierst maßgeschneiderte Funktionalitäten für kundenspezifische Projekte in verschiedenen Technologien wie Oracle APEX oder Java Moderne Technologien: Du programmierst innovative mobile Geräte wie Android-Han…",
+   "url": "https://www.adzuna.de/details/5933890239?utm_medium=api&utm_source=04d4f8bc",
+   "posted": "2026-10-19T05:41:50+00:00",
+   "remote": false,
+   "id": "f2d6fb1d5aa0da28",
+   "score": 36,
+   "why": [
+    "skills: java, python",
+    "junior-friendly"
+   ],
+   "region": "other",
+   "first_seen": "2026-10-20T12:13:18.080607+00:00"
   },
   {
    "source": "arbeitnow",
