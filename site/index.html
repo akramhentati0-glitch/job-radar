@@ -67,7 +67,7 @@ function render(){
   document.getElementById("list").innerHTML=rows.map(j=>`<div class="job">
    <div class="sc">${j.score}<small>score</small></div>
    <div><a href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>
-   <div class="meta">${esc(j.company)} · ${esc(j.location)} · <span class="tag">${esc(j.region)}</span>${new Date(j.first_seen)>week?'<span class="tag new">new</span>':""}</div>
+   <div class="meta">${esc(j.company)} · ${esc(j.location)} · <span class="tag">${esc(j.region)}</span><span class="tag">${esc(j.source)}</span>${new Date(j.first_seen)>week?'<span class="tag new">new</span>':""}</div>
    <div class="why">${esc(j.why.join(" · "))}</div>
    <button class="btn" data-prep="${esc(j.id)}">Prepare application</button></div>
    <select data-id="${j.id}">${STATUSES.map(x=>`<option${x===st(j)?" selected":""}>${x}</option>`).join("")}</select></div>`).join("")
@@ -78,6 +78,7 @@ function render(){
 fetch("jobs.json").then(r=>r.json()).then(d=>{DATA=d;
   document.getElementById("gen").textContent="Updated "+new Date(d.generated).toLocaleString()+" · "+d.total_fetched+" listings scanned";
   document.getElementById("health").innerHTML="Sources: "+Object.entries(d.health).map(([k,v])=>`<span class="${String(v).startsWith("FAILED")?"bad":""}">${esc(k)}: ${esc(v)}</span>`).join(" · ");
+  if(d.jobs.some(j=>j.source==="remoteok"))document.getElementById("health").innerHTML+=' · Remote jobs via <a href="https://remoteok.com" target="_blank" rel="noopener">Remote OK</a>';
   render()}).catch(()=>document.getElementById("list").textContent="Could not load jobs.json");
 ["q","reg","st","min"].forEach(i=>document.getElementById(i).addEventListener("input",render));
 
