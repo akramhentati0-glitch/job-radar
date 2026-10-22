@@ -193,7 +193,14 @@
    "norway",
    "europe",
    "eu",
-   "emea"
+   "emea",
+   "united kingdom",
+   "uk",
+   "london",
+   "england",
+   "manchester",
+   "edinburgh",
+   "scotland"
   ],
   "khalij": [
    "uae",
@@ -263,6 +270,16 @@
     "gb"
    ]
   },
-  "keejob": true
+  "keejob": true,
+  "remoteok": true,
+  "reed": false,
+  "ats": {
+   "boards": [
+    "greenhouse:gitlab",
+    "greenhouse:vercel",
+    "lever:spotify",
+    "ashby:linear"
+   ]
+  }
  }
 }
