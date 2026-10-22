@@ -19,10 +19,26 @@ input{flex:1;min-width:160px}
 .tag{display:inline-block;font-size:11px;border:1px solid var(--line);border-radius:10px;padding:0 7px;margin-right:4px}
 .new{color:var(--ok);border-color:var(--ok)}
 .health{font-size:12px;color:var(--mute);margin-top:18px}.bad{color:#d1242f}
+.btn{background:var(--card);color:var(--acc);border:1px solid var(--acc);border-radius:6px;padding:4px 10px;font:inherit;font-size:13px;cursor:pointer;margin-top:8px}.btn:hover{background:var(--acc);color:#fff}
+details.cv{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:10px 14px;margin-bottom:14px}details.cv summary{cursor:pointer;font-weight:600}
+details.cv textarea,dialog textarea{width:100%;min-height:180px;margin-top:8px;background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:6px;padding:8px;font:12px/1.4 ui-monospace,monospace}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:8px}.note{font-size:12px;color:var(--mute)}
+dialog{background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:10px;max-width:760px;width:calc(100% - 24px);padding:16px}dialog::backdrop{background:rgba(0,0,0,.5)}
+dialog textarea{min-height:300px}a.btn{text-decoration:none;display:inline-block}
 @media(max-width:560px){.job{grid-template-columns:40px 1fr}.job select{grid-column:2}}
 </style></head><body><main>
 <h1>Job Radar</h1><div class="sub" id="gen"></div>
 <div class="stats" id="stats"></div>
+<details class="cv" id="cvbox"><summary>Your CV (stays in this browser only)</summary>
+<div class="note">Paste your CV as plain text once. It is saved in this browser's localStorage and is never uploaded to GitHub or sent anywhere by this page. It is only copied into the prompt when you click "Prepare application".</div>
+<textarea id="cvtext" placeholder="Paste your full CV text here…"></textarea>
+<div class="row"><label class="note" for="lang">Language of CV and letter:</label>
+<select id="lang"><option value="auto">Same as the job ad</option><option value="English">English</option><option value="French">French</option></select>
+<span class="note" id="cvstate"></span></div></details>
+<dialog id="pdlg"><b>Prompt ready</b>
+<div class="note">Paste it into a new Claude chat. Review everything before you send anything to an employer.</div>
+<textarea id="ptxt" readonly></textarea>
+<div class="row"><button class="btn" id="pcopy">Copy prompt</button><a class="btn" href="https://claude.ai/new" target="_blank" rel="noopener">Open Claude</a><button class="btn" id="pclose">Close</button><span class="note" id="pmsg"></span></div></dialog>
 <div class="bar">
 <input id="q" placeholder="Filter by title, company, skill…">
 <select id="reg"><option value="">All regions</option><option value="tunisia">Tunisia</option><option value="europe">Europe</option><option value="khalij">Khalij (Gulf)</option><option value="remote">Remote</option></select>
@@ -52,9 +68,11 @@ function render(){
    <div class="sc">${j.score}<small>score</small></div>
    <div><a href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>
    <div class="meta">${esc(j.company)} · ${esc(j.location)} · <span class="tag">${esc(j.region)}</span>${new Date(j.first_seen)>week?'<span class="tag new">new</span>':""}</div>
-   <div class="why">${esc(j.why.join(" · "))}</div></div>
+   <div class="why">${esc(j.why.join(" · "))}</div>
+   <button class="btn" data-prep="${esc(j.id)}">Prepare application</button></div>
    <select data-id="${j.id}">${STATUSES.map(x=>`<option${x===st(j)?" selected":""}>${x}</option>`).join("")}</select></div>`).join("")
    ||'<div class="meta">No matches for these filters.</div>';
+  document.querySelectorAll("[data-prep]").forEach(b=>b.onclick=()=>prep(b.dataset.prep));
   document.querySelectorAll(".job select").forEach(e=>e.onchange=()=>{ST[e.dataset.id]=e.value;save();render()});
 }
 fetch("jobs.json").then(r=>r.json()).then(d=>{DATA=d;
@@ -62,4 +80,49 @@ fetch("jobs.json").then(r=>r.json()).then(d=>{DATA=d;
   document.getElementById("health").innerHTML="Sources: "+Object.entries(d.health).map(([k,v])=>`<span class="${String(v).startsWith("FAILED")?"bad":""}">${esc(k)}: ${esc(v)}</span>`).join(" · ");
   render()}).catch(()=>document.getElementById("list").textContent="Could not load jobs.json");
 ["q","reg","st","min"].forEach(i=>document.getElementById(i).addEventListener("input",render));
+
+const cvEl=document.getElementById("cvtext"),langEl=document.getElementById("lang");
+try{cvEl.value=localStorage.getItem("jr-cv")||"";langEl.value=localStorage.getItem("jr-lang")||"auto"}catch(e){}
+const cvState=()=>document.getElementById("cvstate").textContent=cvEl.value.trim()?"CV saved ("+cvEl.value.trim().length+" characters)":"No CV saved yet";
+cvEl.addEventListener("input",()=>{try{localStorage.setItem("jr-cv",cvEl.value)}catch(e){}cvState()});
+langEl.addEventListener("change",()=>{try{localStorage.setItem("jr-lang",langEl.value)}catch(e){}});
+cvState();
+function buildPrompt(j,cv,lang){
+  const L=lang==="auto"?"the same language as the job ad (French or English)":lang;
+  return `You are helping me apply for a job. Use ONLY the facts in MY CV below. Do not invent or exaggerate skills, employers, dates, degrees, numbers or experience. If something the job asks for is not in my CV, say so instead of covering it up, and ask me before adding anything new.
+
+TASKS
+1. Requirements check: list the job's main requirements and mark each Met / Partly / Not on CV, pointing to the CV line that supports it. Flag honestly anything that may block the application (language, visa or work permit, years of experience, location, degree).
+2. Tailored CV: same facts as my CV, reordered and reworded to emphasise what is relevant to this job. One page, written in ${L}. Give it to me as a Word (.docx) file.
+3. Motivation letter: 250 to 300 words, specific to this company and role, written in ${L}, no clichés, no claims that are not in my CV. Give it to me as a Word (.docx) file.
+4. Finish with a short list of things I should double-check before sending.
+I will review and send the application myself. Do not contact anyone.
+
+JOB
+Title: ${j.title}
+Company: ${j.company}
+Location: ${j.location}
+Posted: ${j.posted||"unknown"}
+Link: ${j.url}
+Description:
+${j.description||"(no description available, open the link and paste it here)"}
+
+MY CV
+${cv}
+`;
+}
+function prep(id){
+  const j=DATA.jobs.find(x=>String(x.id)===String(id));if(!j)return;
+  const cv=cvEl.value.trim();
+  if(!cv){const d=document.getElementById("cvbox");d.open=true;d.scrollIntoView();cvEl.focus();alert("Paste your CV in the box first (it stays in this browser).");return}
+  if(st(j)==="new"){ST[j.id]="saved";save();render()}
+  document.getElementById("ptxt").value=buildPrompt(j,cv,langEl.value);
+  document.getElementById("pmsg").textContent="";
+  document.getElementById("pdlg").showModal();
+}
+document.getElementById("pcopy").onclick=async()=>{
+  const a=document.getElementById("ptxt"),m=document.getElementById("pmsg");let ok=false;
+  try{await navigator.clipboard.writeText(a.value);ok=true}catch(e){a.select();try{ok=document.execCommand("copy")}catch(_){}}
+  m.textContent=ok?"Copied. Paste it into Claude.":"Copy failed: select the text and copy it manually."};
+document.getElementById("pclose").onclick=()=>document.getElementById("pdlg").close();
 </script></body></html>
