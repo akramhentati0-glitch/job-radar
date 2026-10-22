@@ -1,17 +1,17 @@
 {
- "generated": "2026-10-22T11:03:14.452867+00:00",
+ "generated": "2026-10-22T11:34:08.378438+00:00",
  "health": {
   "arbeitnow": "ok (900)",
   "jobtech_sweden": "ok (15)",
   "remotive": "ok (10)",
   "jobicy": "ok (50)",
   "jooble": "FAILED: RuntimeError: JOOBLE_KEY not set (free key at jooble.org/api/about)",
-  "adzuna": "FAILED: HTTPError: HTTP Error 503: Service Temporarily Unavailable",
+  "adzuna": "ok (74)",
   "keejob": "ok (39)",
   "remoteok": "ok (99)",
   "ats": "ok (77)"
  },
- "total_fetched": 1190,
+ "total_fetched": 1264,
  "jobs": [
   {
    "source": "jobtech",
@@ -109,6 +109,26 @@
    "first_seen": "2026-10-22T10:07:59.257464+00:00"
   },
   {
+   "source": "adzuna",
+   "src_id": "5936877770",
+   "title": "Graduate Academy – Full Stack & AI Assisted Development",
+   "company": "DXC Technology",
+   "location": "Italia, IT",
+   "description": "Job Description: DXC Technology is looking for recent graduates to join our Custom Applications offering through a dedicated Academy designed to develop technical skills in Full Stack and AI-assisted software development. The Academy includes 22 days training program covering the main Full Stack development technologies, from Java and Spring Boot to databases, REST APIs and React , together with the fundamentals of Agile Scrum . During the training, you will also learn how to use GitHub Copilot…",
+   "url": "https://www.adzuna.it/details/5936877770?utm_medium=api&utm_source=04d4f8bc",
+   "posted": "2026-10-21T18:43:47+00:00",
+   "remote": false,
+   "id": "f02af55a9e83a26f",
+   "score": 68,
+   "why": [
+    "title",
+    "skills: react, java, rest, ai",
+    "junior-friendly"
+   ],
+   "region": "other",
+   "first_seen": "2026-10-22T11:34:08.378438+00:00"
+  },
+  {
    "source": "arbeitnow",
    "src_id": "java-entwicklerin-java-developer-backend-berlin-196646",
    "title": "Java Entwickler:in / Java Developer Backend (w/m/d)",
@@ -173,7 +193,7 @@
    "title": "Software Engineer AI Coding Tasks",
    "company": "Askable",
    "location": "Worldwide",
-   "description": "Tags: dev, python, javascript, typescript, golang, java, c plus plus. We're looking for experienced software engineers to build AI coding tasks from a codebase they know well. US$1,000 per task, and you can do as many tasks as you want. You turn a real change from a repository you know into a task that today's best AI coding models struggle with: hard for the models, but fair for a skilled engineer. Your tasks are used to measure and train AI coding models. Remote, any location. US$1,000 per task that passes review. Minimum of one task a week, about 10 hours a week. How it works Apply. Complete a short screener interview and upload your resume. Propose. Once you're selected, pick a change from a repository you know and submit a short proposal. We approve it or suggest a better candidate. Build. In our platform, set up the repository as it was before the change, then write the brief, the correct solution and the grading checks. Stress-test. Try lazy, incorrect and shortcut solutions and make sure your checks catch them. Model testing. Run your task against leading AI models until strong models often fail but a skilled engineer can clearly solve it. Review. A reviewer checks your task and you revise it. Most tasks take more than one round. Next task. Once your task is accepted, start another. Requirements 2+ years of professional software engineering Code merged into a public open-source repository, ideally one you know well. A private codebase you own may also qualify (not employer or client code) Strong in at least one of Python, TypeScript, Go, Rust, Java or C++ Solid with Docker, Linux, Git and automated testing Regular use of an AI coding tool Experience writing tests, rubrics or evaluation criteria, ideally for AI models You can explain a change clearly and concisely, in your own words At least 10 hours a week, starting now A secure personal or work computer (no public or shared machines) Nice to have Deep expertise in one area, such as databases, compilers, distributed systems, security or infrastructure Experience building agent tasks or RL environments Terms US$1,000 for each task that passes our quality review, paid directly to you Once your proposal is qualified, you sign Askable's contract and accept its terms The work is used for AI training. The change and your solution must be your own, and you must be free to license them to us Don't publish the work anywhere: no public pull request or public fork Apply at https://www.askable.com/experts/roles/senior-software-engineer Please mention the word **LEVITY** and tag RMTM1LjExOS4xMDguNTk= when applying to show you read the job post completely (#RMTM1LjExOS4xMDguNTk=). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+   "description": "Tags: dev, python, javascript, typescript, golang, java, c plus plus. We're looking for experienced software engineers to build AI coding tasks from a codebase they know well. US$1,000 per task, and you can do as many tasks as you want. You turn a real change from a repository you know into a task that today's best AI coding models struggle with: hard for the models, but fair for a skilled engineer. Your tasks are used to measure and train AI coding models. Remote, any location. US$1,000 per task that passes review. Minimum of one task a week, about 10 hours a week. How it works Apply. Complete a short screener interview and upload your resume. Propose. Once you're selected, pick a change from a repository you know and submit a short proposal. We approve it or suggest a better candidate. Build. In our platform, set up the repository as it was before the change, then write the brief, the correct solution and the grading checks. Stress-test. Try lazy, incorrect and shortcut solutions and make sure your checks catch them. Model testing. Run your task against leading AI models until strong models often fail but a skilled engineer can clearly solve it. Review. A reviewer checks your task and you revise it. Most tasks take more than one round. Next task. Once your task is accepted, start another. Requirements 2+ years of professional software engineering Code merged into a public open-source repository, ideally one you know well. A private codebase you own may also qualify (not employer or client code) Strong in at least one of Python, TypeScript, Go, Rust, Java or C++ Solid with Docker, Linux, Git and automated testing Regular use of an AI coding tool Experience writing tests, rubrics or evaluation criteria, ideally for AI models You can explain a change clearly and concisely, in your own words At least 10 hours a week, starting now A secure personal or work computer (no public or shared machines) Nice to have Deep expertise in one area, such as databases, compilers, distributed systems, security or infrastructure Experience building agent tasks or RL environments Terms US$1,000 for each task that passes our quality review, paid directly to you Once your proposal is qualified, you sign Askable's contract and accept its terms The work is used for AI training. The change and your solution must be your own, and you must be free to license them to us Don't publish the work anywhere: no public pull request or public fork Apply at https://www.askable.com/experts/roles/senior-software-engineer Please mention the word **LEVITY** and tag RNTIuMjQyLjIyMS4yNDQ= when applying to show you read the job post completely (#RNTIuMjQyLjIyMS4yNDQ=). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
    "url": "https://remoteOK.com/remote-jobs/remote-software-engineer-ai-coding-tasks-askable-1137538",
    "posted": "2026-10-17T01:09:20+00:00",
    "remote": true,
@@ -204,6 +224,25 @@
    ],
    "region": "remote",
    "first_seen": "2026-10-20T11:55:42.855688+00:00"
+  },
+  {
+   "source": "adzuna",
+   "src_id": "5926650610",
+   "title": "Junior Software Developer (React / Supabase) @ MindPal Sp. z o. o.",
+   "company": "MindPal Sp. z o. o.",
+   "location": "Gliwice, śląskie, PL",
+   "description": "What We Value: 1 year of commercial experience in software development. Good understanding of JavaScript/TypeScript and React fundamentals. Understanding of SQL, relational databases, and PostgreSQL fundamentals. Familiarity with REST APIs, asynchronous programming, and Git. Experience with Supabase, Firebase, Node.js, or serverless functions is a plus. Communicative English and Polish at B2 level (written and spoken). We are looking for a Junior Software Developer (React / Supabase)! Do you…",
+   "url": "https://www.adzuna.pl/details/5926650610?utm_medium=api&utm_source=04d4f8bc",
+   "posted": "2026-10-14T04:15:14+00:00",
+   "remote": false,
+   "id": "39f9f4d280be422c",
+   "score": 60,
+   "why": [
+    "skills: react, node, node.js, typescript, postgresql, rest",
+    "junior-friendly"
+   ],
+   "region": "other",
+   "first_seen": "2026-10-22T11:34:08.378438+00:00"
   },
   {
    "source": "arbeitnow",
@@ -408,7 +447,7 @@
    "title": "Graduate Developer - Core Data Services (SAP BTP) (f/d/m)",
    "company": "Fioneer",
    "location": "Berlin, Germany",
-   "description": "Welcome future financial experts! At SAP Fioneer we believe in building the future of financial services. Join us on a transformative journey as a part of our Graduate Program L.I.F.T = Level up in Fioneer Technology! You will embark on a journey to kickstart your career within a global software company with a start-up mentality. Here, you'll be tackling real tasks and contributing to impactful projects from day one. Immersing yourself in a dynamic environment, whether it's engaging with clients or diving into product development. We believe in your potential, providing ample time for learning and growth, ensuring that you become fully productive as soon as possible. This is an extremely unique advantage of being part of the SAP Family with the advantages of a start-up like fast growing organization: the freedom to create and entrepreneurial ways of working in a talent-centric organization with great career opportunities arising. This is your chance to work with passionate professionals and the best experts in the industry - have an impact, create true value. So what are you waiting for, check out what it takes to become part of our L.I.F.T Program! What will I be doing? Kick-start your career in a collaborative and agile development team, working on innovative solutions built on the SAP Business Technology Platform (BTP). As a Graduate Software Developer, you will contribute to the development of customer-facing applications, document processing solutions, and monitoring capabilities while gaining hands-on experience with modern SAP development frameworks such as RAP and CAP. Supported by experienced developers and architects, you will gradually take on more responsibility in implementation, testing, and solution design. Your Responsibilities Contribute to the implementation of user stories and sprint tasks within the Customer Portal, Document Management, and Monitoring modules Support the development of RAP- and CAP-based services on SAP BTP and their integration with the SAP BTP Integration Suite Assist in implementing authentication and authorization concepts in line with security and role-based access requirements Help develop and configure low-code/no-code solutions to address business needs Contribute to innovative AI and Agentic AI use cases, such as document processing, validation, and automation scenarios Perform unit testing and support quality assurance, documentation, and regression testing activities Actively participate in agile ceremonies, including sprint planning, reviews, and retrospectives Collaborate closely with experienced developers, architects, and product teams while continuously developing your technical skills Requirements Degree in Computer Science, Software Engineering, Information Systems, or a related field, or expected graduation within the next few months Foundational software development knowledge gained through university projects, internships, working student roles, or personal projects Interest in cloud technologies and the SAP Business Technology Platform Enthusiasm for emerging technologies, particularly Artificial Intelligence and Agentic AI Strong analytical and problem-solving skills with a willingness to learn Ability to work effectively in a collaborative and agile team environment Good written and spoken English skills Benefits Diverse career paths in Development, Consulting, Co-Innovation, and Sales No rigid paths here – we believe in growing together Embrace our ethos: Own it, become it Find work-life balance with both on-site and remote options. Drive direct impact and create true value. Enjoy competitive compensation, a fast-paced learning path and mentorship Find more English Speaking Jobs in Germany on Arbeitnow",
+   "description": "Welcome future financial experts! At SAP Fioneer we believe in building the future of financial services. Join us on a transformative journey as a part of our Graduate Program L.I.F.T = Level up in Fioneer Technology! You will embark on a journey to kickstart your career within a global software company with a start-up mentality. Here, you'll be tackling real tasks and contributing to impactful projects from day one. Immersing yourself in a dynamic environment, whether it's engaging with clients or diving into product development. We believe in your potential, providing ample time for learning and growth, ensuring that you become fully productive as soon as possible. This is an extremely unique advantage of being part of the SAP Family with the advantages of a start-up like fast growing organization: the freedom to create and entrepreneurial ways of working in a talent-centric organization with great career opportunities arising. This is your chance to work with passionate professionals and the best experts in the industry - have an impact, create true value. So what are you waiting for, check out what it takes to become part of our L.I.F.T Program! What will I be doing? Kick-start your career in a collaborative and agile development team, working on innovative solutions built on the SAP Business Technology Platform (BTP). As a Graduate Software Developer, you will contribute to the development of customer-facing applications, document processing solutions, and monitoring capabilities while gaining hands-on experience with modern SAP development frameworks such as RAP and CAP. Supported by experienced developers and architects, you will gradually take on more responsibility in implementation, testing, and solution design. Your Responsibilities Contribute to the implementation of user stories and sprint tasks within the Customer Portal, Document Management, and Monitoring modules Support the development of RAP- and CAP-based services on SAP BTP and their integration with the SAP BTP Integration Suite Assist in implementing authentication and authorization concepts in line with security and role-based access requirements Help develop and configure low-code/no-code solutions to address business needs Contribute to innovative AI and Agentic AI use cases, such as document processing, validation, and automation scenarios Perform unit testing and support quality assurance, documentation, and regression testing activities Actively participate in agile ceremonies, including sprint planning, reviews, and retrospectives Collaborate closely with experienced developers, architects, and product teams while continuously developing your technical skills Requirements Degree in Computer Science, Software Engineering, Information Systems, or a related field, or expected graduation within the next few months Foundational software development knowledge gained through university projects, internships, working student roles, or personal projects Interest in cloud technologies and the SAP Business Technology Platform Enthusiasm for emerging technologies, particularly Artificial Intelligence and Agentic AI Strong analytical and problem-solving skills with a willingness to learn Ability to work effectively in a collaborative and agile team environment Good written and spoken English skills Benefits Diverse career paths in Development, Consulting, Co-Innovation, and Sales No rigid paths here – we believe in growing together Embrace our ethos: Own it, become it Find work-life balance with both on-site and remote options. Drive direct impact and create true value. Enjoy competitive compensation, a fast-paced learning path and mentorship Find Jobs in Germany on Arbeitnow",
    "url": "https://www.arbeitnow.com/jobs/companies/fioneer/graduate-developer-core-data-services-sap-btp-berlin-302474",
    "posted": "2026-10-22T02:20:16+00:00",
    "remote": false,
@@ -428,7 +467,7 @@
    "title": "Graduate Developer - Core Data Services (SAP BTP) (f/d/m)",
    "company": "Fioneer",
    "location": "Munich, Germany",
-   "description": "Welcome future financial experts! At SAP Fioneer we believe in building the future of financial services. Join us on a transformative journey as a part of our Graduate Program L.I.F.T = Level up in Fioneer Technology! You will embark on a journey to kickstart your career within a global software company with a start-up mentality. Here, you'll be tackling real tasks and contributing to impactful projects from day one. Immersing yourself in a dynamic environment, whether it's engaging with clients or diving into product development. We believe in your potential, providing ample time for learning and growth, ensuring that you become fully productive as soon as possible. This is an extremely unique advantage of being part of the SAP Family with the advantages of a start-up like fast growing organization: the freedom to create and entrepreneurial ways of working in a talent-centric organization with great career opportunities arising. This is your chance to work with passionate professionals and the best experts in the industry - have an impact, create true value. So what are you waiting for, check out what it takes to become part of our L.I.F.T Program! What will I be doing? Kick-start your career in a collaborative and agile development team, working on innovative solutions built on the SAP Business Technology Platform (BTP). As a Graduate Software Developer, you will contribute to the development of customer-facing applications, document processing solutions, and monitoring capabilities while gaining hands-on experience with modern SAP development frameworks such as RAP and CAP. Supported by experienced developers and architects, you will gradually take on more responsibility in implementation, testing, and solution design. Your Responsibilities Contribute to the implementation of user stories and sprint tasks within the Customer Portal, Document Management, and Monitoring modules Support the development of RAP- and CAP-based services on SAP BTP and their integration with the SAP BTP Integration Suite Assist in implementing authentication and authorization concepts in line with security and role-based access requirements Help develop and configure low-code/no-code solutions to address business needs Contribute to innovative AI and Agentic AI use cases, such as document processing, validation, and automation scenarios Perform unit testing and support quality assurance, documentation, and regression testing activities Actively participate in agile ceremonies, including sprint planning, reviews, and retrospectives Collaborate closely with experienced developers, architects, and product teams while continuously developing your technical skills Requirements Degree in Computer Science, Software Engineering, Information Systems, or a related field, or expected graduation within the next few months Foundational software development knowledge gained through university projects, internships, working student roles, or personal projects Interest in cloud technologies and the SAP Business Technology Platform Enthusiasm for emerging technologies, particularly Artificial Intelligence and Agentic AI Strong analytical and problem-solving skills with a willingness to learn Ability to work effectively in a collaborative and agile team environment Good written and spoken English skills Benefits Diverse career paths in Development, Consulting, Co-Innovation, and Sales No rigid paths here – we believe in growing together Embrace our ethos: Own it, become it Find work-life balance with both on-site and remote options. Drive direct impact and create true value. Enjoy competitive compensation, a fast-paced learning path and mentorship Find more English Speaking Jobs in Germany on Arbeitnow",
+   "description": "Welcome future financial experts! At SAP Fioneer we believe in building the future of financial services. Join us on a transformative journey as a part of our Graduate Program L.I.F.T = Level up in Fioneer Technology! You will embark on a journey to kickstart your career within a global software company with a start-up mentality. Here, you'll be tackling real tasks and contributing to impactful projects from day one. Immersing yourself in a dynamic environment, whether it's engaging with clients or diving into product development. We believe in your potential, providing ample time for learning and growth, ensuring that you become fully productive as soon as possible. This is an extremely unique advantage of being part of the SAP Family with the advantages of a start-up like fast growing organization: the freedom to create and entrepreneurial ways of working in a talent-centric organization with great career opportunities arising. This is your chance to work with passionate professionals and the best experts in the industry - have an impact, create true value. So what are you waiting for, check out what it takes to become part of our L.I.F.T Program! What will I be doing? Kick-start your career in a collaborative and agile development team, working on innovative solutions built on the SAP Business Technology Platform (BTP). As a Graduate Software Developer, you will contribute to the development of customer-facing applications, document processing solutions, and monitoring capabilities while gaining hands-on experience with modern SAP development frameworks such as RAP and CAP. Supported by experienced developers and architects, you will gradually take on more responsibility in implementation, testing, and solution design. Your Responsibilities Contribute to the implementation of user stories and sprint tasks within the Customer Portal, Document Management, and Monitoring modules Support the development of RAP- and CAP-based services on SAP BTP and their integration with the SAP BTP Integration Suite Assist in implementing authentication and authorization concepts in line with security and role-based access requirements Help develop and configure low-code/no-code solutions to address business needs Contribute to innovative AI and Agentic AI use cases, such as document processing, validation, and automation scenarios Perform unit testing and support quality assurance, documentation, and regression testing activities Actively participate in agile ceremonies, including sprint planning, reviews, and retrospectives Collaborate closely with experienced developers, architects, and product teams while continuously developing your technical skills Requirements Degree in Computer Science, Software Engineering, Information Systems, or a related field, or expected graduation within the next few months Foundational software development knowledge gained through university projects, internships, working student roles, or personal projects Interest in cloud technologies and the SAP Business Technology Platform Enthusiasm for emerging technologies, particularly Artificial Intelligence and Agentic AI Strong analytical and problem-solving skills with a willingness to learn Ability to work effectively in a collaborative and agile team environment Good written and spoken English skills Benefits Diverse career paths in Development, Consulting, Co-Innovation, and Sales No rigid paths here – we believe in growing together Embrace our ethos: Own it, become it Find work-life balance with both on-site and remote options. Drive direct impact and create true value. Enjoy competitive compensation, a fast-paced learning path and mentorship Find Jobs in Germany on Arbeitnow",
    "url": "https://www.arbeitnow.com/jobs/companies/fioneer/graduate-developer-core-data-services-sap-btp-munich-19323",
    "posted": "2026-10-22T02:20:16+00:00",
    "remote": false,
@@ -448,7 +487,7 @@
    "title": "Graduate Developer - Core Data Services (SAP BTP) (f/d/m)",
    "company": "Fioneer",
    "location": "Walldorf, Germany",
-   "description": "Welcome future financial experts! At SAP Fioneer we believe in building the future of financial services. Join us on a transformative journey as a part of our Graduate Program L.I.F.T = Level up in Fioneer Technology! You will embark on a journey to kickstart your career within a global software company with a start-up mentality. Here, you'll be tackling real tasks and contributing to impactful projects from day one. Immersing yourself in a dynamic environment, whether it's engaging with clients or diving into product development. We believe in your potential, providing ample time for learning and growth, ensuring that you become fully productive as soon as possible. This is an extremely unique advantage of being part of the SAP Family with the advantages of a start-up like fast growing organization: the freedom to create and entrepreneurial ways of working in a talent-centric organization with great career opportunities arising. This is your chance to work with passionate professionals and the best experts in the industry - have an impact, create true value. So what are you waiting for, check out what it takes to become part of our L.I.F.T Program! What will I be doing? Kick-start your career in a collaborative and agile development team, working on innovative solutions built on the SAP Business Technology Platform (BTP). As a Graduate Software Developer, you will contribute to the development of customer-facing applications, document processing solutions, and monitoring capabilities while gaining hands-on experience with modern SAP development frameworks such as RAP and CAP. Supported by experienced developers and architects, you will gradually take on more responsibility in implementation, testing, and solution design. Your Responsibilities Contribute to the implementation of user stories and sprint tasks within the Customer Portal, Document Management, and Monitoring modules Support the development of RAP- and CAP-based services on SAP BTP and their integration with the SAP BTP Integration Suite Assist in implementing authentication and authorization concepts in line with security and role-based access requirements Help develop and configure low-code/no-code solutions to address business needs Contribute to innovative AI and Agentic AI use cases, such as document processing, validation, and automation scenarios Perform unit testing and support quality assurance, documentation, and regression testing activities Actively participate in agile ceremonies, including sprint planning, reviews, and retrospectives Collaborate closely with experienced developers, architects, and product teams while continuously developing your technical skills Requirements Degree in Computer Science, Software Engineering, Information Systems, or a related field, or expected graduation within the next few months Foundational software development knowledge gained through university projects, internships, working student roles, or personal projects Interest in cloud technologies and the SAP Business Technology Platform Enthusiasm for emerging technologies, particularly Artificial Intelligence and Agentic AI Strong analytical and problem-solving skills with a willingness to learn Ability to work effectively in a collaborative and agile team environment Good written and spoken English skills Benefits Diverse career paths in Development, Consulting, Co-Innovation, and Sales No rigid paths here – we believe in growing together Embrace our ethos: Own it, become it Find work-life balance with both on-site and remote options. Drive direct impact and create true value. Enjoy competitive compensation, a fast-paced learning path and mentorship Find more English Speaking Jobs in Germany on Arbeitnow",
+   "description": "Welcome future financial experts! At SAP Fioneer we believe in building the future of financial services. Join us on a transformative journey as a part of our Graduate Program L.I.F.T = Level up in Fioneer Technology! You will embark on a journey to kickstart your career within a global software company with a start-up mentality. Here, you'll be tackling real tasks and contributing to impactful projects from day one. Immersing yourself in a dynamic environment, whether it's engaging with clients or diving into product development. We believe in your potential, providing ample time for learning and growth, ensuring that you become fully productive as soon as possible. This is an extremely unique advantage of being part of the SAP Family with the advantages of a start-up like fast growing organization: the freedom to create and entrepreneurial ways of working in a talent-centric organization with great career opportunities arising. This is your chance to work with passionate professionals and the best experts in the industry - have an impact, create true value. So what are you waiting for, check out what it takes to become part of our L.I.F.T Program! What will I be doing? Kick-start your career in a collaborative and agile development team, working on innovative solutions built on the SAP Business Technology Platform (BTP). As a Graduate Software Developer, you will contribute to the development of customer-facing applications, document processing solutions, and monitoring capabilities while gaining hands-on experience with modern SAP development frameworks such as RAP and CAP. Supported by experienced developers and architects, you will gradually take on more responsibility in implementation, testing, and solution design. Your Responsibilities Contribute to the implementation of user stories and sprint tasks within the Customer Portal, Document Management, and Monitoring modules Support the development of RAP- and CAP-based services on SAP BTP and their integration with the SAP BTP Integration Suite Assist in implementing authentication and authorization concepts in line with security and role-based access requirements Help develop and configure low-code/no-code solutions to address business needs Contribute to innovative AI and Agentic AI use cases, such as document processing, validation, and automation scenarios Perform unit testing and support quality assurance, documentation, and regression testing activities Actively participate in agile ceremonies, including sprint planning, reviews, and retrospectives Collaborate closely with experienced developers, architects, and product teams while continuously developing your technical skills Requirements Degree in Computer Science, Software Engineering, Information Systems, or a related field, or expected graduation within the next few months Foundational software development knowledge gained through university projects, internships, working student roles, or personal projects Interest in cloud technologies and the SAP Business Technology Platform Enthusiasm for emerging technologies, particularly Artificial Intelligence and Agentic AI Strong analytical and problem-solving skills with a willingness to learn Ability to work effectively in a collaborative and agile team environment Good written and spoken English skills Benefits Diverse career paths in Development, Consulting, Co-Innovation, and Sales No rigid paths here – we believe in growing together Embrace our ethos: Own it, become it Find work-life balance with both on-site and remote options. Drive direct impact and create true value. Enjoy competitive compensation, a fast-paced learning path and mentorship Find Jobs in Germany on Arbeitnow",
    "url": "https://www.arbeitnow.com/jobs/companies/fioneer/graduate-developer-core-data-services-sap-btp-walldorf-341601",
    "posted": "2026-10-22T02:20:16+00:00",
    "remote": false,
@@ -777,6 +816,186 @@
    "first_seen": "2026-10-21T11:33:55.664647+00:00"
   },
   {
+   "source": "adzuna",
+   "src_id": "5919315919",
+   "title": "Junior Developer & Data Scientist: Posizioni Entry-Level in Ambito Tech",
+   "company": "Joinrs Italia",
+   "location": "Napoli, Provincia di Napoli, IT",
+   "description": "Stiamo cercando profili junior, studenti e neo-laureati in Informatica, Ingegneria, Data Science, Matematica, Statistica e discipline STEM che vogliano lanciare (o accelerare) la propria carriera Tech in aziende top in Italia e in Europa. Su Joinrs in questo momento trovi centinaia di posizioni attive, tra cui: Junior Software Developer (Frontend, Backend, Full Stack) Junior Data Scientist Data Analyst Machine Learning Engineer Junior Cloud Engineer Cybersecurity Analyst DevOps Engineer Junior …",
+   "url": "https://www.adzuna.it/details/5919315919?utm_medium=api&utm_source=04d4f8bc",
+   "posted": "2026-10-08T18:15:17+00:00",
+   "remote": false,
+   "id": "ca32c6a2d70038f4",
+   "score": 48,
+   "why": [
+    "title",
+    "skills: machine learning",
+    "junior-friendly"
+   ],
+   "region": "other",
+   "first_seen": "2026-10-22T11:34:08.378438+00:00"
+  },
+  {
+   "source": "adzuna",
+   "src_id": "5919315943",
+   "title": "Junior Developer & Data Scientist: Posizioni Entry-Level in Ambito Tech",
+   "company": "Joinrs Italia",
+   "location": "Padova, Provincia di Padova, IT",
+   "description": "Stiamo cercando profili junior, studenti e neo-laureati in Informatica, Ingegneria, Data Science, Matematica, Statistica e discipline STEM che vogliano lanciare (o accelerare) la propria carriera Tech in aziende top in Italia e in Europa. Su Joinrs in questo momento trovi centinaia di posizioni attive, tra cui: Junior Software Developer (Frontend, Backend, Full Stack) Junior Data Scientist Data Analyst Machine Learning Engineer Junior Cloud Engineer Cybersecurity Analyst DevOps Engineer Junior …",
+   "url": "https://www.adzuna.it/details/5919315943?utm_medium=api&utm_source=04d4f8bc",
+   "posted": "2026-10-08T18:15:18+00:00",
+   "remote": false,
+   "id": "c2e0f51402f95d97",
+   "score": 48,
+   "why": [
+    "title",
+    "skills: machine learning",
+    "junior-friendly"
+   ],
+   "region": "other",
+   "first_seen": "2026-10-22T11:34:08.378438+00:00"
+  },
+  {
+   "source": "adzuna",
+   "src_id": "5919315956",
+   "title": "Junior Developer & Data Scientist: Posizioni Entry-Level in Ambito Tech",
+   "company": "Joinrs Italia",
+   "location": "Bari, Provincia di Bari, IT",
+   "description": "Stiamo cercando profili junior, studenti e neo-laureati in Informatica, Ingegneria, Data Science, Matematica, Statistica e discipline STEM che vogliano lanciare (o accelerare) la propria carriera Tech in aziende top in Italia e in Europa. Su Joinrs in questo momento trovi centinaia di posizioni attive, tra cui: Junior Software Developer (Frontend, Backend, Full Stack) Junior Data Scientist Data Analyst Machine Learning Engineer Junior Cloud Engineer Cybersecurity Analyst DevOps Engineer Junior …",
+   "url": "https://www.adzuna.it/details/5919315956?utm_medium=api&utm_source=04d4f8bc",
+   "posted": "2026-10-08T18:15:18+00:00",
+   "remote": false,
+   "id": "b28e173f3319754d",
+   "score": 48,
+   "why": [
+    "title",
+    "skills: machine learning",
+    "junior-friendly"
+   ],
+   "region": "other",
+   "first_seen": "2026-10-22T11:34:08.378438+00:00"
+  },
+  {
+   "source": "adzuna",
+   "src_id": "5919315983",
+   "title": "Junior Developer & Data Scientist: Posizioni Entry-Level in Ambito Tech",
+   "company": "Joinrs Italia",
+   "location": "Roma, Provincia di Roma, IT",
+   "description": "Stiamo cercando profili junior, studenti e neo-laureati in Informatica, Ingegneria, Data Science, Matematica, Statistica e discipline STEM che vogliano lanciare (o accelerare) la propria carriera Tech in aziende top in Italia e in Europa. Su Joinrs in questo momento trovi centinaia di posizioni attive, tra cui: Junior Software Developer (Frontend, Backend, Full Stack) Junior Data Scientist Data Analyst Machine Learning Engineer Junior Cloud Engineer Cybersecurity Analyst DevOps Engineer Junior …",
+   "url": "https://www.adzuna.it/details/5919315983?utm_medium=api&utm_source=04d4f8bc",
+   "posted": "2026-10-08T18:15:18+00:00",
+   "remote": false,
+   "id": "b4204f901572b06e",
+   "score": 48,
+   "why": [
+    "title",
+    "skills: machine learning",
+    "junior-friendly"
+   ],
+   "region": "other",
+   "first_seen": "2026-10-22T11:34:08.378438+00:00"
+  },
+  {
+   "source": "adzuna",
+   "src_id": "5919316016",
+   "title": "Junior Developer & Data Scientist: Posizioni Entry-Level in Ambito Tech",
+   "company": "Joinrs Italia",
+   "location": "Cagliari, Provincia di Cagliari, IT",
+   "description": "Stiamo cercando profili junior, studenti e neo-laureati in Informatica, Ingegneria, Data Science, Matematica, Statistica e discipline STEM che vogliano lanciare (o accelerare) la propria carriera Tech in aziende top in Italia e in Europa. Su Joinrs in questo momento trovi centinaia di posizioni attive, tra cui: Junior Software Developer (Frontend, Backend, Full Stack) Junior Data Scientist Data Analyst Machine Learning Engineer Junior Cloud Engineer Cybersecurity Analyst DevOps Engineer Junior …",
+   "url": "https://www.adzuna.it/details/5919316016?utm_medium=api&utm_source=04d4f8bc",
+   "posted": "2026-10-08T18:15:18+00:00",
+   "remote": false,
+   "id": "8c960cf10e86e0c4",
+   "score": 48,
+   "why": [
+    "title",
+    "skills: machine learning",
+    "junior-friendly"
+   ],
+   "region": "other",
+   "first_seen": "2026-10-22T11:34:08.378438+00:00"
+  },
+  {
+   "source": "adzuna",
+   "src_id": "5919315966",
+   "title": "Junior Developer & Data Scientist: Posizioni Entry-Level in Ambito Tech",
+   "company": "Joinrs Italia",
+   "location": "Torino, Provincia di Torino, IT",
+   "description": "Stiamo cercando profili junior, studenti e neo-laureati in Informatica, Ingegneria, Data Science, Matematica, Statistica e discipline STEM che vogliano lanciare (o accelerare) la propria carriera Tech in aziende top in Italia e in Europa. Su Joinrs in questo momento trovi centinaia di posizioni attive, tra cui: Junior Software Developer (Frontend, Backend, Full Stack) Junior Data Scientist Data Analyst Machine Learning Engineer Junior Cloud Engineer Cybersecurity Analyst DevOps Engineer Junior …",
+   "url": "https://www.adzuna.it/details/5919315966?utm_medium=api&utm_source=04d4f8bc",
+   "posted": "2026-10-08T18:15:18+00:00",
+   "remote": false,
+   "id": "458692e12c0997e0",
+   "score": 48,
+   "why": [
+    "title",
+    "skills: machine learning",
+    "junior-friendly"
+   ],
+   "region": "other",
+   "first_seen": "2026-10-22T11:34:08.378438+00:00"
+  },
+  {
+   "source": "adzuna",
+   "src_id": "5919316019",
+   "title": "Junior Developer & Data Scientist: Posizioni Entry-Level in Ambito Tech",
+   "company": "Joinrs Italia",
+   "location": "Bologna, Provincia di Bologna, IT",
+   "description": "Stiamo cercando profili junior, studenti e neo-laureati in Informatica, Ingegneria, Data Science, Matematica, Statistica e discipline STEM che vogliano lanciare (o accelerare) la propria carriera Tech in aziende top in Italia e in Europa. Su Joinrs in questo momento trovi centinaia di posizioni attive, tra cui: Junior Software Developer (Frontend, Backend, Full Stack) Junior Data Scientist Data Analyst Machine Learning Engineer Junior Cloud Engineer Cybersecurity Analyst DevOps Engineer Junior …",
+   "url": "https://www.adzuna.it/details/5919316019?utm_medium=api&utm_source=04d4f8bc",
+   "posted": "2026-10-08T18:15:18+00:00",
+   "remote": false,
+   "id": "7876dd2a8689ffbd",
+   "score": 48,
+   "why": [
+    "title",
+    "skills: machine learning",
+    "junior-friendly"
+   ],
+   "region": "other",
+   "first_seen": "2026-10-22T11:34:08.378438+00:00"
+  },
+  {
+   "source": "adzuna",
+   "src_id": "5919315945",
+   "title": "Junior Developer & Data Scientist: Posizioni Entry-Level in Ambito Tech",
+   "company": "Joinrs Italia",
+   "location": "Catania, Provincia di Catania, IT",
+   "description": "Stiamo cercando profili junior, studenti e neo-laureati in Informatica, Ingegneria, Data Science, Matematica, Statistica e discipline STEM che vogliano lanciare (o accelerare) la propria carriera Tech in aziende top in Italia e in Europa. Su Joinrs in questo momento trovi centinaia di posizioni attive, tra cui: Junior Software Developer (Frontend, Backend, Full Stack) Junior Data Scientist Data Analyst Machine Learning Engineer Junior Cloud Engineer Cybersecurity Analyst DevOps Engineer Junior …",
+   "url": "https://www.adzuna.it/details/5919315945?utm_medium=api&utm_source=04d4f8bc",
+   "posted": "2026-10-08T18:15:18+00:00",
+   "remote": false,
+   "id": "14221d84c955ff01",
+   "score": 48,
+   "why": [
+    "title",
+    "skills: machine learning",
+    "junior-friendly"
+   ],
+   "region": "other",
+   "first_seen": "2026-10-22T11:34:08.378438+00:00"
+  },
+  {
+   "source": "adzuna",
+   "src_id": "5919316055",
+   "title": "Junior Developer & Data Scientist: Posizioni Entry-Level in Ambito Tech",
+   "company": "Joinrs Italia",
+   "location": "Milano, Provincia di Milano, IT",
+   "description": "Stiamo cercando profili junior, studenti e neo-laureati in Informatica, Ingegneria, Data Science, Matematica, Statistica e discipline STEM che vogliano lanciare (o accelerare) la propria carriera Tech in aziende top in Italia e in Europa. Su Joinrs in questo momento trovi centinaia di posizioni attive, tra cui: Junior Software Developer (Frontend, Backend, Full Stack) Junior Data Scientist Data Analyst Machine Learning Engineer Junior Cloud Engineer Cybersecurity Analyst DevOps Engineer Junior …",
+   "url": "https://www.adzuna.it/details/5919316055?utm_medium=api&utm_source=04d4f8bc",
+   "posted": "2026-10-08T18:15:19+00:00",
+   "remote": false,
+   "id": "dac3acf9431e67f8",
+   "score": 48,
+   "why": [
+    "title",
+    "skills: machine learning",
+    "junior-friendly"
+   ],
+   "region": "other",
+   "first_seen": "2026-10-22T11:34:08.378438+00:00"
+  },
+  {
    "source": "arbeitnow",
    "src_id": "software-engineer-backend-lausanne-154704",
    "title": "Software Engineer, Backend",
@@ -838,7 +1057,7 @@
    "title": "Sr REACT NATIVE",
    "company": "Somnio Software",
    "location": "Worldwide",
-   "description": "Tags: react native, react, dev, python, javascript, c, flutter, node, node.js, digital nomad. QuÃ© es Deazy Deazy es una plataforma/marketplace de UK que conecta empresas que necesitan desarrollo de software con agencias de desarrollo en todo el mundo. Ellos consiguen el cliente, definen el proyecto y luego lo asignan a una agencia como Somnio para ejecutarlo. BÃ¡sicamente son un intermediario entre el cliente final y nosotros. CÃ³mo funciona el modelo Deazy factura al cliente final a su propia tarifa (en este caso estÃ¡n hablando de EUR 47/h, aunque todavÃ­a hay que confirmar si ese es el rate al cliente o lo que pagan al proveedor). Nosotros le facturamos a Deazy a un rate mÃ¡s bajo, y la diferencia es su margen. Por eso la tarifa introductoria que les estamos ofreciendo es USD 45/h - USD 40/h â pensada para que Deazy tenga margen cÃ³modo y nos priorice y abrir la cuenta Si la relaciÃ³n funciona, Deazy nos puede asignar proyectos de forma recurrente sin que nosotros tengamos que salir a conseguirlos. Es un canal de ventas indirecto, ellos traen el cliente, nosotros entregamos. El volumen potencial es importante si nos posicionamos bien con ellos. Deazy nos conoce principalmente como agencia Flutter. El trabajo ahora es mostrarles que tambiÃ©n somos fuertes en React Native, React, Node.js , Python y AI Please mention the word **JOYOUSLY** and tag RMTM1LjExOS4xMDguNTk= when applying to show you read the job post completely (#RMTM1LjExOS4xMDguNTk=). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+   "description": "Tags: react native, react, dev, python, javascript, c, flutter, node, node.js, digital nomad. QuÃ© es Deazy Deazy es una plataforma/marketplace de UK que conecta empresas que necesitan desarrollo de software con agencias de desarrollo en todo el mundo. Ellos consiguen el cliente, definen el proyecto y luego lo asignan a una agencia como Somnio para ejecutarlo. BÃ¡sicamente son un intermediario entre el cliente final y nosotros. CÃ³mo funciona el modelo Deazy factura al cliente final a su propia tarifa (en este caso estÃ¡n hablando de EUR 47/h, aunque todavÃ­a hay que confirmar si ese es el rate al cliente o lo que pagan al proveedor). Nosotros le facturamos a Deazy a un rate mÃ¡s bajo, y la diferencia es su margen. Por eso la tarifa introductoria que les estamos ofreciendo es USD 45/h - USD 40/h â pensada para que Deazy tenga margen cÃ³modo y nos priorice y abrir la cuenta Si la relaciÃ³n funciona, Deazy nos puede asignar proyectos de forma recurrente sin que nosotros tengamos que salir a conseguirlos. Es un canal de ventas indirecto, ellos traen el cliente, nosotros entregamos. El volumen potencial es importante si nos posicionamos bien con ellos. Deazy nos conoce principalmente como agencia Flutter. El trabajo ahora es mostrarles que tambiÃ©n somos fuertes en React Native, React, Node.js , Python y AI Please mention the word **JOYOUSLY** and tag RNTIuMjQyLjIyMS4yNDQ= when applying to show you read the job post completely (#RNTIuMjQyLjIyMS4yNDQ=). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
    "url": "https://remoteOK.com/remote-jobs/remote-sr-react-native-somnio-software-1137523",
    "posted": "2026-10-15T00:00:19+00:00",
    "remote": true,
@@ -906,6 +1125,46 @@
    ],
    "region": "remote",
    "first_seen": "2026-10-21T11:33:55.664647+00:00"
+  },
+  {
+   "source": "adzuna",
+   "src_id": "5931059674",
+   "title": "Junior Software Engineer",
+   "company": "Bluetown",
+   "location": "Birmingham, West Midlands, GB",
+   "description": "Job Title: Junior Software Engineer Location: Birmingham / Hybrid Salary: £28,000 - £35,000 per annum Position: Permanent, full-time About The Company: The Company is a long-established web and app development agency based in the Jewellery Quarter, specialising in AI integration, SaaS products, apps and portals. We build high-quality web and mobile solutions for a wide range of clients, from innovative start-ups to established enterprises. We embrace modern technologies, and have frontier adopt…",
+   "url": "https://www.adzuna.co.uk/jobs/land/ad/5931059674?se=1ETkQwzO8RGy64MPQcTPmQ&utm_medium=api&utm_source=04d4f8bc&v=BF030D04F908336D9C351E81E3382BF158235890",
+   "posted": "2026-10-16T19:25:03+00:00",
+   "remote": false,
+   "id": "5475c112086c0817",
+   "score": 44,
+   "why": [
+    "title",
+    "skills: ai",
+    "junior-friendly"
+   ],
+   "region": "other",
+   "first_seen": "2026-10-22T11:34:08.378438+00:00"
+  },
+  {
+   "source": "adzuna",
+   "src_id": "5934318435",
+   "title": "Junior Software Engineer",
+   "company": "Anonymous",
+   "location": "Balsall Heath, Birmingham, GB",
+   "description": "Job Title: Junior Software Engineer Location: Birmingham / Hybrid Salary: £28,000 - £35,000 per annum Position: Permanent, full-time About The Company: The Company is a long-established web and app development agency based in the Jewellery Quarter, specialising in AI integration, SaaS products, apps and portals. We build high-quality web and mobile solutions for a wide range of clients, from innovative start-ups to established enterprises. We embrace modern technologies, and have frontier adopt…",
+   "url": "https://www.adzuna.co.uk/jobs/land/ad/5934318435?se=1ETkQwzO8RGy64MPQcTPmQ&utm_medium=api&utm_source=04d4f8bc&v=A8E12EBDBCF0523E415342E7AA7EB2ADD6B8CE82",
+   "posted": "2026-10-19T16:12:28+00:00",
+   "remote": false,
+   "id": "56105d9691ab3537",
+   "score": 44,
+   "why": [
+    "title",
+    "skills: ai",
+    "junior-friendly"
+   ],
+   "region": "other",
+   "first_seen": "2026-10-22T11:34:08.378438+00:00"
   },
   {
    "source": "arbeitnow",
@@ -1077,6 +1336,25 @@
    "first_seen": "2026-10-22T11:03:14.452867+00:00"
   },
   {
+   "source": "adzuna",
+   "src_id": "5919241973",
+   "title": "Software Engineer (Junior Developer)",
+   "company": "CWBI",
+   "location": "Padova, Provincia di Padova, IT",
+   "description": "Questa posizione è in CWBI Il processo di selezione sarà interamente gestito CWBI. CWBI è una software house italiana con sede a Padova specializzata nel settore Fintech e del Banking. L'azienda si posiziona come partner tecnologico per soggetti vigilati, banche, istituti di pagamento (PSP) e aziende che necessitano di soluzioni avanzate per la gestione dei flussi finanziari e la digitalizzazione dei processi. Lavorare in un contesto come CWBI significa immergersi nel cuore pulsante dell'ingeg…",
+   "url": "https://www.adzuna.it/details/5919241973?utm_medium=api&utm_source=04d4f8bc",
+   "posted": "2026-10-08T18:00:18+00:00",
+   "remote": false,
+   "id": "9bc21ed631fb0be1",
+   "score": 40,
+   "why": [
+    "title",
+    "junior-friendly"
+   ],
+   "region": "other",
+   "first_seen": "2026-10-22T11:34:08.378438+00:00"
+  },
+  {
    "source": "arbeitnow",
    "src_id": "software-engineer-net-woerden-364124",
    "title": "Software Engineer (.NET)",
@@ -1120,7 +1398,7 @@
    "title": "Applied Scientist - Research Engineer (Formal Methods), EMEA",
    "company": "Mistral.ai",
    "location": "Paris",
-   "description": "About Mistral Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing, defense, healthcare, and the public sector, co-creating customized AI systems that they can run on their terms. We are a dynamic, collaborative team passionate about AI and its potential to transform society. Our diverse workforce thrives in competitive environments and is committed to driving innovation. Our teams are distributed between Europe, North America, Asia and the Middle East. We are creative, low-ego and team-spirited. The Role Mistral AI is seeking Applied Scientists and Research Engineers focused on formal methods. You will design, train, and deploy SOTA large language models and apply them to diverse use cases. You'll work cross-functionally with internal and external science, engineering, and product teams to deliver high-impact AI solutions. What You Will Do Run pre-training, post-training and deploy state of the art models on large clusters. Generate and curate datasets for theorem proving and software verification, and build evaluators and benchmarks for formal reasoning. Develop the necessary tools and frameworks to facilitate data generation, model training, evaluation and deployment. Collaborate with cross-functional teams to tackle complex use cases. Manage research projects and communications with client research teams. What We're Looking For Fluent in English with excellent communication skills — at ease explaining complex technical concepts to both technical and non-technical audiences. Expert with PyTorch or JAX. Not afraid of contributing to a big codebase; finds their way around independently with little guidance. Writes clean, readable, high-performance, fault-tolerant Python code. Doesn’t need roadmaps: moves independently and navigates uncertainty with confidence. Low-ego, collaborative and eager to learn. Track record of success through personal projects, professional projects or academia. Nice to have PhD / Master in a relevant field (Computer Science, Mathematics, Machine Learning). Experience with autoformalization, proof automation, or verified code generation. Experience with reinforcement learning using verifiable rewards, ideally from Lean or other proof assistants. Contributions to a large open-source or industry codebase. Publications in top academic journals or conferences. Enjoys improving existing code: typing, tests, CI pipelines. What We Offer We offer a comprehensive benefits package designed to support your well-being, growth, and work-life balance. Benefits vary by country and may include healthcare coverage, parental leave, retirement plans, relocation support, wellness programs, meal and transportation allowances, and other location-specific perks. For the most up-to-date details on benefits available in your location, please refer to our Benefits page . Privacy Policy Your privacy matters to us. You can learn more about how we handle your personal data in our Applicant Privacy Policy . Find Jobs in France on Arbeitnow",
+   "description": "About Mistral Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing, defense, healthcare, and the public sector, co-creating customized AI systems that they can run on their terms. We are a dynamic, collaborative team passionate about AI and its potential to transform society. Our diverse workforce thrives in competitive environments and is committed to driving innovation. Our teams are distributed between Europe, North America, Asia and the Middle East. We are creative, low-ego and team-spirited. The Role Mistral AI is seeking Applied Scientists and Research Engineers focused on formal methods. You will design, train, and deploy SOTA large language models and apply them to diverse use cases. You'll work cross-functionally with internal and external science, engineering, and product teams to deliver high-impact AI solutions. What You Will Do Run pre-training, post-training and deploy state of the art models on large clusters. Generate and curate datasets for theorem proving and software verification, and build evaluators and benchmarks for formal reasoning. Develop the necessary tools and frameworks to facilitate data generation, model training, evaluation and deployment. Collaborate with cross-functional teams to tackle complex use cases. Manage research projects and communications with client research teams. What We're Looking For Fluent in English with excellent communication skills — at ease explaining complex technical concepts to both technical and non-technical audiences. Expert with PyTorch or JAX. Not afraid of contributing to a big codebase; finds their way around independently with little guidance. Writes clean, readable, high-performance, fault-tolerant Python code. Doesn’t need roadmaps: moves independently and navigates uncertainty with confidence. Low-ego, collaborative and eager to learn. Track record of success through personal projects, professional projects or academia. Nice to have PhD / Master in a relevant field (Computer Science, Mathematics, Machine Learning). Experience with autoformalization, proof automation, or verified code generation. Experience with reinforcement learning using verifiable rewards, ideally from Lean or other proof assistants. Contributions to a large open-source or industry codebase. Publications in top academic journals or conferences. Enjoys improving existing code: typing, tests, CI pipelines. What We Offer We offer a comprehensive benefits package designed to support your well-being, growth, and work-life balance. Benefits vary by country and may include healthcare coverage, parental leave, retirement plans, relocation support, wellness programs, meal and transportation allowances, and other location-specific perks. For the most up-to-date details on benefits available in your location, please refer to our Benefits page . Privacy Policy Your privacy matters to us. You can learn more about how we handle your personal data in our Applicant Privacy Policy . Find more English Speaking Jobs in France on Arbeitnow",
    "url": "https://www.arbeitnow.fr/jobs/companies/mistralai/applied-scientist-research-engineer-formal-methods-emea-paris-138970",
    "posted": "2026-10-21T14:40:17+00:00",
    "remote": false,
@@ -1151,6 +1429,25 @@
    ],
    "region": "other",
    "first_seen": "2026-10-22T11:03:14.452867+00:00"
+  },
+  {
+   "source": "adzuna",
+   "src_id": "5902851792",
+   "title": "Junior Java Software Developer",
+   "company": "Fasanara",
+   "location": "London, UK, GB",
+   "description": "About Fasanara Founded in 2011, Fasanara is a global asset manager and technology platform. We manage c. USD 6 billion AUM (as of December 31, 2025) in Fintech strategies on behalf of pension funds and insurance companies in Europe and North America. With c.110 employees globally, we are a pioneer investor in Fintech Lending, enabling Real Economy Impact. Fasanara manages the largest and longest standing Fintech Lending fund in Europe and invests in early-stage Fintech companies via its venture…",
+   "url": "https://www.adzuna.co.uk/jobs/details/5902851792?utm_medium=api&utm_source=04d4f8bc",
+   "posted": "2026-09-29T15:19:50+00:00",
+   "remote": false,
+   "id": "e2c4326004b953e5",
+   "score": 38,
+   "why": [
+    "skills: java",
+    "junior-friendly"
+   ],
+   "region": "europe",
+   "first_seen": "2026-10-22T11:34:08.378438+00:00"
   },
   {
    "source": "arbeitnow",
@@ -1255,7 +1552,7 @@
    "title": "Research Associate, Molecular Biology",
    "company": "Adaptyv",
    "location": "Lausanne",
-   "description": "Adaptyv is building an automated lab that lets AI agents run biology experiments. We're entering the era of agentic science where AI models can now design novel proteins, propose hypotheses, and iterate on experimental results. But they can't run the experiments themselves - that's still a manual, months-long process. We're building the infrastructure that gives AI agents access to the physical world. We are one of the fastest growing biotech companies, trusted by leading biopharmas, frontier AI labs, and the techbio companies pushing the field forward. This is a rare chance to help advance some of the most important work happening in biotech today. Our automated lab is powered by a deep software + hardware stack: lab instruments worth millions of USD reverse-engineered into API-controllable hardware, dozens of devices orchestrated through complex workflows, full observability on everything that happens in the lab, processing pipelines for messy physical-world data, and AI systems that troubleshoot production results and accelerate assay development. We’re growing rapidly and are hiring for talented people to scale and support the massive demand for AI-driven wet lab experimentation. About the Role You'll work in our biology & production team running protein expression, DNA assembly, and characterization workflows. We run thousands of constructs per week across cell-free and cell-based expression systems, high-throughput DNA synthesis and assembly, and binding/stability characterization (BLI, SPR, enzymatic assays). What You'll Do Run protein expression workflows: cell-free (PURE, lysate-based), E. coli, and potentially mammalian systems. Execute DNA synthesis and assembly protocols at high throughput: PCR, Golden Gate, Gibson. Run binding and characterization assays: BLI, SPR, thermostability, enzyme activity, developability assays. Troubleshoot when proteins don't express, misfold, or aggregate. Prepare reagents, manage samples, and track experiments in LabOS. Analyze experimental data: expression gels, chromatograms, binding curves. Work with the automation team to adapt bench protocols for robotic workflows. What We're Looking For BSc / MSc in molecular biology, biochemistry, or a relevant field. Hands-on bench time matters more than the degree. Practical molecular biology skills: PCR, cloning, gel electrophoresis, DNA purification. You've done these yourself, not just read about them. Protein expression experience. You've expressed recombinant proteins in at least one system and understand the basics. Experience with DNA assembly methods (Golden Gate, Gibson, restriction cloning). High-throughput experience is a plus. Familiarity with biophysical and analytical characterization techniques. We use BLI, SPR, plate reader assays, nanoDSF, HPLC-SEC, and CE-SDS. You don't need all of them, but you should have hands-on experience with at least a few. Comfortable scripting in Python or similar. You don't need to be a software engineer, but you should be able to write a script to parse data, generate plate maps, or automate a repetitive analysis. Organized and precise. Hundreds of constructs per week means you track everything and follow protocols exactly. Strong work ethic. Experiments don't always finish at 6pm. Comfortable in a fast-paced environment where priorities shift and you figure things out yourself. Details Location: Lausanne, Switzerland (on-site) Type: Full time Start date: ASAP Application deadline We are reviewing applicants on a rolling basis. Find Jobs in Switzerland on Arbeitnow",
+   "description": "Adaptyv is building an automated lab that lets AI agents run biology experiments. We're entering the era of agentic science where AI models can now design novel proteins, propose hypotheses, and iterate on experimental results. But they can't run the experiments themselves - that's still a manual, months-long process. We're building the infrastructure that gives AI agents access to the physical world. We are one of the fastest growing biotech companies, trusted by leading biopharmas, frontier AI labs, and the techbio companies pushing the field forward. This is a rare chance to help advance some of the most important work happening in biotech today. Our automated lab is powered by a deep software + hardware stack: lab instruments worth millions of USD reverse-engineered into API-controllable hardware, dozens of devices orchestrated through complex workflows, full observability on everything that happens in the lab, processing pipelines for messy physical-world data, and AI systems that troubleshoot production results and accelerate assay development. We’re growing rapidly and are hiring for talented people to scale and support the massive demand for AI-driven wet lab experimentation. About the Role You'll work in our biology & production team running protein expression, DNA assembly, and characterization workflows. We run thousands of constructs per week across cell-free and cell-based expression systems, high-throughput DNA synthesis and assembly, and binding/stability characterization (BLI, SPR, enzymatic assays). What You'll Do Run protein expression workflows: cell-free (PURE, lysate-based), E. coli, and potentially mammalian systems. Execute DNA synthesis and assembly protocols at high throughput: PCR, Golden Gate, Gibson. Run binding and characterization assays: BLI, SPR, thermostability, enzyme activity, developability assays. Troubleshoot when proteins don't express, misfold, or aggregate. Prepare reagents, manage samples, and track experiments in LabOS. Analyze experimental data: expression gels, chromatograms, binding curves. Work with the automation team to adapt bench protocols for robotic workflows. What We're Looking For BSc / MSc in molecular biology, biochemistry, or a relevant field. Hands-on bench time matters more than the degree. Practical molecular biology skills: PCR, cloning, gel electrophoresis, DNA purification. You've done these yourself, not just read about them. Protein expression experience. You've expressed recombinant proteins in at least one system and understand the basics. Experience with DNA assembly methods (Golden Gate, Gibson, restriction cloning). High-throughput experience is a plus. Familiarity with biophysical and analytical characterization techniques. We use BLI, SPR, plate reader assays, nanoDSF, HPLC-SEC, and CE-SDS. You don't need all of them, but you should have hands-on experience with at least a few. Comfortable scripting in Python or similar. You don't need to be a software engineer, but you should be able to write a script to parse data, generate plate maps, or automate a repetitive analysis. Organized and precise. Hundreds of constructs per week means you track everything and follow protocols exactly. Strong work ethic. Experiments don't always finish at 6pm. Comfortable in a fast-paced environment where priorities shift and you figure things out yourself. Details Location: Lausanne, Switzerland (on-site) Type: Full time Start date: ASAP Application deadline We are reviewing applicants on a rolling basis. Find more English Speaking Jobs in Switzerland on Arbeitnow",
    "url": "https://www.arbeitnow.ch/jobs/companies/adaptyv/research-associate-molecular-biology-lausanne-296308",
    "posted": "2026-10-20T11:40:19+00:00",
    "remote": false,
@@ -1312,7 +1609,7 @@
    "title": "Customer Support Specialist",
    "company": "Ultimate Marketing",
    "location": "Worldwide",
-   "description": "Tags: customer support, Remote Work, Social Media, Communication, Worldwide. Join Our Global Customer Engagement Network Company: Ultimate Marketing LLC Location: Worldwide | Remote Employment Type: Independent Contractor (1099 for eligible U.S. contractors) Compensation: Performance-Based | Payments Every 3 Calendar Days About the Opportunity Ultimate Marketing LLC is expanding its global network of remote professionals to support our brands: Our growing global business ecosystem includes the following brands, platforms, and specialized services: Direct Acquisitionsâ¢ Tokenized Fundingâ¢ Perfect Data Directâ¢ Cybersecurity & Compliance Juris Audit on-Demandâ¢ Insights by PDDâ¢ Web4Comâ¢ (Web4â¢) Together, these initiatives support business acquisitions, financial innovation, digital infrastructure, cybersecurity, regulatory compliance, and global business development. We are seeking motivated individuals interested in customer engagement, digital communications, business development, and online support opportunities. Our growing business ecosystem includes business acquisitions, digital technology, cybersecurity, compliance, and innovative financial solutions. This opportunity provides flexibility (your time zone), remote participation, and performance-based earning potential. Responsibilities Engage through social media (no calls, emailing, or meetings)with prospective customers and business contacts. Respond to inquiries and provide helpful information. Introduce interested individuals to relevant company services. Support digital outreach and customer engagement activities. Direct prospective customers to appropriate online resources. Maintain professional communication and accurate activity records. Compensation & Payment Schedule This is a 1099 independent contractor opportunity with performance-based compensation. This is not commission-based pay but does include exciting bonuses.Â Compensation includes two earning opportunities: Individual Performance Bonuses: Earn bonuses based on verified, qualifying individual activities and results. Worldwide Network Share Bonuses: A designated percentage of qualifying worldwide network earnings is distributed among eligible team members, providing additional earning opportunities through collective performance. Payments are processed every three calendar days for verified, qualifying results, according to the compensation agreement. Qualifications Strong written communication skills. Reliable internet access. Ability to work independently. Basic familiarity with online communication tools. Professional attitude and attention to detail. Customer service or digital marketing experience is helpful. Special Requirements â 15-Minute Skills Demonstration Applicants will participate in a brief, 15-minute interactive skills demonstration. This is not a pass-or-fail examination. Instead, it helps us understand your communication abilities, social media experience, and individual strengths. During the session, applicants will demonstrate three types of social media engagement: Engagement: Respond professionally to a social media post. Communication: Demonstrate how to introduce Ultimate Marketing's brands. Customer Support: Respond to a customer inquiry. Our objective is to identify your strengths and provide appropriate paid training, guidance, and opportunities for professional development. Why Join Us? Work remotely Flexible scheduling Bonus earning potential Milestone Incentives Home Office Stipend Career Advancement Internship Opportunities Relocation Opportunities Apply Today Visit our Careers page to learn about available opportunities and submit your application. Ultimate Marketing LLC â Building Opportunities Across Borders. Please mention the word **BENEFICIALLY** and tag RMTM1LjExOS4xMDguNTk= when applying to show you read the job post completely (#RMTM1LjExOS4xMDguNTk=). This is a beta feature to avoid spam applicants. Companies can search these words to find applican",
+   "description": "Tags: customer support, Remote Work, Social Media, Communication, Worldwide. Join Our Global Customer Engagement Network Company: Ultimate Marketing LLC Location: Worldwide | Remote Employment Type: Independent Contractor (1099 for eligible U.S. contractors) Compensation: Performance-Based | Payments Every 3 Calendar Days About the Opportunity Ultimate Marketing LLC is expanding its global network of remote professionals to support our brands: Our growing global business ecosystem includes the following brands, platforms, and specialized services: Direct Acquisitionsâ¢ Tokenized Fundingâ¢ Perfect Data Directâ¢ Cybersecurity & Compliance Juris Audit on-Demandâ¢ Insights by PDDâ¢ Web4Comâ¢ (Web4â¢) Together, these initiatives support business acquisitions, financial innovation, digital infrastructure, cybersecurity, regulatory compliance, and global business development. We are seeking motivated individuals interested in customer engagement, digital communications, business development, and online support opportunities. Our growing business ecosystem includes business acquisitions, digital technology, cybersecurity, compliance, and innovative financial solutions. This opportunity provides flexibility (your time zone), remote participation, and performance-based earning potential. Responsibilities Engage through social media (no calls, emailing, or meetings)with prospective customers and business contacts. Respond to inquiries and provide helpful information. Introduce interested individuals to relevant company services. Support digital outreach and customer engagement activities. Direct prospective customers to appropriate online resources. Maintain professional communication and accurate activity records. Compensation & Payment Schedule This is a 1099 independent contractor opportunity with performance-based compensation. This is not commission-based pay but does include exciting bonuses.Â Compensation includes two earning opportunities: Individual Performance Bonuses: Earn bonuses based on verified, qualifying individual activities and results. Worldwide Network Share Bonuses: A designated percentage of qualifying worldwide network earnings is distributed among eligible team members, providing additional earning opportunities through collective performance. Payments are processed every three calendar days for verified, qualifying results, according to the compensation agreement. Qualifications Strong written communication skills. Reliable internet access. Ability to work independently. Basic familiarity with online communication tools. Professional attitude and attention to detail. Customer service or digital marketing experience is helpful. Special Requirements â 15-Minute Skills Demonstration Applicants will participate in a brief, 15-minute interactive skills demonstration. This is not a pass-or-fail examination. Instead, it helps us understand your communication abilities, social media experience, and individual strengths. During the session, applicants will demonstrate three types of social media engagement: Engagement: Respond professionally to a social media post. Communication: Demonstrate how to introduce Ultimate Marketing's brands. Customer Support: Respond to a customer inquiry. Our objective is to identify your strengths and provide appropriate paid training, guidance, and opportunities for professional development. Why Join Us? Work remotely Flexible scheduling Bonus earning potential Milestone Incentives Home Office Stipend Career Advancement Internship Opportunities Relocation Opportunities Apply Today Visit our Careers page to learn about available opportunities and submit your application. Ultimate Marketing LLC â Building Opportunities Across Borders. Please mention the word **BENEFICIALLY** and tag RNTIuMjQyLjIyMS4yNDQ= when applying to show you read the job post completely (#RNTIuMjQyLjIyMS4yNDQ=). This is a beta feature to avoid spam applicants. Companies can search these words to find applican",
    "url": "https://remoteOK.com/remote-jobs/remote-customer-support-specialist-ultimate-marketing-1137512",
    "posted": "2026-10-14T01:31:49+00:00",
    "remote": true,
