@@ -56,7 +56,13 @@
    "azure": 1,
    "aws": 1,
    "vue": 1,
-   "firebase": 1
+   "firebase": 1,
+   "php": 3,
+   "laravel": 3,
+   "mysql": 2,
+   "express": 1,
+   "jwt": 1,
+   "hr access": 1
   },
   "junior_terms": [
    "junior",
