@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-25T10:13:35.035910+00:00",
+ "generated": "2026-10-25T11:07:31.407817+00:00",
  "health": {
   "arbeitnow": "ok (900)",
   "jobtech_sweden": "ok (15)",
   "remotive": "ok (10)",
   "jobicy": "ok (50)",
   "jooble": "FAILED: RuntimeError: JOOBLE_KEY not set (free key at jooble.org/api/about)",
-  "adzuna": "ok (70)",
+  "adzuna": "FAILED: HTTPError: HTTP Error 503: Service Temporarily Unavailable",
   "keejob": "ok (38)",
   "remoteok": "ok (99)",
   "ats": "ok (81)",
   "jsearch": "FAILED: HTTPError: HTTP Error 404: Not Found"
  },
- "total_fetched": 1263,
+ "total_fetched": 1193,
  "jobs": [
   {
    "source": "arbeitnow",
@@ -34,6 +34,26 @@
    ],
    "region": "europe",
    "first_seen": "2026-10-25T10:13:35.035910+00:00"
+  },
+  {
+   "source": "arbeitnow",
+   "src_id": "junior-full-stack-engineer-london-143121",
+   "title": "Junior Full Stack Engineer",
+   "company": "Bloom & Wild Group",
+   "location": "London",
+   "description": "📍 Location: UK or Netherlands 🛠️ Tech stack: Ruby, Angular, TypeScript, SASS, design system, Contentful, GitHub Actions 🎯 Focus: hands-on full stack product work, with room to grow into frontend About Tech at Bloom & Wild Group 🌸 We're Europe's largest direct-to-consumer flower and gifting business (Bloom & Wild, bloomon and Bergamotte). Our Tech team builds the software behind the shops, warehouses and delivery. The P&L squad is hiring a Junior Full Stack Engineer who will spend their time building in the product and learning from experienced engineers. You can read more about the stack and how we work on our tech blog, Code & Wild. The Role You will work across our Ruby backend and our multi-brand Angular and TypeScript frontend, scoping what to build and how with engineers, designers and product managers, and growing your career in a supportive engineering culture. Key responsibilities: Full stack features: Help deliver the squad roadmap by building features across Ruby services and our Angular and TypeScript apps, from brief to something a customer can use. Quality in the pages you touch: Accessibility, states, performance, tests and scripts, using the shared design system. Ownership: Take features from ideation through to production release and ongoing maintenance, iterating to validate ideas and learn. Everyday AI: Use authorised coding tools to speed up repetitive work, and check what they produce before it ships. What We're Looking For Ruby and scripting: Some hands-on Ruby, a love of scripting, and curiosity about how our platform and APIs work. Personal projects, bootcamps and internships all count. Web fundamentals: Semantic HTML, accessibility, CSS (Flexbox, the Box Model) and modern JavaScript. Angular is our stack; Angular, React or Vue experience is a bonus. Growth and teamwork: You want coaching, value diverse and inclusive teams, and care about writing clean, secure code. AI in the workflow: Comfortable using AI tools such as Claude or Cursor, and able to say when you used them and why. This role would be a good fit for an early-career engineer, who leans towards backend and wants to grow into full stack. Don't check every box? Please apply anyway. We hire for potential and different perspectives over an exhaustive checklist. Perks & Benefits ✨ Flexibility: hybrid working plus the option to work from abroad. 🌴 Time off: 25 days holiday + your birthday + flexible bank holidays (option to buy extra days) + a volunteering day. 🌱 Growth & support: a training framework, ClassPass, and generous product discounts How We Hire An initial chat with Chloe from Talent Acquisition A 30-minute interview with our Engineering Manager (the hiring manager for this role) A technical / cultural session where you meet more of the team And a 30-minute final conversation with our Engineering Director Need interview adjustments? Tell us in your application - we are more than happy to support you however we can. Find more English Speaking Jobs in United Kingdom on Arbeitnow",
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/bloom-wild-group/junior-full-stack-engineer-london-143121",
+   "posted": "2026-10-25T03:07:32+00:00",
+   "remote": false,
+   "id": "f70f4056ddea0a2d",
+   "score": 90,
+   "why": [
+    "title",
+    "skills: react, angular, typescript, github actions, ai, vue",
+    "junior-friendly"
+   ],
+   "region": "europe",
+   "first_seen": "2026-10-25T11:07:31.407817+00:00"
   },
   {
    "source": "jobtech",
@@ -95,25 +115,6 @@
   },
   {
    "source": "arbeitnow",
-   "src_id": "devsecops-engineer-final-year-internship-stage-pfe-paris-157315",
-   "title": "DevSecOps Engineer - Final year Internship - Stage PFE",
-   "company": "Escape",
-   "location": "Paris Office",
-   "description": "DevSecOps Engineer Intern - Final-Year Internship 2027 📍 Paris, France | 6-month internship | Start date: 2027 Join Escape Technologies’ DevSecOps team and help shape the infrastructure behind our AI cybersecurity platform. As an intern, you’ll collaborate with experienced engineers, strengthen your technical skills, and make an impact on projects spanning cloud infrastructure, automation, and security. What You’ll Work On Cloud & Infrastructure: Contribute to enhancing our AWS infrastructure and assist in deploying containerized applications using Docker and Kubernetes. Automation & CI/CD: Support GitLab CI pipeline development and infrastructure management with Terraform. Security: Integrate automated security checks, implement vulnerability scanning, and improve secrets management within our development workflows. Monitoring & Reliability: Boost observability with Grafana and Prometheus, and help troubleshoot technical issues. Development: Write scripts and backend tools in Python, TypeScript, or Go. You’ll receive guidance from Quentin, our DevSecOps Tech Lead, and take on increasing responsibility as you progress. About You Final-year student pursuing a masters degree in computer science, cybersecurity, or a related field Solid understanding of Linux, Git, networking, and at least one programming language Hands-on experience with Docker, cloud infrastructure, or CI/CD (via coursework, personal projects, or internships) Interested in security, adept at troubleshooting, and proactive in seeking help when needed Effective communicator in English Bonus: Experience with AWS, Kubernetes, Terraform, or monitoring tools. Personal projects, open source contributions, and homelabs are a big plus! Internship Requirements - Please Check Before Applying Six-month, final-year internship (stage de fin d’études) commencing in 2027 Enrolled in a school/university able to provide a valid internship agreement (convention de stage) for the full duration Available to work onsite at our Paris office Eligible to undertake an internship in France by your start date Our Recruitment Process 30-minute HR conversation 1-hour live coding exercise with Quentin 1-hour technical discussion with Engineering leadership 1.5-hour final meeting with the team and founders Ready to launch your DevSecOps career at the intersection of AI and cybersecurity? Apply now and help us secure the future! Find Jobs in France on Arbeitnow",
-   "url": "https://www.arbeitnow.fr/jobs/companies/escape/devsecops-engineer-final-year-internship-stage-pfe-paris-157315",
-   "posted": "2026-10-22T23:40:18+00:00",
-   "remote": false,
-   "id": "68f10621f21c58df",
-   "score": 70,
-   "why": [
-    "skills: typescript, python, docker, ci/cd, ai, aws",
-    "junior-friendly"
-   ],
-   "region": "europe",
-   "first_seen": "2026-10-23T11:23:36.456769+00:00"
-  },
-  {
-   "source": "arbeitnow",
    "src_id": "software-engineer-fullstack-kotlin-react-paris-paris-235143",
    "title": "Software Engineer Fullstack Kotlin / React (x/f/m)",
    "company": "Doctolib",
@@ -137,7 +138,7 @@
    "title": "Junior AI Application Engineer – AI Products (LLM & RAG) (m/f/d)",
    "company": "Machine Learning Reply",
    "location": "Munich",
-   "description": "Bei Machine Learning Reply unterstützen wir Unternehmen dabei, modernste AI-Technologien in reale Anwendungen und skalierbare digitale Produkte zu verwandeln. Zur Verstärkung unseres Teams suchen wir einen Junior AI Application Engineer, der Freude daran hat, AI-powered solutions und intelligente Produkt-Features mit Hilfe von modernen Machine Learning und Generative AI Technologien zu entwickeln. Während sich unsere GenAI Engineers auf die Modellentwicklung und AI-Architekturen konzentrieren, liegt der Fokus der AI Application Engineers auf der Entwicklung nutzerzentrierter AI-Applications und der Überführung von AI-Capabilities in skalierbare Produkte. In dieser Rolle arbeitest du an der Schnittstelle von AI Engineering, Backend Development, Produktentwicklung und Cloud Deployment, um produktionsreife AI-Systeme zu bauen, die echten geschäftlichen Mehrwert schaffen. Aufgaben Als Junior AI Application Engineer (m/w/d) entwirfst und entwickelst du KI-gestützte Anwendungen und Produktfunktionen für Unternehmenskunden. Zu deinen Aufgaben gehören: Konzeption und Entwicklung von KI-Anwendungen wie Enterprise-Assistenten, Copiloten, semantischen Suchplattformen und Automatisierungssystemen Unterstützung bei der Entwicklung von LLM-basierten Lösungen (inkl. RAG) sowie End-to-End-KI-Produkten unter Integration von APIs, Unternehmensdaten und Backend-Services Aufbau skalierbarer KI-Microservices, APIs sowie Vektorsuche-, Embedding- und Retrieval-Systeme Schnelles Prototyping von KI-Features und deren Weiterentwicklung zu produktiven Systemen Enge Zusammenarbeit mit Produktmanagern, Designern, KI-Ingenieuren und Kunden zur Entwicklung wirkungsvoller Lösungen Deployment von KI-Systemen in Cloud- und Produktionsumgebungen unter Nutzung moderner DevOps-Praktiken Sicherstellung von Zuverlässigkeit, Skalierbarkeit und Observability durch CI/CD, Monitoring und containerisierte Deployments Benefits HYBRIDES ARBEITEN FIRMEN EVENTS EXPERTEN NETZWERK ZERTIFIZIERUNGEN Regelmäßige und systematische (externe und interne) Weiterbildungsmöglichkeiten in den Bereichen Generative AI, LLM-Entwicklung, Cloud-Architektur und Data Science Arbeit in einer offenen, flachen Umgebung , innerhalb eines breiten Reply-Netzwerks zum Wissensaustausch Preisgekrönte Büroräume in der Münchner Innenstadt mit Zugang zur Stammstrecke Fahrkarte für öffentliche Verkehrsmittel mit Deutschlandticket Beteiligung an deinen sportlichen Aktivitäten über den EGYM Wellpass und weitere Benefits der Reply Gruppe Flexible Arbeitsumgebung zwischen Kunden, Reply-Büro und Remote-Arbeit Anforderungen Abgeschlossenes Studium in Informatik, Software Engineering, Data Science oder einem vergleichbaren technischen Bereich Programmierkenntnisse in Python und modernen Backend-Frameworks sowie Erfahrung mit KI-, Machine-Learning- und generativen KI-Anwendungen Erste Erfahrung in der Entwicklung skalierbarer Backend-Systeme, APIs und Microservices sowie Kenntnisse in RAG , Vektordatenbanken und Retrieval-Technologien Praxis in Containerisierung und DevOps (z. B. Docker, CI/CD, Kubernetes) sowie Deployment von KI-Services in Cloud-Umgebungen (AWS, Azure, GCP) Berührungspunkte mit relevanten Frameworks (z. B. LangChain, LlamaIndex, Hugging Face) Kenntnisse in Monitoring, Observability sowie Evaluation und Optimierung von LLM-Systemen Sehr gute Deutsch- und Englischkenntnisse für Workshops und Kommunikation Beispielprojekte, an denen du arbeiten könntest Enterprise AI Knowledge Assistants AI Copilots für interne Business-Tools Semantic Search Plattformen für Unternehmensdaten Document Intelligence Systeme auf Basis von LLMs AI Agents und Automatisierungssysteme für Enterprise Workflows Find Jobs in Germany on Arbeitnow",
+   "description": "Bei Machine Learning Reply unterstützen wir Unternehmen dabei, modernste AI-Technologien in reale Anwendungen und skalierbare digitale Produkte zu verwandeln. Zur Verstärkung unseres Teams suchen wir einen Junior AI Application Engineer, der Freude daran hat, AI-powered solutions und intelligente Produkt-Features mit Hilfe von modernen Machine Learning und Generative AI Technologien zu entwickeln. Während sich unsere GenAI Engineers auf die Modellentwicklung und AI-Architekturen konzentrieren, liegt der Fokus der AI Application Engineers auf der Entwicklung nutzerzentrierter AI-Applications und der Überführung von AI-Capabilities in skalierbare Produkte. In dieser Rolle arbeitest du an der Schnittstelle von AI Engineering, Backend Development, Produktentwicklung und Cloud Deployment, um produktionsreife AI-Systeme zu bauen, die echten geschäftlichen Mehrwert schaffen. Aufgaben Als Junior AI Application Engineer (m/w/d) entwirfst und entwickelst du KI-gestützte Anwendungen und Produktfunktionen für Unternehmenskunden. Zu deinen Aufgaben gehören: Konzeption und Entwicklung von KI-Anwendungen wie Enterprise-Assistenten, Copiloten, semantischen Suchplattformen und Automatisierungssystemen Unterstützung bei der Entwicklung von LLM-basierten Lösungen (inkl. RAG) sowie End-to-End-KI-Produkten unter Integration von APIs, Unternehmensdaten und Backend-Services Aufbau skalierbarer KI-Microservices, APIs sowie Vektorsuche-, Embedding- und Retrieval-Systeme Schnelles Prototyping von KI-Features und deren Weiterentwicklung zu produktiven Systemen Enge Zusammenarbeit mit Produktmanagern, Designern, KI-Ingenieuren und Kunden zur Entwicklung wirkungsvoller Lösungen Deployment von KI-Systemen in Cloud- und Produktionsumgebungen unter Nutzung moderner DevOps-Praktiken Sicherstellung von Zuverlässigkeit, Skalierbarkeit und Observability durch CI/CD, Monitoring und containerisierte Deployments Benefits HYBRIDES ARBEITEN FIRMEN EVENTS EXPERTEN NETZWERK ZERTIFIZIERUNGEN Regelmäßige und systematische (externe und interne) Weiterbildungsmöglichkeiten in den Bereichen Generative AI, LLM-Entwicklung, Cloud-Architektur und Data Science Arbeit in einer offenen, flachen Umgebung , innerhalb eines breiten Reply-Netzwerks zum Wissensaustausch Preisgekrönte Büroräume in der Münchner Innenstadt mit Zugang zur Stammstrecke Fahrkarte für öffentliche Verkehrsmittel mit Deutschlandticket Beteiligung an deinen sportlichen Aktivitäten über den EGYM Wellpass und weitere Benefits der Reply Gruppe Flexible Arbeitsumgebung zwischen Kunden, Reply-Büro und Remote-Arbeit Anforderungen Abgeschlossenes Studium in Informatik, Software Engineering, Data Science oder einem vergleichbaren technischen Bereich Programmierkenntnisse in Python und modernen Backend-Frameworks sowie Erfahrung mit KI-, Machine-Learning- und generativen KI-Anwendungen Erste Erfahrung in der Entwicklung skalierbarer Backend-Systeme, APIs und Microservices sowie Kenntnisse in RAG , Vektordatenbanken und Retrieval-Technologien Praxis in Containerisierung und DevOps (z. B. Docker, CI/CD, Kubernetes) sowie Deployment von KI-Services in Cloud-Umgebungen (AWS, Azure, GCP) Berührungspunkte mit relevanten Frameworks (z. B. LangChain, LlamaIndex, Hugging Face) Kenntnisse in Monitoring, Observability sowie Evaluation und Optimierung von LLM-Systemen Sehr gute Deutsch- und Englischkenntnisse für Workshops und Kommunikation Beispielprojekte, an denen du arbeiten könntest Enterprise AI Knowledge Assistants AI Copilots für interne Business-Tools Semantic Search Plattformen für Unternehmensdaten Document Intelligence Systeme auf Basis von LLMs AI Agents und Automatisierungssysteme für Enterprise Workflows Find more English Speaking Jobs in Germany on Arbeitnow",
    "url": "https://www.arbeitnow.com/jobs/companies/machine-learning-reply/junior-ai-application-engineer-ai-products-llm-rag-munich-5253",
    "posted": "2026-10-23T19:20:12+00:00",
    "remote": false,
@@ -156,7 +157,7 @@
    "title": "Full-Stack Engineer — AI Authoring Platform",
    "company": "Tracium GmbH",
    "location": "Berlin",
-   "description": "About Tracium https://www.linkedin.com/company/tracium/ Tracium builds AI-assisted technical documentation software for teams working with complex manuals and engineering information. Our platform combines document intelligence with S1000D authoring, initially serving maritime use cases. We want technical authors to spend less time managing document complexity and more time producing accurate, useful information. Your role You will turn our AI and document processing capabilities into a product that technical authors and engineers can use confidently. You will work across the authoring interface, backend services, and integrations. What you’ll do Build an intuitive editor that lets users create structured technical documentation without working directly with XML tags. Develop interfaces for reviewing extracted information and AI suggestions alongside their sources. Create workflows for editing, validation, version comparison, and document export. Build backend APIs and integrate document processing and AI services. Implement access controls, audit history, and reliable handling of long-running tasks. Improve responsiveness and performance when working with large documents. Work closely with the founders and domain experts to translate feedback into product improvements. What you bring Experience shipping and maintaining production web applications. Strong TypeScript and React skills, or experience with a comparable modern frontend framework. Backend development experience with Python or Node.js. Experience designing APIs and working with relational databases. A practical approach to testing, security, accessibility, and maintainable code. An interest in making complex workflows straightforward for users. Clear communication in English. Useful additional experience Rich-text editors, structured content, or collaborative editing. XML, document standards. AI interfaces, document viewers, or enterprise software. Why join Tracium? Take ownership of meaningful product features, work directly with the founders, and shape how people interact with AI-assisted technical documentation. Follow our journey Follow Tracium on LinkedIn https://www.linkedin.com/company/tracium/ for product updates, engineering insights, and future opportunities. Apply Send your CV or professional profile and examples of applications you have built. Tell us which parts you owned and one product or engineering decision you are proud of. We welcome applicants of all backgrounds. You do not need to meet every listed requirement to apply. Find Jobs in Germany on Arbeitnow",
+   "description": "About Tracium https://www.linkedin.com/company/tracium/ Tracium builds AI-assisted technical documentation software for teams working with complex manuals and engineering information. Our platform combines document intelligence with S1000D authoring, initially serving maritime use cases. We want technical authors to spend less time managing document complexity and more time producing accurate, useful information. Your role You will turn our AI and document processing capabilities into a product that technical authors and engineers can use confidently. You will work across the authoring interface, backend services, and integrations. What you’ll do Build an intuitive editor that lets users create structured technical documentation without working directly with XML tags. Develop interfaces for reviewing extracted information and AI suggestions alongside their sources. Create workflows for editing, validation, version comparison, and document export. Build backend APIs and integrate document processing and AI services. Implement access controls, audit history, and reliable handling of long-running tasks. Improve responsiveness and performance when working with large documents. Work closely with the founders and domain experts to translate feedback into product improvements. What you bring Experience shipping and maintaining production web applications. Strong TypeScript and React skills, or experience with a comparable modern frontend framework. Backend development experience with Python or Node.js. Experience designing APIs and working with relational databases. A practical approach to testing, security, accessibility, and maintainable code. An interest in making complex workflows straightforward for users. Clear communication in English. Useful additional experience Rich-text editors, structured content, or collaborative editing. XML, document standards. AI interfaces, document viewers, or enterprise software. Why join Tracium? Take ownership of meaningful product features, work directly with the founders, and shape how people interact with AI-assisted technical documentation. Follow our journey Follow Tracium on LinkedIn https://www.linkedin.com/company/tracium/ for product updates, engineering insights, and future opportunities. Apply Send your CV or professional profile and examples of applications you have built. Tell us which parts you owned and one product or engineering decision you are proud of. We welcome applicants of all backgrounds. You do not need to meet every listed requirement to apply. Find more English Speaking Jobs in Germany on Arbeitnow",
    "url": "https://www.arbeitnow.com/jobs/companies/tracium-gmbh/full-stack-engineer-ai-authoring-platform-berlin-234521",
    "posted": "2026-10-24T14:00:46+00:00",
    "remote": true,
@@ -189,64 +190,45 @@
    "first_seen": "2026-10-25T10:13:35.035910+00:00"
   },
   {
-   "source": "adzuna",
-   "src_id": "5936877770",
-   "title": "Graduate Academy – Full Stack & AI Assisted Development",
-   "company": "DXC Technology",
-   "location": "Italia, IT",
-   "description": "Job Description: DXC Technology is looking for recent graduates to join our Custom Applications offering through a dedicated Academy designed to develop technical skills in Full Stack and AI-assisted software development. The Academy includes 22 days training program covering the main Full Stack development technologies, from Java and Spring Boot to databases, REST APIs and React , together with the fundamentals of Agile Scrum . During the training, you will also learn how to use GitHub Copilot…",
-   "url": "https://www.adzuna.it/details/5936877770?utm_medium=api&utm_source=04d4f8bc",
-   "posted": "2026-10-21T18:43:47+00:00",
+   "source": "arbeitnow",
+   "src_id": "graduate-structures-engineer-germany-279752",
+   "title": "Graduate Structures Engineer",
+   "company": "Stealthrocketrystartup",
+   "location": "Germany",
+   "description": "We are looking for a Graduate / Junior StructuresEngineer to begin your career in rocket structures and grow quickly through hands-on responsibility. You will have the opportunity to develop across design, analysis, manufacturing, materials, and testing while working closely with experienced structural engineers. This role is designed for someone curious, practical, and eager to contribute wherever the team needs support. You will work with real hardware from day one and take on increasing ownership as your strengths and experience develop. About us We’re a Germany-based rocketry startup currently in stealth mode, scaling up rapidly to meet the demand for high-performance, reliable, and scalable solid propulsion technologies for space and defense applications. We are already launching suborbital and ballistic rockets on a regular basis, have just crossed €10m in revenue for our first operating year and are applying our knowledge toward the development of an orbital rocket. We are working hard to build something truly spectacular. To thrive here you will need to be comfortable working at pace, with the autonomy to make decisions and execute on them quickly. If you’re excited by hard technical challenges and want a role where you will make a real difference each day to the future of the company, we may be the place for you. At our company, job titles and career progression are earned, not determined by years of experience alone. They reflect the responsibility you take on and the dedication you bring to each project. If you’re ready to rise to the challenge, we’d love to hear from you. Key responsibilities Support the engineering of rocket structures, from geometry and modelling through to calculation and evaluation using CAD and FEA. Gain hands-on experience manufacturing and prototyping composite hardware using filament-winding machines and curing equipment. Help prepare and conduct structural tests and material-characterisation activities, including tensile testing, DSC, and microscopy. Process engineering data and automate repetitive tasks using Python where useful. Document methods, results, and technical decisions clearly. Work closely with senior engineers and take on increasing ownership as your skills develop. What we are looking for A Bachelor’s or Master’s degree in aerospace, mechanical, structural, or materials engineering, or a Master’s degree currently in progress. A solid foundation in structural mechanics, materials science, or manufacturing processes. Hands-on experience from a student engineering team, particularly in rocketry, Formula Student, aerospace, or a similar practical environment. Genuine curiosity and a practical, quality-conscious mindset. Fluent English. The ability to learn quickly, work collaboratively, and contribute across design, analysis, manufacturing, and testing. Desirable experience Composite materials, filament winding, curing, or structural testing. CAD or FEA work through academic, personal, or extracurricular projects. Basic Python scripting for data processing or task automation. Working proficiency in German. Benefits and important information: We offer top-decile compensation packages, bonuses and meaningful equity, to attract exceptional aerospace talent. Every employee is awarded stock options in the company, you will directly benefit from your own hard work and success. Comprehensive relocation support including flights, shipping and visas. Lunch, dinner and drinks provided everyday Free access to shared company housing Please note, we are a fast paced, hyper-scaling startup. You will need to be comfortable working extended hours with high levels of autonomy, ownership, and flexibility, with contracts structured around a 48-hour working week. We are committed to building an equitable and inclusive workplace where everyone feels valued, has equal access to opportunity, and can thrive. We welcome different perspectives, backgrounds, and experiences—and believe our differences mak",
+   "url": "https://www.arbeitnow.com/jobs/companies/stealthrocketrystartup/graduate-structures-engineer-germany-279752",
+   "posted": "2026-10-24T20:40:15+00:00",
    "remote": false,
-   "id": "f02af55a9e83a26f",
+   "id": "4d29e20c64f00e71",
    "score": 68,
    "why": [
     "title",
-    "skills: react, java, rest, ai",
-    "junior-friendly"
+    "skills: python",
+    "junior-friendly",
+    "visa/relocation"
    ],
-   "region": "other",
-   "first_seen": "2026-10-22T11:34:08.378438+00:00"
+   "region": "europe",
+   "first_seen": "2026-10-25T11:07:31.407817+00:00"
   },
   {
-   "source": "adzuna",
-   "src_id": "5938149653",
-   "title": "Graduate Academy – Full Stack & AI Assisted Development",
-   "company": "DXC Technology",
-   "location": "Bari, Provincia di Bari, IT",
-   "description": "Job Description: DXC Technology is looking for recent graduates to join our Custom Applications offering through a dedicated Academy designed to develop technical skills in Full Stack and AI-assisted software development. The Academy includes 22 days training program covering the main Full Stack development technologies, from Java and Spring Boot to databases, REST APIs and React , together with the fundamentals of Agile Scrum . During the training, you will also learn how to use GitHub Copilot…",
-   "url": "https://www.adzuna.it/details/5938149653?utm_medium=api&utm_source=04d4f8bc",
-   "posted": "2026-10-22T17:56:58+00:00",
+   "source": "arbeitnow",
+   "src_id": "ai-engineer-tech-stagaire-rotterdam-484113",
+   "title": "AI Engineer - Tech Stagaire",
+   "company": "Surf Agency",
+   "location": "Rotterdam",
+   "description": "Voor deze rol is Nederlands spreken een vereiste. Wil jij de \"koffie halen\" stage overslaan en direct verantwoordelijkheden krijgen bij een snelgroeiende AI-agency? Bij Surf Agency ben je geen stagiair die een beetje mag meekijken. Je krijgt verantwoordelijkheden die normaal gesproken bij een CTO liggen: van het ontwerpen van schaalbare AI-infrastructuren tot het bouwen van complexe agents die het verschil maken voor klanten. Wij zoeken een ambitieuze technische student die onze tech naar een nieuw niveau brengt! Locatie : Rotterdam Dienstverband : 24-40 uur. Waarvan minimaal 3 dagen op kantoor Vergoeding : Basisvergoeding Startdatum : In overleg Wie zijn wij? Wij zijn Surf Agency, een AI-agency uit Rotterdam met één missie: Nederlandse bedrijven efficiënter maken door AI op een praktische manier te implementeren. Wij kijken met een bedrijfskundige blik naar processen: we analyseren eerst de manier van werken van een bedrijf en maken daarna pas de vertaalslag naar AI. Op die manier slaan wij de brug tussen de nieuwste AI-technologie en het bedrijfsleven. Lees meer op de “over ons” pagina. Onze cultuur Sinds onze start in mei 2025 groeien we hard en bouwen we aan een jonge, dynamische cultuur. Bij Surf Agency vind je geen ‘zesjes-mentaliteit’; wij streven altijd naar het allerbeste resultaat waar we zelf trots op kunnen zijn. Pioniers : We brengen een frisse, jonge blik en dagen de gevestigde orde uit door dingen op onze eigen manier te doen Ondernemend: We bieden een plek waar je de vrijheid hebt om te ondernemen en mee te bouwen aan een bedrijf in de meest spannende sector van dit moment. Inclusief & Open : Een plek waar je kunt groeien, verantwoordelijkheden krijgt en kunt leren. Fun & Play : Hard werken is de standaard, maar de balans met plezier is cruciaal; onze vrijmibo’s in Rotterdam zijn daar een vast onderdeel van. Taken Je takenpakket is breed en biedt veel verantwoordelijkheid, waarbij prioriteiten in overleg worden bepaald en er ruimte is om te werken aan onderwerpen die jou interesseren. AI Solutions: Het bouwen en implementeren van maatwerk AI-oplossingen voor diverse klanten. Dit doen we via de nieuwste Claude en Codex modellen. Agent Development: Het ontwikkelen van zowel interne als externe AI-agents die complexe bedrijfsprocessen automatiseren. R&D: Samenwerken met partners aan het lokaal draaien van LLM’s en het optimaliseren van onze cloud-infrastructuur en databases met bijvoorbeeld Supabase. Verder biedt deze stage mogelijkheden om door te groeien naar werkstudent of fulltime functie. Wat zoeken wij? Wij zoeken iemand die wil bijdragen aan productieklare AI-oplossingen en graag zelf bijleert over nieuwe mogelijkheden met AI. Jij herkent je in minimaal 2 van deze profielen: Programmeerkennis: Kennis over Python en/of JavaScript. Ervaring met coderen met AI is een pré. Database : Kennis van databases zoals PostgreSQL en Supabase. AI/ML : Kennis van LangChain, RAG-oplossingen en complexe LLM-integraties. Vereisten Wie ben jij? Ondernemend : Je bent een zelfstarter die kansen ziet en pakt. HBO/WO-student : Je hebt al enige ervaring in het AI-landschap Ambitieus : Je wilt meebouwen aan een snelgroeiende start-up. Proactief : Je wacht niet af tot anderen je een opdracht geven, maar kan je eigen taken prioriteren en uitvoeren. Tech-savvy : Je volgt de razendsnelle ontwikkelingen in AI op de voet en kunt deze vertalen naar code. Leergierig : Altijd open om nieuwe skills te leren. Je spreekt Nederlands. Interesse? Stuur je CV en een korte motivatie. Heb je vragen? Stuur gerust een berichtje! Find more English Speaking Jobs in Netherlands on Arbeitnow",
+   "url": "https://www.arbeitnow.nl/jobs/companies/surf-agency/ai-engineer-tech-stagaire-rotterdam-484113",
+   "posted": "2026-10-25T09:00:55+00:00",
    "remote": false,
-   "id": "8e50e2ddbaf850e5",
+   "id": "c2421806111183a1",
    "score": 68,
    "why": [
     "title",
-    "skills: react, java, rest, ai",
+    "skills: python, postgresql, llm, ai",
     "junior-friendly"
    ],
    "region": "other",
-   "first_seen": "2026-10-23T11:23:36.456769+00:00"
-  },
-  {
-   "source": "adzuna",
-   "src_id": "5938149695",
-   "title": "Graduate Academy – Full Stack & AI Assisted Development",
-   "company": "DXC Technology",
-   "location": "Roma, Provincia di Roma, IT",
-   "description": "Job Description: DXC Technology is looking for recent graduates to join our Custom Applications offering through a dedicated Academy designed to develop technical skills in Full Stack and AI-assisted software development. The Academy includes 22 days training program covering the main Full Stack development technologies, from Java and Spring Boot to databases, REST APIs and React , together with the fundamentals of Agile Scrum . During the training, you will also learn how to use GitHub Copilot…",
-   "url": "https://www.adzuna.it/details/5938149695?utm_medium=api&utm_source=04d4f8bc",
-   "posted": "2026-10-22T17:56:59+00:00",
-   "remote": false,
-   "id": "b70ea438348b91cb",
-   "score": 68,
-   "why": [
-    "title",
-    "skills: react, java, rest, ai",
-    "junior-friendly"
-   ],
-   "region": "other",
-   "first_seen": "2026-10-23T11:23:36.456769+00:00"
+   "first_seen": "2026-10-25T11:07:31.407817+00:00"
   },
   {
    "source": "arbeitnow",
@@ -273,7 +255,7 @@
    "title": "Frontend Developer Intern",
    "company": "ParetoLabs",
    "location": "Zürich",
-   "description": "ParetoLabs is looking for a motivated and passionate Frontend Developer Intern with a love for building great user interfaces to join our growing team. As part of our dynamic team, you will build the interfaces people use to work with our AI-driven applications. You will gain hands-on experience in designing, developing, testing, and shipping web applications for clients across a wide range of industries. About ParetoLabs ParetoLabs is a Zurich-based software studio that develops customized, AI-powered applications for conversational and text-processing use cases. We help companies quickly test, implement, and scale AI applications within their specific business environments. Founded in 2023, ParetoLabs is a Microsoft for Startups partner that combines innovative AI technologies with the individual requirements of Swiss companies. Tasks Build modern, responsive user interfaces for AI applications, including chat assistants, copilots and internal tools. Turn designs into accessible, well-structured components in React and TypeScript (Next.js). Connect the frontend to our APIs and handle loading, errors and streaming AI responses gracefully. Collaborate closely with our multicultural team, sharing your ideas and learning from experienced colleagues. Take ownership of defined tasks and bring your own ideas to projects with real-world impact. Requirements Educational Background: Currently pursuing or recently completed a degree in computer science, software engineering, or a related field, or equivalent self-taught experience. Web Fundamentals: Practical experience with HTML, CSS and JavaScript or TypeScript through university, personal, or professional projects. Frontend Frameworks: First experience with React or a similar framework is an advantage; Next.js is a plus. How the Web Works: A good understanding of how browsers, HTTP and APIs work together, and of the difference between what runs on the server and in the browser. User Focus: Care for usability, accessibility and responsive design across devices. Developer Tools: Initial experience with Git and the browser's developer tools. Problem-Solving Skills: A curious, proactive, and solution-oriented mindset with a willingness to learn and take ownership of defined tasks. Teamwork: An open-minded team player who enjoys collaborating in a multicultural and interdisciplinary environment. Communication Skills: Good communication skills in English or German and the ability to communicate clearly with colleagues and project stakeholders. Benefits Competitive Remuneration: A competitive salary package, reflecting your experience and contributions. Pick Your Gear: Choose your preferred devices for work. Attractive Benefits: above market pension benefits and a private accident insurance. Professional Growth: Participation in the Microsoft for Startups program, offering access to valuable resources, events and support. Interested in frontend development, user experience, and AI? We would be happy to hear from you. Please send us your CV and, if available, links to your GitHub profile, portfolio or personal projects. Join ParetoLabs and gain hands-on experience building modern AI applications! Find Jobs in Switzerland on Arbeitnow",
+   "description": "ParetoLabs is looking for a motivated and passionate Frontend Developer Intern with a love for building great user interfaces to join our growing team. As part of our dynamic team, you will build the interfaces people use to work with our AI-driven applications. You will gain hands-on experience in designing, developing, testing, and shipping web applications for clients across a wide range of industries. About ParetoLabs ParetoLabs is a Zurich-based software studio that develops customized, AI-powered applications for conversational and text-processing use cases. We help companies quickly test, implement, and scale AI applications within their specific business environments. Founded in 2023, ParetoLabs is a Microsoft for Startups partner that combines innovative AI technologies with the individual requirements of Swiss companies. Tasks Build modern, responsive user interfaces for AI applications, including chat assistants, copilots and internal tools. Turn designs into accessible, well-structured components in React and TypeScript (Next.js). Connect the frontend to our APIs and handle loading, errors and streaming AI responses gracefully. Collaborate closely with our multicultural team, sharing your ideas and learning from experienced colleagues. Take ownership of defined tasks and bring your own ideas to projects with real-world impact. Requirements Educational Background: Currently pursuing or recently completed a degree in computer science, software engineering, or a related field, or equivalent self-taught experience. Web Fundamentals: Practical experience with HTML, CSS and JavaScript or TypeScript through university, personal, or professional projects. Frontend Frameworks: First experience with React or a similar framework is an advantage; Next.js is a plus. How the Web Works: A good understanding of how browsers, HTTP and APIs work together, and of the difference between what runs on the server and in the browser. User Focus: Care for usability, accessibility and responsive design across devices. Developer Tools: Initial experience with Git and the browser's developer tools. Problem-Solving Skills: A curious, proactive, and solution-oriented mindset with a willingness to learn and take ownership of defined tasks. Teamwork: An open-minded team player who enjoys collaborating in a multicultural and interdisciplinary environment. Communication Skills: Good communication skills in English or German and the ability to communicate clearly with colleagues and project stakeholders. Benefits Competitive Remuneration: A competitive salary package, reflecting your experience and contributions. Pick Your Gear: Choose your preferred devices for work. Attractive Benefits: above market pension benefits and a private accident insurance. Professional Growth: Participation in the Microsoft for Startups program, offering access to valuable resources, events and support. Interested in frontend development, user experience, and AI? We would be happy to hear from you. Please send us your CV and, if available, links to your GitHub profile, portfolio or personal projects. Join ParetoLabs and gain hands-on experience building modern AI applications! Find more English Speaking Jobs in Switzerland on Arbeitnow",
    "url": "https://www.arbeitnow.ch/jobs/companies/paretolabs/frontend-developer-intern-zurich-262783",
    "posted": "2026-10-24T16:00:46+00:00",
    "remote": false,
@@ -313,7 +295,7 @@
    "title": "Software Engineer AI Coding Tasks",
    "company": "Askable",
    "location": "Worldwide",
-   "description": "Tags: dev, python, javascript, typescript, golang, java, c plus plus. We're looking for experienced software engineers to build AI coding tasks from a codebase they know well. US$1,000 per task, and you can do as many tasks as you want. You turn a real change from a repository you know into a task that today's best AI coding models struggle with: hard for the models, but fair for a skilled engineer. Your tasks are used to measure and train AI coding models. Remote, any location. US$1,000 per task that passes review. Minimum of one task a week, about 10 hours a week. How it works Apply. Complete a short screener interview and upload your resume. Propose. Once you're selected, pick a change from a repository you know and submit a short proposal. We approve it or suggest a better candidate. Build. In our platform, set up the repository as it was before the change, then write the brief, the correct solution and the grading checks. Stress-test. Try lazy, incorrect and shortcut solutions and make sure your checks catch them. Model testing. Run your task against leading AI models until strong models often fail but a skilled engineer can clearly solve it. Review. A reviewer checks your task and you revise it. Most tasks take more than one round. Next task. Once your task is accepted, start another. Requirements 2+ years of professional software engineering Code merged into a public open-source repository, ideally one you know well. A private codebase you own may also qualify (not employer or client code) Strong in at least one of Python, TypeScript, Go, Rust, Java or C++ Solid with Docker, Linux, Git and automated testing Regular use of an AI coding tool Experience writing tests, rubrics or evaluation criteria, ideally for AI models You can explain a change clearly and concisely, in your own words At least 10 hours a week, starting now A secure personal or work computer (no public or shared machines) Nice to have Deep expertise in one area, such as databases, compilers, distributed systems, security or infrastructure Experience building agent tasks or RL environments Terms US$1,000 for each task that passes our quality review, paid directly to you Once your proposal is qualified, you sign Askable's contract and accept its terms The work is used for AI training. The change and your solution must be your own, and you must be free to license them to us Don't publish the work anywhere: no public pull request or public fork Apply at https://www.askable.com/experts/roles/senior-software-engineer Please mention the word **LEVITY** and tag RMTcyLjIwMy4xOTcuMjQw when applying to show you read the job post completely (#RMTcyLjIwMy4xOTcuMjQw). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+   "description": "Tags: dev, python, javascript, typescript, golang, java, c plus plus. We're looking for experienced software engineers to build AI coding tasks from a codebase they know well. US$1,000 per task, and you can do as many tasks as you want. You turn a real change from a repository you know into a task that today's best AI coding models struggle with: hard for the models, but fair for a skilled engineer. Your tasks are used to measure and train AI coding models. Remote, any location. US$1,000 per task that passes review. Minimum of one task a week, about 10 hours a week. How it works Apply. Complete a short screener interview and upload your resume. Propose. Once you're selected, pick a change from a repository you know and submit a short proposal. We approve it or suggest a better candidate. Build. In our platform, set up the repository as it was before the change, then write the brief, the correct solution and the grading checks. Stress-test. Try lazy, incorrect and shortcut solutions and make sure your checks catch them. Model testing. Run your task against leading AI models until strong models often fail but a skilled engineer can clearly solve it. Review. A reviewer checks your task and you revise it. Most tasks take more than one round. Next task. Once your task is accepted, start another. Requirements 2+ years of professional software engineering Code merged into a public open-source repository, ideally one you know well. A private codebase you own may also qualify (not employer or client code) Strong in at least one of Python, TypeScript, Go, Rust, Java or C++ Solid with Docker, Linux, Git and automated testing Regular use of an AI coding tool Experience writing tests, rubrics or evaluation criteria, ideally for AI models You can explain a change clearly and concisely, in your own words At least 10 hours a week, starting now A secure personal or work computer (no public or shared machines) Nice to have Deep expertise in one area, such as databases, compilers, distributed systems, security or infrastructure Experience building agent tasks or RL environments Terms US$1,000 for each task that passes our quality review, paid directly to you Once your proposal is qualified, you sign Askable's contract and accept its terms The work is used for AI training. The change and your solution must be your own, and you must be free to license them to us Don't publish the work anywhere: no public pull request or public fork Apply at https://www.askable.com/experts/roles/senior-software-engineer Please mention the word **LEVITY** and tag RMjAuMTEyLjEyMi40OA== when applying to show you read the job post completely (#RMjAuMTEyLjEyMi40OA==). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
    "url": "https://remoteOK.com/remote-jobs/remote-software-engineer-ai-coding-tasks-askable-1137538",
    "posted": "2026-10-17T01:09:20+00:00",
    "remote": true,
@@ -346,65 +328,6 @@
    "first_seen": "2026-10-20T11:55:42.855688+00:00"
   },
   {
-   "source": "adzuna",
-   "src_id": "5926650610",
-   "title": "Junior Software Developer (React / Supabase) @ MindPal Sp. z o. o.",
-   "company": "MindPal Sp. z o. o.",
-   "location": "Gliwice, śląskie, PL",
-   "description": "What We Value: 1 year of commercial experience in software development. Good understanding of JavaScript/TypeScript and React fundamentals. Understanding of SQL, relational databases, and PostgreSQL fundamentals. Familiarity with REST APIs, asynchronous programming, and Git. Experience with Supabase, Firebase, Node.js, or serverless functions is a plus. Communicative English and Polish at B2 level (written and spoken). We are looking for a Junior Software Developer (React / Supabase)! Do you…",
-   "url": "https://www.adzuna.pl/details/5926650610?utm_medium=api&utm_source=04d4f8bc",
-   "posted": "2026-10-14T04:15:14+00:00",
-   "remote": false,
-   "id": "39f9f4d280be422c",
-   "score": 60,
-   "why": [
-    "skills: react, node, node.js, typescript, postgresql, rest",
-    "junior-friendly"
-   ],
-   "region": "other",
-   "first_seen": "2026-10-22T11:34:08.378438+00:00"
-  },
-  {
-   "source": "adzuna",
-   "src_id": "5939306652",
-   "title": "Junior Software Engineer",
-   "company": "Gleeson Recruitment Group",
-   "location": "Wolverhampton, West Midlands, GB",
-   "description": "Junior Software Engineer - £30K Wolverhampton based - Hybrid working - 3 days onsite per week The Junior Software Engineer/Developer will join a collaborative software development team, contributing to the development and maintenance of web applications using technologies such as Next.js, React, JavaScript, TypeScript, and C#. The role is suited to an individual at the early stages of their software development career who is keen to expand their technical knowledge, learn from experienced engin…",
-   "url": "https://www.adzuna.co.uk/jobs/land/ad/5939306652?se=dFv9hVzQ8RG17O__M5KguQ&utm_medium=api&utm_source=04d4f8bc&v=8D30D4444AF2D7629FAA37430FFF059777E8430B",
-   "posted": "2026-10-23T14:25:26+00:00",
-   "remote": false,
-   "id": "8d2be03fa9b37722",
-   "score": 60,
-   "why": [
-    "title",
-    "skills: react, typescript",
-    "junior-friendly"
-   ],
-   "region": "other",
-   "first_seen": "2026-10-24T10:42:44.059696+00:00"
-  },
-  {
-   "source": "adzuna",
-   "src_id": "5939400449",
-   "title": "Junior Software Engineer",
-   "company": "Gleeson Recruitment Group",
-   "location": "Penn Fields, Wolverhampton, GB",
-   "description": "Junior Software Engineer - £30K Wolverhampton based - Hybrid working - 3 days onsite per week The Junior Software Engineer/Developer will join a collaborative software development team, contributing to the development and maintenance of web applications using technologies such as Next.js, React, JavaScript, TypeScript, and C#. The role is suited to an individual at the early stages of their software development career who is keen to expand their technical knowledge, learn from experienced engin…",
-   "url": "https://www.adzuna.co.uk/jobs/land/ad/5939400449?se=dFv9hVzQ8RG17O__M5KguQ&utm_medium=api&utm_source=04d4f8bc&v=D44B0186B29A817D0EC6FAF0E09CB59634206C0A",
-   "posted": "2026-10-23T16:38:49+00:00",
-   "remote": false,
-   "id": "43f6ab1f871ae4f5",
-   "score": 60,
-   "why": [
-    "title",
-    "skills: react, typescript",
-    "junior-friendly"
-   ],
-   "region": "other",
-   "first_seen": "2026-10-24T10:42:44.059696+00:00"
-  },
-  {
    "source": "arbeitnow",
    "src_id": "data-engineer-ratingen-336049",
    "title": "Data Engineer (m/w/d)",
@@ -425,22 +348,22 @@
   },
   {
    "source": "arbeitnow",
-   "src_id": "forward-deployed-ai-engineer-cologne-71052",
-   "title": "Forward Deployed AI Engineer (w/d/m)",
-   "company": "WEBUILDAI GmbH",
-   "location": "Cologne",
-   "description": "Du bringst Agentic AI dorthin, wo Unternehmen arbeiten: in ihre Systeme, Prozesse und Teams. WE BUILD AI gibt es seit Februar 2025. Wir sind rund zehn Leute in einem Loftbüro in Köln-Ehrenfeld und bauen AI-Lösungen für den gehobenen Mittelstand. Level: Regular oder Senior Ort: Köln-Ehrenfeld und Homeoffice Start: ab sofort Du arbeitest dort, wo AI im Alltag ankommen muss Forward Deployed heißt bei uns: Du bist nah an unseren Kund:innen. Mit den Fachbereichen findest du heraus, wo Agents und Workflows Arbeit abnehmen, und baust sie in die bestehenden Systeme ein. Dabei arbeitest du immer im Projektteam mit unseren AI Engineers und Consultants. Deine Aufgaben Du baust Agents und Workflows, die sich in bestehende Systeme einfügen, etwa in ERP, CRM, Microsoft 365 oder Zeiterfassung. Schnittstellen zu diesen Systemen entwickelst du in Python, meist mit FastAPI. Mit IT, Security und Datenschutz unserer Kund:innen klärst du Zugriffe, Berechtigungen und Freigaben. In der Pilotphase prüfst du mit den Fachbereichen, ob die Lösung wirkt, und bringst sie danach in die Breite. Aus jedem Projekt entstehen Bausteine, die du für das nächste wiederverwendbar machst. Gemeinsam mit AI Engineers und Consultants planst du, wie eine Lösung bei Kund:innen dauerhaft läuft. Dein Profil Du hast Software in bestehende Unternehmenslandschaften integriert, etwa über REST-APIs, Microsoft Graph oder ERP-Schnittstellen. Mit LLM-APIs, Tool Use und Agent-Frameworks hast du bereits Anwendungen gebaut, die produktiv laufen. Python beherrschst du sicher, Erfahrung mit Azure und Microsoft 365 ist ein Plus. Berechtigungen, Identity und Datenschutz gehören für dich zur Lösung dazu. Vor Fachbereichen und IT-Leitung erklärst du Technik verständlich und vertrittst deine Empfehlungen. Einsätze bei Kund:innen in ganz Deutschland passen in deinen Alltag. Ein abgeschlossenes Studium oder eine Ausbildung in Informatik, Wirtschaftsinformatik oder einem verwandten Feld, alternativ vergleichbare Praxiserfahrung. Sehr gute Deutschkenntnisse, weil der Kundenkontakt auf Deutsch läuft. Was wir dir bieten Den Aufbau eines Unternehmens begleiten und eine neue Generation von Beratung und Engineering prägen Flexible Arbeitszeiten und Homeoffice nach eigener Verantwortung Mentoring, Peer Reviews und regelmäßige Entwicklungsgespräche mit ehrlichem Feedback Flache Hierarchien und kurze Entscheidungswege Dienstrad-Leasing per Gehaltsumwandlung mit bis zu 40 Prozent Ersparnis, Vollkasko und Wartung inklusive Benefit-Budget von 30 Euro im Monat für Gutscheine bei über 100 Anbietern, Urban Sports Club oder das Deutschlandticket Gemeinsame Workations und regelmäßige Teamevents Loftbüro in Köln-Ehrenfeld mit Bürohunden, Getränken, Snacks und Mario Kart Ehrlich vorab Wir sind ein kleines Team ohne eigenes Plattform-Team, und viele technische Entscheidungen triffst du selbst. Wer lieber in einem großen Team an einem eigenen Produkt arbeitet, ist woanders vermutlich glücklicher. Bewirb dich bei uns Das ist der Ablauf unseres Bewerbungsverfahrens: Gemeinsamer Call, etwa 30 Minuten. Wir sprechen über dich und über uns. Probeaufgabe mit etwa 2 Stunden Aufwand. Danach stellst du deine Lösung in 45 bis 60 Minuten vor. Treffen in Köln mit gemeinsamem Essen, Einblick in laufende Projekte und fachlichem Sparring im Team. Nach jedem Schritt hörst du innerhalb von einem Werktag von uns. Von der Bewerbung bis zum Angebot planen wir drei Wochen. Find Jobs in Germany on Arbeitnow",
-   "url": "https://www.arbeitnow.com/jobs/companies/webuildai-gmbh/forward-deployed-ai-engineer-cologne-71052",
-   "posted": "2026-10-23T17:30:55+00:00",
+   "src_id": "stagiaire-ai-developer-bouw-de-mcp-voor-upod-utrecht-53078",
+   "title": "Stagiair(e) AI Developer: bouw de MCP voor Upod",
+   "company": "Utonomy",
+   "location": "Utrecht",
+   "description": "Werk mee aan een nieuw internet. Niet als toeschouwer, maar als bouwer van de technische fundering. Upod is net gelanceerd. De volgende stap: Upod toegankelijk maken voor AI-agents en LLM's, op een manier die privacy-first blijft. Daarvoor bouwen we een MCP (Model Context Protocol) server, en jij bouwt die mee, direct samen met ons tech team. Utonomy ontwikkelt technologie gebaseerd op een nieuw protocol van de uitvinder van het world wide web (Solid, van Tim Berners-Lee) dat mensen weer controle geeft over hun persoonlijke data. Daarmee leggen we de basis voor privacy-first producten, eerlijke AI en een Europees alternatief voor Big Tech. De grove richting van de MCP staat vast: AI-agents moeten op een veilige, privacy-respecterende manier met Upod-data kunnen werken. De concrete invulling, architectuur en scope bouwen we samen met jou uit. Taken Dit is geen meekijk-stage. Je bouwt mee aan een systeem dat nog niet bestaat, met directe begeleiding. Ontwerpen en bouwen van de MCP-server voor Upod, samen met Martijn (co-founder) Uitdenken van API-structuur, scopes en autorisatie, met privacy-by-design als uitgangspunt Testen van de MCP-integratie met LLM's en AI-agents Documenteren van architectuurkeuzes en implementatie Meedenken over de bredere toekomst van personal AI agents op Upod Ideaal voor studenten informatica, AI, data science of software engineering met interesse in protocollen en API's. Vereisten Je bent een self-starter die goed gaat op: Het krijgen van vrijheid én verantwoordelijkheid, met directe begeleiding van een founder Zelf meedenken over architectuur, niet alleen uitvoeren wat is opgeschreven Snel schakelen tussen zelfstandig bouwen en samen sparren Ruimte om te experimenteren, ook als iets de eerste keer niet werkt We zoeken geen \"perfect CV\". Wel echte technische nieuwsgierigheid en de wil om iets nieuws te bouwen. Je: volgt een hbo- of wo-opleiding in informatica, AI, data science of vergelijkbaar hebt ervaring met API's en minimaal één programmeertaal (bijvoorbeeld Python, TypeScript/Node) bent minimaal 5-6 maanden beschikbaar bent pro-actief, technisch nieuwsgierig en leergierig spreekt en schrijft goed Nederlands en Engels Benefits Benefits Stagevergoeding (marktconform) Kantoor in hartje Utrecht + hybride werken Directe, inhoudelijke begeleiding, geen tussenlagen Echte verantwoordelijkheid over een technisch fundament, niet een side-project Netwerk en ervaring waar je jaren later nog profijt van hebt Kansen om na je stage betrokken te blijven Waarom dit een uitzonderlijke stage is Je bouwt een technisch component dat bepaalt hoe AI straks met Upod werkt Je zit dicht op de besluitvorming, direct samen met de co-founder die dit begeleidt Je bouwt mee aan een nieuw protocol-ecosysteem, niet aan een geïsoleerde feature Je leert protocollen, architectuur en privacy-by-design in de praktijk, niet uit een tutorial Geef in je motivatie aan: welke ervaring je al hebt met API's, protocollen of AI-integraties wanneer je kunt starten wat je wilt leren over MCP, AI-agents of privacy-by-design Geen lange brief nodig, vertel ons vooral waarom jij dit wilt bouwen en wat je al hebt gebouwd. Find Jobs in Netherlands on Arbeitnow",
+   "url": "https://www.arbeitnow.nl/jobs/companies/utonomy/stagiaire-ai-developer-bouw-de-mcp-voor-upod-utrecht-53078",
+   "posted": "2026-10-25T09:01:01+00:00",
    "remote": false,
-   "id": "497203110ef301f8",
+   "id": "e209844b4cd6674b",
    "score": 56,
    "why": [
-    "title",
-    "skills: python, fastapi, llm, rest, ai, azure"
+    "skills: node, typescript, python, llm, ai",
+    "junior-friendly"
    ],
    "region": "other",
-   "first_seen": "2026-10-24T10:42:44.059696+00:00"
+   "first_seen": "2026-10-25T11:07:31.407817+00:00"
   },
   {
    "source": "greenhouse",
@@ -519,25 +442,6 @@
    ],
    "region": "europe",
    "first_seen": "2026-10-25T10:13:35.035910+00:00"
-  },
-  {
-   "source": "arbeitnow",
-   "src_id": "ui-software-engineer-80-100-schlieren-311928",
-   "title": "UI Software Engineer (f/m/d) - 80-100%",
-   "company": "Tethys Robotics AG",
-   "location": "Schlieren",
-   "description": "Tethys Robotics develops innovative robotic solutions for subsea inspection & investigation operations in challenging conditions. We serve governmental organizations, large asset operators and industrial service providers operating in high-demand and mission-critical environments. As an ETH Zürich spin-off, we are a fast-growing pioneer in underwater robotics, rooted in Switzerland. As we scale from individual systems towards the production and delivery of multiple robots in parallel, we are looking for a hands-on UI Software Engineer to help develop, industrialize and continuously improve our robotic platforms. Tasks Develop and integrate complex UI modules, connecting disparate systems and data streams. Implement sophisticated real-time data visualizations. Implement core user interactions with robotic systems and web applications. Perform functional verification tests and troubleshoot issues. Support user interviews and help translate requirements into design input criteria. Work with the development team to refine the visual and interaction layer. Create technical documentation for user interaction and implementation. Requirements 2+ years of experience with Unity (C# and uGUI) or a TypeScript framework (Vue.js or similar). Experience with both is a strong advantage. 1+ year of hands-on experience developing real-time visualization systems. A passion for human-computer interaction (HCI) and the ability to translate abstract requirements into concrete, production-ready code. Completed education in computer science, software engineering, human-computer interaction, game development, or another highly technical engineering field with a focus on user-centric software development. Understanding of event-driven programming and experience applying it in software development. Experience working with Git version control. Strong problem-solving and connected thinking skills. A drive to write clean, high-quality code. Comfortable working in a cross-functional team. Good organizational skills and attention to detail. Fluent in spoken and written English. Interest in underwater robotics. You don't meet every point exactly? Apply anyways! Bonus points if you bring: Knowledge of robotics middleware such as ROS/ROS2 and experience interfacing with live sensor data. Experience with map rendering and interaction logic in both 2D and 3D. Hands-on experience with drones or other robotic systems. Experience with high-performance rendering or computationally intensive visualizations, such as compute shaders, graphics pipelines, or point clouds. Knowledge of clean code practices and software design principles such as SOLID. Experience with automated testing, CI/CD, or GitHub Actions. Familiarity with concurrent programming. Experience with Python. Benefits Collaborative culture where your ideas directly impact product development. A dynamic, passionate and high-performance team with a strong builder mentality and flat hierarchies. Streamlined decision-making processes, flat start-up hierarchies, and modern working methods that cultivate great ideas. Exposure to cutting-edge robot technology and hands-on experience with real-world data processing and visualization. Modern office in Schlieren, Zürich. Attractive compensation in a startup environment. ‍ We value diversity: Tethys Robotics encourages an inclusive culture. We promote equality of opportunity, value diversity and nurture a working and learning environment in which the rights and dignity of all are respected. ‍ Curious? So are we! We look forward to receiving your online application as we value the attitude over experience. In any case, please provide a full overview of the following documents – we value the completeness: Cover letter Curriculum Vitae Letter of reference / work certificates Education certificates ‍ - Please note: We only accept applications via the online portal. Find Jobs in Switzerland on Arbeitnow",
-   "url": "https://www.arbeitnow.ch/jobs/companies/tethys-robotics-ag/ui-software-engineer-80-100-schlieren-311928",
-   "posted": "2026-10-21T06:30:51+00:00",
-   "remote": false,
-   "id": "aa6f17221ef8487b",
-   "score": 52,
-   "why": [
-    "title",
-    "skills: typescript, python, ci/cd, github actions, vue"
-   ],
-   "region": "other",
-   "first_seen": "2026-10-21T11:33:55.664647+00:00"
   },
   {
    "source": "lever",
@@ -695,6 +599,48 @@
   },
   {
    "source": "arbeitnow",
+   "src_id": "software-engineer-web-full-stack-paris-462123",
+   "title": "Software Engineer, Web (Full stack)",
+   "company": "Amo",
+   "location": "Paris",
+   "description": "We are looking for someone to join us as an early member of the Web team, to build and own web platforms that turn large amounts of data into products people love to use. Maps and location data sit at the core of what we build, and we’re looking for an engineer who can take a platform from data model to pixel. In the initial months, you’ll work closely with the team, gradually taking ownership of central systems and features. Given our stage, we’re seeking versatile engineers comfortable contributing across the frontend, the backend and the data. We value team members who delve deep into their respective domains, aiming to cultivate a team of subject matter experts with a high sense of ownership. This commitment to expertise is an expectation for every team member. As a Web Engineer, your day-to-day will include: Platform Engineering Designing and building robust, scalable web platforms end-to-end in TypeScript: APIs, services, data access layers and the UI on top of them. You’ll make the architectural decisions and set the patterns that others build on. Workflows & Data Pipelines Architecting durable, long-running workflows and background processes on our workflow orchestration system (Restate). You’ll also build the pipelines that move data between our warehouse, our databases and our products, reliably and at scale. Data Modeling & Visualization Modeling large datasets so they can be queried and visualized fast. That includes choosing the right aggregations, pre-computations and storage across Postgres and BigQuery, and turning them into visualizations that are clear, interactive and beautiful. You’ll handle data with privacy in mind from the very first design decision. Maps & Geospatial Data Bringing geospatial data to life on the web. You’ll render large amounts of location data on interactive maps, and keep them as fast and polished as they are insightful. Roadmap Creation and Ideation Contributing actively to the roadmap: identifying the right tradeoffs and bringing ideas from both a product and an engineering perspective. Owning your scope You’ll be responsible for the architecture, performance, monitoring and reliability of everything you ship. We value engineers who take full ownership of their scope, and who proactively address issues before anyone asks. Your Skills & Experience: Please indicate your years of experience on the application form. 7+ years of professional experience building SaaS products or data-heavy platforms. High proficiency in TypeScript and Node.js, and in modern web frameworks (React, Next.js…). Strong experience with Postgres and data warehouses (BigQuery, Snowflake, or similar). Solid understanding of data modeling for analytics and for visualizing large volumes of data. A privacy-aware approach to handling sensitive data, such as aggregation and anonymization. Comfortable working autonomously across frontend and backend. Experience with workflow orchestration and long-running processes (Restate, Temporal, or similar) is a big plus. Expertise in map rendering and geospatial data visualization (Mapbox GL, MapLibre, deck.gl , or similar) is a big plus. Experience with WebGL or GPU rendering is a plus. Comfortable working closely with backend and data teams across a polyglot stack is a plus. Knowledge of infrastructure (Bazel, GCP, Kubernetes) is a plus. Passion and experience building great products. We’d love to hear about things you’ve shipped! AI as a multiplier AI is part of how we build every day. We’re looking for engineers with a real grasp of these tools, who use them to multiply their output and not to make up for missing expertise. You should be able to drive an agent through a complex change, judge what it produces, spot where it’s subtly wrong, and stand behind every line that ships. The bar We’re looking for exceptional engineers, and we set the bar high on purpose. In return, you’ll get real ownership from day one, products used by millions of people, a team that ships in days rat",
+   "url": "https://www.arbeitnow.fr/jobs/companies/amo/software-engineer-web-full-stack-paris-462123",
+   "posted": "2026-10-24T05:40:26+00:00",
+   "remote": false,
+   "id": "bd982eba79e3c3d9",
+   "score": 50,
+   "why": [
+    "title",
+    "skills: react, node, node.js, typescript, postgres, ai",
+    "junior-friendly",
+    "seniority mismatch"
+   ],
+   "region": "europe",
+   "first_seen": "2026-10-25T11:07:31.407817+00:00"
+  },
+  {
+   "source": "arbeitnow",
+   "src_id": "software-engineer-web-growth-paris-437744",
+   "title": "Software Engineer, Web (Growth)",
+   "company": "Amo",
+   "location": "Paris",
+   "description": "We are looking for someone to join us as an early member of the Web team, owning the user-facing web at amo. For many people, the web is where they first meet our apps: a link shared by a friend, opened in a messenger or a social feed, often seconds before they decide whether to download. That moment matters a lot to us. In the initial months, you’ll work closely with the team on the surfaces that bring new people into our products, gradually taking ownership of a growing part of our consumer web experience. Given our stage, we’re seeking versatile engineers comfortable working across product, engineering and growth. We value team members who delve deep into their respective domains, aiming to cultivate a team of subject matter experts with a high sense of ownership. This commitment to expertise is an expectation for every team member. As a Web Engineer, your day-to-day will include: Consumer Web Experiences Building fast, beautiful, conversion-focused web experiences that show off our apps at their best, from the first link someone taps to the moment they open the app. You’ll turn designs into polished UI that loads instantly on any device and in any in-app browser, and you’ll care about every millisecond and every pixel. Deep Linking & App Entry Owning the bridge between web and app: Universal Links, App Links, deferred deep linking, attribution, and App Clips. Whether the user already has the app or not, every link should take them exactly where they expect to go. Sharing & Rich Previews Making everything shared from our apps look great everywhere it lands. That includes generating dynamic OG metadata and preview images at scale, and iterating on what gets shared and how it’s presented, based on what actually converts. Analytics & Experimentation Designing and maintaining our event tracking taxonomy (Amplitude) so that the data is consistent, well organized and trusted across teams. You’ll instrument funnels end-to-end, run rigorous A/B tests, and turn the results into decisions. Growth Initiatives Identifying and shipping new ways to improve acquisition and conversion. We expect you to look at the funnel, form your own hypotheses, build, measure, and then either scale or drop the idea. You’ll be an active contributor to the roadmap, not just its executor. Owning your scope You’ll be responsible for the architecture, performance, monitoring and reliability of everything you ship. We value engineers who take full ownership of their scope, and who proactively address issues before anyone asks. Your Skills & Experience: We are hiring multiple engineers of varying levels, so please indicate your years of experience on the application form to apply for the appropriate position. 5+ years of professional experience building consumer-facing web products. Deep expertise in React / Next.js, TypeScript and Node.js. Strong understanding of web performance: rendering strategies (SSR, edge, static), caching, CDNs, Core Web Vitals, and how mobile and in-app browsers behave. Hands-on experience with deep linking, Universal Links / App Links and attribution. Experience with App Clips is a big plus. Experience designing analytics taxonomies and running experiments, and real care for data quality. A growth mindset: you think in funnels and conversion rates, and you love moving a metric. Strong product and visual taste. You notice the 2px misalignment and the 100ms delay. Comfortable working autonomously across frontend and backend. Knowledge of infrastructure (Bazel, GCP, Kubernetes) is a plus. Passion and experience building consumer-facing products. We’d love to hear about things you’ve shipped! AI as a multiplier AI is part of how we build every day. We’re looking for engineers with a real grasp of these tools, who use them to multiply their output and not to make up for missing expertise. You should be able to drive an agent through a complex change, judge what it produces, spot where it’s subtly wrong, and stand behind every line that sh",
+   "url": "https://www.arbeitnow.fr/jobs/companies/amo/software-engineer-web-growth-paris-437744",
+   "posted": "2026-10-24T05:40:26+00:00",
+   "remote": false,
+   "id": "3547dbd3f5761fa9",
+   "score": 50,
+   "why": [
+    "title",
+    "skills: react, node, node.js, typescript, ai",
+    "junior-friendly",
+    "seniority mismatch"
+   ],
+   "region": "europe",
+   "first_seen": "2026-10-25T11:07:31.407817+00:00"
+  },
+  {
+   "source": "arbeitnow",
    "src_id": "principal-software-engineer-hybrid-london-41987",
    "title": "Principal Software Engineer (Hybrid)",
    "company": "8Thlightrebuild",
@@ -741,7 +687,7 @@
    "title": "Working Student — AI Engineering & Document Intelligence",
    "company": "Tracium GmbH",
    "location": "Berlin",
-   "description": "Location: Hamburg, Germany · Part-time alongside your studies About Tracium https://www.linkedin.com/company/tracium/ Tracium builds AI-assisted software that helps technical teams turn complex manuals into structured, traceable information. We combine document intelligence with S1000D authoring, starting with maritime applications. Your role Work alongside experienced engineers on practical AI problems involving real technical documents. You will contribute to experiments, evaluation, and product improvements while developing your engineering skills with guidance from the team. What you’ll do Explore document parsing, OCR, and structured information extraction. Build Python scripts and small prototypes using AI models. Prepare and maintain datasets for testing extraction and retrieval quality. Compare model outputs with source documents and investigate errors. Help automate evaluation and regression checks. Contribute to document processing workflows and internal tools. Document your findings and share what works, what fails, and why. What you bring Current enrolment in computer science, data science, mathematics, engineering, or a related degree. Hands-on Python development skills. Hands-on with Git, APIs, and data handling. Good understanding about LLMs, machine learning, document intelligence. Attention to detail and a willingness to test assumptions. Clear communication in English. What you’ll gain Practical experience with AI beyond simple chatbot demos. Guidance, code reviews, and exposure to production engineering. Ownership of manageable tasks with visible product impact. Experience working directly with an early-stage founding team. Follow our journey Follow Tracium on LinkedIn https://www.linkedin.com/company/tracium/ for product updates, engineering insights, and future opportunities. Apply Send your CV, your field of study, expected graduation date, and weekly availability. Include a university or personal project if you have one—a short explanation is enough. We welcome applicants of all backgrounds. You do not need to meet every listed requirement to apply. Find Jobs in Germany on Arbeitnow",
+   "description": "Location: Hamburg, Germany · Part-time alongside your studies About Tracium https://www.linkedin.com/company/tracium/ Tracium builds AI-assisted software that helps technical teams turn complex manuals into structured, traceable information. We combine document intelligence with S1000D authoring, starting with maritime applications. Your role Work alongside experienced engineers on practical AI problems involving real technical documents. You will contribute to experiments, evaluation, and product improvements while developing your engineering skills with guidance from the team. What you’ll do Explore document parsing, OCR, and structured information extraction. Build Python scripts and small prototypes using AI models. Prepare and maintain datasets for testing extraction and retrieval quality. Compare model outputs with source documents and investigate errors. Help automate evaluation and regression checks. Contribute to document processing workflows and internal tools. Document your findings and share what works, what fails, and why. What you bring Current enrolment in computer science, data science, mathematics, engineering, or a related degree. Hands-on Python development skills. Hands-on with Git, APIs, and data handling. Good understanding about LLMs, machine learning, document intelligence. Attention to detail and a willingness to test assumptions. Clear communication in English. What you’ll gain Practical experience with AI beyond simple chatbot demos. Guidance, code reviews, and exposure to production engineering. Ownership of manageable tasks with visible product impact. Experience working directly with an early-stage founding team. Follow our journey Follow Tracium on LinkedIn https://www.linkedin.com/company/tracium/ for product updates, engineering insights, and future opportunities. Apply Send your CV, your field of study, expected graduation date, and weekly availability. Include a university or personal project if you have one—a short explanation is enough. We welcome applicants of all backgrounds. You do not need to meet every listed requirement to apply. Find more English Speaking Jobs in Germany on Arbeitnow",
    "url": "https://www.arbeitnow.com/jobs/companies/tracium-gmbh/working-student-ai-engineering-document-intelligence-berlin-378393",
    "posted": "2026-10-24T13:30:52+00:00",
    "remote": true,
@@ -753,6 +699,24 @@
    ],
    "region": "europe",
    "first_seen": "2026-10-25T10:13:35.035910+00:00"
+  },
+  {
+   "source": "arbeitnow",
+   "src_id": "product-engineer-paris-152402",
+   "title": "Product Engineer",
+   "company": "The Flex",
+   "location": "Paris",
+   "description": "About Us Base360.ai is the AI operating system for short-term rental businesses, helping property managers run their operations on autopilot. Born out of The Flex, a short-term rental operator that scaled to an eight-figure business using its own software, Base360.ai is now launching as a standalone platform for short-term rental operators worldwide. We bring reservations, guest communication, pricing, payments, cleaning, maintenance, and reporting into one platform—helping operators automate manual work, reduce costs, increase revenue, and scale their portfolios. We're looking for an ambitious Product Engineer who wants to turn real customer problems into intuitive, reliable software. You'll work closely with founders, designers, and operators to identify what matters, build solutions, and improve them based on how people use them. If you enjoy owning the full journey from customer problem to shipped product—and you're excited by AI, automation, and short-term rentals—we want to meet you. What You'll Build As a Product Engineer, you'll help shape and scale Base360.ai across the entire short-term rental lifecycle. You'll build customer-facing features, operational dashboards, automation engines, AI-powered workflows, and integrations that help property managers grow without increasing their workload at the same rate. Your work will connect what users see with the systems behind it—from a guest’s check-in experience to the workflows coordinating reservations, cleaning, payments, and owner reporting. Your Mission Understand Customer Problems Work directly with property managers and internal teams to understand their workflows, identify friction, and decide which problems are worth solving. Build Products End-to-End Take features from idea and prototype through frontend, backend, integrations, testing, and deployment. Own the complete experience and how it performs in production. Create Intuitive User Experiences Work with designers to make complex short-term rental operations easy to manage. Build interfaces that help users complete tasks quickly and confidently. Create Powerful Automations Build event-driven workflows that eliminate repetitive work—from scheduling cleaning after a booking to sending check-in instructions and generating owner statements. Develop AI-Powered Features Use LLMs and AI agents to automate guest communication, triage maintenance requests, support pricing decisions, and help operators manage their portfolios more efficiently. Connect the Ecosystem Build reliable APIs and integrations with platforms including Airbnb, Hostaway, Stripe, Twilio, OpenAI, Google, and other partners across the short-term rental ecosystem. Solve Real Operational Problems Build solutions for: Real-time reservation and availability synchronization Dynamic pricing intelligence Smart lock access and key management Automated guest communication across channels Guest check-in and upsell journeys Operational forecasting Cleaning and maintenance automation Owner reporting and financial workflows AI-powered monitoring and alerts Measure and Improve Use customer feedback, product usage, and operational results to evaluate what you ship. Improve features based on adoption, time saved, fewer errors, and better user outcomes. Build for Scale Make sound technical decisions that balance delivery speed, maintainability, security, and reliability as more operators and properties join the platform. Tech Stack We care more about capability than specific technologies, but our current stack includes: Python FastAPI React TypeScript Supabase PostgreSQL AWS Serverless architecture OpenAI APIs Twilio Stripe Docker GitHub Actions You Might Be a Great Fit If You Have Strong experience building and shipping production software The ability to work across frontend and backend systems Experience with React, TypeScript, Python, FastAPI, or similar technologies Strong understanding of APIs, databases, integrations, and cloud architecture A product mindset and",
+   "url": "https://www.arbeitnow.fr/jobs/companies/the-flex/product-engineer-paris-152402",
+   "posted": "2026-10-24T20:40:17+00:00",
+   "remote": false,
+   "id": "fee051bb7ef44bd2",
+   "score": 50,
+   "why": [
+    "skills: react, typescript, python, fastapi, docker, postgresql"
+   ],
+   "region": "europe",
+   "first_seen": "2026-10-25T11:07:31.407817+00:00"
   },
   {
    "source": "arbeitnow",
@@ -794,186 +758,6 @@
    "first_seen": "2026-10-25T10:13:35.035910+00:00"
   },
   {
-   "source": "adzuna",
-   "src_id": "5919315919",
-   "title": "Junior Developer & Data Scientist: Posizioni Entry-Level in Ambito Tech",
-   "company": "Joinrs Italia",
-   "location": "Napoli, Provincia di Napoli, IT",
-   "description": "Stiamo cercando profili junior, studenti e neo-laureati in Informatica, Ingegneria, Data Science, Matematica, Statistica e discipline STEM che vogliano lanciare (o accelerare) la propria carriera Tech in aziende top in Italia e in Europa. Su Joinrs in questo momento trovi centinaia di posizioni attive, tra cui: Junior Software Developer (Frontend, Backend, Full Stack) Junior Data Scientist Data Analyst Machine Learning Engineer Junior Cloud Engineer Cybersecurity Analyst DevOps Engineer Junior …",
-   "url": "https://www.adzuna.it/details/5919315919?utm_medium=api&utm_source=04d4f8bc",
-   "posted": "2026-10-08T18:15:17+00:00",
-   "remote": false,
-   "id": "ca32c6a2d70038f4",
-   "score": 48,
-   "why": [
-    "title",
-    "skills: machine learning",
-    "junior-friendly"
-   ],
-   "region": "other",
-   "first_seen": "2026-10-22T11:34:08.378438+00:00"
-  },
-  {
-   "source": "adzuna",
-   "src_id": "5919315943",
-   "title": "Junior Developer & Data Scientist: Posizioni Entry-Level in Ambito Tech",
-   "company": "Joinrs Italia",
-   "location": "Padova, Provincia di Padova, IT",
-   "description": "Stiamo cercando profili junior, studenti e neo-laureati in Informatica, Ingegneria, Data Science, Matematica, Statistica e discipline STEM che vogliano lanciare (o accelerare) la propria carriera Tech in aziende top in Italia e in Europa. Su Joinrs in questo momento trovi centinaia di posizioni attive, tra cui: Junior Software Developer (Frontend, Backend, Full Stack) Junior Data Scientist Data Analyst Machine Learning Engineer Junior Cloud Engineer Cybersecurity Analyst DevOps Engineer Junior …",
-   "url": "https://www.adzuna.it/details/5919315943?utm_medium=api&utm_source=04d4f8bc",
-   "posted": "2026-10-08T18:15:18+00:00",
-   "remote": false,
-   "id": "c2e0f51402f95d97",
-   "score": 48,
-   "why": [
-    "title",
-    "skills: machine learning",
-    "junior-friendly"
-   ],
-   "region": "other",
-   "first_seen": "2026-10-22T11:34:08.378438+00:00"
-  },
-  {
-   "source": "adzuna",
-   "src_id": "5919315956",
-   "title": "Junior Developer & Data Scientist: Posizioni Entry-Level in Ambito Tech",
-   "company": "Joinrs Italia",
-   "location": "Bari, Provincia di Bari, IT",
-   "description": "Stiamo cercando profili junior, studenti e neo-laureati in Informatica, Ingegneria, Data Science, Matematica, Statistica e discipline STEM che vogliano lanciare (o accelerare) la propria carriera Tech in aziende top in Italia e in Europa. Su Joinrs in questo momento trovi centinaia di posizioni attive, tra cui: Junior Software Developer (Frontend, Backend, Full Stack) Junior Data Scientist Data Analyst Machine Learning Engineer Junior Cloud Engineer Cybersecurity Analyst DevOps Engineer Junior …",
-   "url": "https://www.adzuna.it/details/5919315956?utm_medium=api&utm_source=04d4f8bc",
-   "posted": "2026-10-08T18:15:18+00:00",
-   "remote": false,
-   "id": "b28e173f3319754d",
-   "score": 48,
-   "why": [
-    "title",
-    "skills: machine learning",
-    "junior-friendly"
-   ],
-   "region": "other",
-   "first_seen": "2026-10-22T11:34:08.378438+00:00"
-  },
-  {
-   "source": "adzuna",
-   "src_id": "5919315983",
-   "title": "Junior Developer & Data Scientist: Posizioni Entry-Level in Ambito Tech",
-   "company": "Joinrs Italia",
-   "location": "Roma, Provincia di Roma, IT",
-   "description": "Stiamo cercando profili junior, studenti e neo-laureati in Informatica, Ingegneria, Data Science, Matematica, Statistica e discipline STEM che vogliano lanciare (o accelerare) la propria carriera Tech in aziende top in Italia e in Europa. Su Joinrs in questo momento trovi centinaia di posizioni attive, tra cui: Junior Software Developer (Frontend, Backend, Full Stack) Junior Data Scientist Data Analyst Machine Learning Engineer Junior Cloud Engineer Cybersecurity Analyst DevOps Engineer Junior …",
-   "url": "https://www.adzuna.it/details/5919315983?utm_medium=api&utm_source=04d4f8bc",
-   "posted": "2026-10-08T18:15:18+00:00",
-   "remote": false,
-   "id": "b4204f901572b06e",
-   "score": 48,
-   "why": [
-    "title",
-    "skills: machine learning",
-    "junior-friendly"
-   ],
-   "region": "other",
-   "first_seen": "2026-10-22T11:34:08.378438+00:00"
-  },
-  {
-   "source": "adzuna",
-   "src_id": "5919316016",
-   "title": "Junior Developer & Data Scientist: Posizioni Entry-Level in Ambito Tech",
-   "company": "Joinrs Italia",
-   "location": "Cagliari, Provincia di Cagliari, IT",
-   "description": "Stiamo cercando profili junior, studenti e neo-laureati in Informatica, Ingegneria, Data Science, Matematica, Statistica e discipline STEM che vogliano lanciare (o accelerare) la propria carriera Tech in aziende top in Italia e in Europa. Su Joinrs in questo momento trovi centinaia di posizioni attive, tra cui: Junior Software Developer (Frontend, Backend, Full Stack) Junior Data Scientist Data Analyst Machine Learning Engineer Junior Cloud Engineer Cybersecurity Analyst DevOps Engineer Junior …",
-   "url": "https://www.adzuna.it/details/5919316016?utm_medium=api&utm_source=04d4f8bc",
-   "posted": "2026-10-08T18:15:18+00:00",
-   "remote": false,
-   "id": "8c960cf10e86e0c4",
-   "score": 48,
-   "why": [
-    "title",
-    "skills: machine learning",
-    "junior-friendly"
-   ],
-   "region": "other",
-   "first_seen": "2026-10-22T11:34:08.378438+00:00"
-  },
-  {
-   "source": "adzuna",
-   "src_id": "5919315966",
-   "title": "Junior Developer & Data Scientist: Posizioni Entry-Level in Ambito Tech",
-   "company": "Joinrs Italia",
-   "location": "Torino, Provincia di Torino, IT",
-   "description": "Stiamo cercando profili junior, studenti e neo-laureati in Informatica, Ingegneria, Data Science, Matematica, Statistica e discipline STEM che vogliano lanciare (o accelerare) la propria carriera Tech in aziende top in Italia e in Europa. Su Joinrs in questo momento trovi centinaia di posizioni attive, tra cui: Junior Software Developer (Frontend, Backend, Full Stack) Junior Data Scientist Data Analyst Machine Learning Engineer Junior Cloud Engineer Cybersecurity Analyst DevOps Engineer Junior …",
-   "url": "https://www.adzuna.it/details/5919315966?utm_medium=api&utm_source=04d4f8bc",
-   "posted": "2026-10-08T18:15:18+00:00",
-   "remote": false,
-   "id": "458692e12c0997e0",
-   "score": 48,
-   "why": [
-    "title",
-    "skills: machine learning",
-    "junior-friendly"
-   ],
-   "region": "other",
-   "first_seen": "2026-10-22T11:34:08.378438+00:00"
-  },
-  {
-   "source": "adzuna",
-   "src_id": "5919316019",
-   "title": "Junior Developer & Data Scientist: Posizioni Entry-Level in Ambito Tech",
-   "company": "Joinrs Italia",
-   "location": "Bologna, Provincia di Bologna, IT",
-   "description": "Stiamo cercando profili junior, studenti e neo-laureati in Informatica, Ingegneria, Data Science, Matematica, Statistica e discipline STEM che vogliano lanciare (o accelerare) la propria carriera Tech in aziende top in Italia e in Europa. Su Joinrs in questo momento trovi centinaia di posizioni attive, tra cui: Junior Software Developer (Frontend, Backend, Full Stack) Junior Data Scientist Data Analyst Machine Learning Engineer Junior Cloud Engineer Cybersecurity Analyst DevOps Engineer Junior …",
-   "url": "https://www.adzuna.it/details/5919316019?utm_medium=api&utm_source=04d4f8bc",
-   "posted": "2026-10-08T18:15:18+00:00",
-   "remote": false,
-   "id": "7876dd2a8689ffbd",
-   "score": 48,
-   "why": [
-    "title",
-    "skills: machine learning",
-    "junior-friendly"
-   ],
-   "region": "other",
-   "first_seen": "2026-10-22T11:34:08.378438+00:00"
-  },
-  {
-   "source": "adzuna",
-   "src_id": "5919315945",
-   "title": "Junior Developer & Data Scientist: Posizioni Entry-Level in Ambito Tech",
-   "company": "Joinrs Italia",
-   "location": "Catania, Provincia di Catania, IT",
-   "description": "Stiamo cercando profili junior, studenti e neo-laureati in Informatica, Ingegneria, Data Science, Matematica, Statistica e discipline STEM che vogliano lanciare (o accelerare) la propria carriera Tech in aziende top in Italia e in Europa. Su Joinrs in questo momento trovi centinaia di posizioni attive, tra cui: Junior Software Developer (Frontend, Backend, Full Stack) Junior Data Scientist Data Analyst Machine Learning Engineer Junior Cloud Engineer Cybersecurity Analyst DevOps Engineer Junior …",
-   "url": "https://www.adzuna.it/details/5919315945?utm_medium=api&utm_source=04d4f8bc",
-   "posted": "2026-10-08T18:15:18+00:00",
-   "remote": false,
-   "id": "14221d84c955ff01",
-   "score": 48,
-   "why": [
-    "title",
-    "skills: machine learning",
-    "junior-friendly"
-   ],
-   "region": "other",
-   "first_seen": "2026-10-22T11:34:08.378438+00:00"
-  },
-  {
-   "source": "adzuna",
-   "src_id": "5919316055",
-   "title": "Junior Developer & Data Scientist: Posizioni Entry-Level in Ambito Tech",
-   "company": "Joinrs Italia",
-   "location": "Milano, Provincia di Milano, IT",
-   "description": "Stiamo cercando profili junior, studenti e neo-laureati in Informatica, Ingegneria, Data Science, Matematica, Statistica e discipline STEM che vogliano lanciare (o accelerare) la propria carriera Tech in aziende top in Italia e in Europa. Su Joinrs in questo momento trovi centinaia di posizioni attive, tra cui: Junior Software Developer (Frontend, Backend, Full Stack) Junior Data Scientist Data Analyst Machine Learning Engineer Junior Cloud Engineer Cybersecurity Analyst DevOps Engineer Junior …",
-   "url": "https://www.adzuna.it/details/5919316055?utm_medium=api&utm_source=04d4f8bc",
-   "posted": "2026-10-08T18:15:19+00:00",
-   "remote": false,
-   "id": "dac3acf9431e67f8",
-   "score": 48,
-   "why": [
-    "title",
-    "skills: machine learning",
-    "junior-friendly"
-   ],
-   "region": "other",
-   "first_seen": "2026-10-22T11:34:08.378438+00:00"
-  },
-  {
    "source": "arbeitnow",
    "src_id": "it-specialist-intern-munich-306722",
    "title": "IT Specialist Intern (f/m/d)",
@@ -998,7 +782,7 @@
    "title": "Cloud and Platform Engineer",
    "company": "SwissPeak Partners GmbH",
    "location": "Zurich, Zürich, Switzerland",
-   "description": "For a renowned Swiss bank in Zurich, we are looking for an experienced cloud and platform engineer. You will provision and run platform services as code, depending on the team, with a focus on Entra ID automation, a data platform on Azure or a Kafka platform on Kubernetes. Your tasks Provision platform services with infrastructure as code, using Terraform, Helm and GitLab Automate build, test and release processes and run CI/CD pipelines Operate and develop Azure Kubernetes and storage accounts Depending on the team, automate Entra ID, build a data platform on Azure Postgres with lakehouse technologies, or upgrade Confluent Kafka on Kubernetes Your profile German at C1 level or higher, the project language is German. Understanding of Swiss German is expected Very good Azure skills and experience with Kubernetes Infrastructure as code with Terraform DevOps toolchain with Git, GitLab, Docker and CI/CD Experience applying cloud security technologies Several years of experience at senior level Nice to have Go, Python or Bash OAuth, SAML, OpenID Connect and Conditional Access Iceberg or Delta, Denodo Find Jobs in Switzerland on Arbeitnow",
+   "description": "For a renowned Swiss bank in Zurich, we are looking for an experienced cloud and platform engineer. You will provision and run platform services as code, depending on the team, with a focus on Entra ID automation, a data platform on Azure or a Kafka platform on Kubernetes. Your tasks Provision platform services with infrastructure as code, using Terraform, Helm and GitLab Automate build, test and release processes and run CI/CD pipelines Operate and develop Azure Kubernetes and storage accounts Depending on the team, automate Entra ID, build a data platform on Azure Postgres with lakehouse technologies, or upgrade Confluent Kafka on Kubernetes Your profile German at C1 level or higher, the project language is German. Understanding of Swiss German is expected Very good Azure skills and experience with Kubernetes Infrastructure as code with Terraform DevOps toolchain with Git, GitLab, Docker and CI/CD Experience applying cloud security technologies Several years of experience at senior level Nice to have Go, Python or Bash OAuth, SAML, OpenID Connect and Conditional Access Iceberg or Delta, Denodo Find more English Speaking Jobs in Switzerland on Arbeitnow",
    "url": "https://www.arbeitnow.ch/jobs/companies/swisspeak-partners-gmbh/cloud-and-platform-engineer-zurich-469761",
    "posted": "2026-10-25T03:31:09+00:00",
    "remote": false,
@@ -1016,7 +800,7 @@
    "title": "Sr REACT NATIVE",
    "company": "Somnio Software",
    "location": "Worldwide",
-   "description": "Tags: react native, react, dev, python, javascript, c, flutter, node, node.js, digital nomad. QuÃ© es Deazy Deazy es una plataforma/marketplace de UK que conecta empresas que necesitan desarrollo de software con agencias de desarrollo en todo el mundo. Ellos consiguen el cliente, definen el proyecto y luego lo asignan a una agencia como Somnio para ejecutarlo. BÃ¡sicamente son un intermediario entre el cliente final y nosotros. CÃ³mo funciona el modelo Deazy factura al cliente final a su propia tarifa (en este caso estÃ¡n hablando de EUR 47/h, aunque todavÃ­a hay que confirmar si ese es el rate al cliente o lo que pagan al proveedor). Nosotros le facturamos a Deazy a un rate mÃ¡s bajo, y la diferencia es su margen. Por eso la tarifa introductoria que les estamos ofreciendo es USD 45/h - USD 40/h â pensada para que Deazy tenga margen cÃ³modo y nos priorice y abrir la cuenta Si la relaciÃ³n funciona, Deazy nos puede asignar proyectos de forma recurrente sin que nosotros tengamos que salir a conseguirlos. Es un canal de ventas indirecto, ellos traen el cliente, nosotros entregamos. El volumen potencial es importante si nos posicionamos bien con ellos. Deazy nos conoce principalmente como agencia Flutter. El trabajo ahora es mostrarles que tambiÃ©n somos fuertes en React Native, React, Node.js , Python y AI Please mention the word **JOYOUSLY** and tag RMTcyLjIwMy4xOTcuMjQw when applying to show you read the job post completely (#RMTcyLjIwMy4xOTcuMjQw). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+   "description": "Tags: react native, react, dev, python, javascript, c, flutter, node, node.js, digital nomad. QuÃ© es Deazy Deazy es una plataforma/marketplace de UK que conecta empresas que necesitan desarrollo de software con agencias de desarrollo en todo el mundo. Ellos consiguen el cliente, definen el proyecto y luego lo asignan a una agencia como Somnio para ejecutarlo. BÃ¡sicamente son un intermediario entre el cliente final y nosotros. CÃ³mo funciona el modelo Deazy factura al cliente final a su propia tarifa (en este caso estÃ¡n hablando de EUR 47/h, aunque todavÃ­a hay que confirmar si ese es el rate al cliente o lo que pagan al proveedor). Nosotros le facturamos a Deazy a un rate mÃ¡s bajo, y la diferencia es su margen. Por eso la tarifa introductoria que les estamos ofreciendo es USD 45/h - USD 40/h â pensada para que Deazy tenga margen cÃ³modo y nos priorice y abrir la cuenta Si la relaciÃ³n funciona, Deazy nos puede asignar proyectos de forma recurrente sin que nosotros tengamos que salir a conseguirlos. Es un canal de ventas indirecto, ellos traen el cliente, nosotros entregamos. El volumen potencial es importante si nos posicionamos bien con ellos. Deazy nos conoce principalmente como agencia Flutter. El trabajo ahora es mostrarles que tambiÃ©n somos fuertes en React Native, React, Node.js , Python y AI Please mention the word **JOYOUSLY** and tag RMjAuMTEyLjEyMi40OA== when applying to show you read the job post completely (#RMjAuMTEyLjEyMi40OA==). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
    "url": "https://remoteOK.com/remote-jobs/remote-sr-react-native-somnio-software-1137523",
    "posted": "2026-10-15T00:00:19+00:00",
    "remote": true,
@@ -1086,52 +870,12 @@
    "first_seen": "2026-10-25T10:13:35.035910+00:00"
   },
   {
-   "source": "adzuna",
-   "src_id": "5931059674",
-   "title": "Junior Software Engineer",
-   "company": "Bluetown",
-   "location": "Birmingham, West Midlands, GB",
-   "description": "Job Title: Junior Software Engineer Location: Birmingham / Hybrid Salary: £28,000 - £35,000 per annum Position: Permanent, full-time About The Company: The Company is a long-established web and app development agency based in the Jewellery Quarter, specialising in AI integration, SaaS products, apps and portals. We build high-quality web and mobile solutions for a wide range of clients, from innovative start-ups to established enterprises. We embrace modern technologies, and have frontier adopt…",
-   "url": "https://www.adzuna.co.uk/jobs/land/ad/5931059674?se=dFv9hVzQ8RG17O__M5KguQ&utm_medium=api&utm_source=04d4f8bc&v=BF030D04F908336D9C351E81E3382BF158235890",
-   "posted": "2026-10-16T19:25:03+00:00",
-   "remote": false,
-   "id": "5475c112086c0817",
-   "score": 44,
-   "why": [
-    "title",
-    "skills: ai",
-    "junior-friendly"
-   ],
-   "region": "other",
-   "first_seen": "2026-10-22T11:34:08.378438+00:00"
-  },
-  {
-   "source": "adzuna",
-   "src_id": "5934318435",
-   "title": "Junior Software Engineer",
-   "company": "Anonymous",
-   "location": "Balsall Heath, Birmingham, GB",
-   "description": "Job Title: Junior Software Engineer Location: Birmingham / Hybrid Salary: £28,000 - £35,000 per annum Position: Permanent, full-time About The Company: The Company is a long-established web and app development agency based in the Jewellery Quarter, specialising in AI integration, SaaS products, apps and portals. We build high-quality web and mobile solutions for a wide range of clients, from innovative start-ups to established enterprises. We embrace modern technologies, and have frontier adopt…",
-   "url": "https://www.adzuna.co.uk/jobs/land/ad/5934318435?se=dFv9hVzQ8RG17O__M5KguQ&utm_medium=api&utm_source=04d4f8bc&v=A8E12EBDBCF0523E415342E7AA7EB2ADD6B8CE82",
-   "posted": "2026-10-19T16:12:28+00:00",
-   "remote": false,
-   "id": "56105d9691ab3537",
-   "score": 44,
-   "why": [
-    "title",
-    "skills: ai",
-    "junior-friendly"
-   ],
-   "region": "other",
-   "first_seen": "2026-10-22T11:34:08.378438+00:00"
-  },
-  {
    "source": "arbeitnow",
    "src_id": "agentic-software-engineer-basel-30040",
    "title": "Agentic Software Engineer (w/m/d)",
    "company": "YOO AG",
    "location": "Basel",
-   "description": "Über YOO Sali. Wir sind YOO, die Basler Digitalagentur. Wir entwickeln digitale Lösungen, die Prozesse vereinfachen und Teams produktiver machen. Dafür arbeiten bei uns Menschen aus unterschiedlichsten Disziplinen eng zusammen – strategisch, kreativ und technisch. Wenn du Verantwortung übernehmen und im digitalen Projektalltag etwas bewegen willst, bist du bei uns richtig. Wir suchen per sofort oder nach Vereinbarung. Aufgaben Entwicklung von Softwarelösungen für Kund:innen aus unterschiedlichsten Branchen. Effektiver Einsatz von Coding Agents, LLMs und AI APIs im Entwicklungsalltag. Anforderungen von Kund:innen verstehen und gemeinsam mit UX, Design und Projektmanagement kritisch auf Vollständigkeit, Eindeutigkeit und technische Machbarkeit prüfen. Features so spezifizieren, dass sie effizient AI-gestützt umgesetzt werden können. Aktive Mitgestaltung unserer AI-gestützten Entwicklungsprozesse (Tooling, Workflows, Guidelines), um Kundenlösungen schneller und besser umzusetzen. Qualifikation Mindestens fünf Jahre Erfahrung in der professionellen Softwareentwicklung. Fundierte Kenntnisse in Software-Architektur und Software-Design. Praktische Erfahrung im Einsatz von AI Coding Tools (z. B. Claude Code, GitHub Copilot, Cursor) sowie ein gutes Verständnis der Möglichkeiten und Grenzen von LLMs und agentic Softwareentwicklung. Erfahrung mit Git-Workflows, CI/CD und automatisiertem Testing, damit AI-generierter Code in Kundenprojekten zuverlässig abgesichert ist. Eine strukturierte, eigenverantwortliche Arbeitsweise und Freude an neuen Technologien. Erfahrung mit Microsoft Azure und cloudbasierten Architekturen sowie mit Docker oder Kubernetes ist ein Plus. Du bringst sehr gute Deutsch- (C2) und gute Englischkenntnisse (B2) mit. Benefits Work-Life Integration mit flexiblen Arbeitszeiten, Homeoffice und Workation. Ein sympathisches Team, das sich auf dich freut und dir hilft, schnell Fuss zu fassen sowie aktive Mitgestaltungsmöglichkeiten und flache Hierarchien. Förderung bei Weiterbildungen und Beteiligung am Unternehmensgewinn. Modernes Büro in Gehdistanz zum Bahnhof SBB. Unfallzusatzversicherung und attraktiver BVG-Leistungsplan. Lebendige Teamkultur mit Spiel, Sport und Spass. Find Jobs in Switzerland on Arbeitnow",
+   "description": "Über YOO Sali. Wir sind YOO, die Basler Digitalagentur. Wir entwickeln digitale Lösungen, die Prozesse vereinfachen und Teams produktiver machen. Dafür arbeiten bei uns Menschen aus unterschiedlichsten Disziplinen eng zusammen – strategisch, kreativ und technisch. Wenn du Verantwortung übernehmen und im digitalen Projektalltag etwas bewegen willst, bist du bei uns richtig. Wir suchen per sofort oder nach Vereinbarung. Aufgaben Entwicklung von Softwarelösungen für Kund:innen aus unterschiedlichsten Branchen. Effektiver Einsatz von Coding Agents, LLMs und AI APIs im Entwicklungsalltag. Anforderungen von Kund:innen verstehen und gemeinsam mit UX, Design und Projektmanagement kritisch auf Vollständigkeit, Eindeutigkeit und technische Machbarkeit prüfen. Features so spezifizieren, dass sie effizient AI-gestützt umgesetzt werden können. Aktive Mitgestaltung unserer AI-gestützten Entwicklungsprozesse (Tooling, Workflows, Guidelines), um Kundenlösungen schneller und besser umzusetzen. Qualifikation Mindestens fünf Jahre Erfahrung in der professionellen Softwareentwicklung. Fundierte Kenntnisse in Software-Architektur und Software-Design. Praktische Erfahrung im Einsatz von AI Coding Tools (z. B. Claude Code, GitHub Copilot, Cursor) sowie ein gutes Verständnis der Möglichkeiten und Grenzen von LLMs und agentic Softwareentwicklung. Erfahrung mit Git-Workflows, CI/CD und automatisiertem Testing, damit AI-generierter Code in Kundenprojekten zuverlässig abgesichert ist. Eine strukturierte, eigenverantwortliche Arbeitsweise und Freude an neuen Technologien. Erfahrung mit Microsoft Azure und cloudbasierten Architekturen sowie mit Docker oder Kubernetes ist ein Plus. Du bringst sehr gute Deutsch- (C2) und gute Englischkenntnisse (B2) mit. Benefits Work-Life Integration mit flexiblen Arbeitszeiten, Homeoffice und Workation. Ein sympathisches Team, das sich auf dich freut und dir hilft, schnell Fuss zu fassen sowie aktive Mitgestaltungsmöglichkeiten und flache Hierarchien. Förderung bei Weiterbildungen und Beteiligung am Unternehmensgewinn. Modernes Büro in Gehdistanz zum Bahnhof SBB. Unfallzusatzversicherung und attraktiver BVG-Leistungsplan. Lebendige Teamkultur mit Spiel, Sport und Spass. Find more English Speaking Jobs in Switzerland on Arbeitnow",
    "url": "https://www.arbeitnow.ch/jobs/companies/yoo-ag/agentic-software-engineer-basel-30040",
    "posted": "2026-10-21T16:00:43+00:00",
    "remote": false,
@@ -1169,7 +913,7 @@
    "title": "Research Engineer (m/f/d)",
    "company": "Sereact GmbH",
    "location": "Zurich",
-   "description": "Research Engineer, Manipulation Data & Teleoperation — Zurich This role owns the data generation layer of Sereact's VLA stack: teleoperation systems and data collection infrastructure that feed Cortex, built from our Zurich research hub. About Sereact Sereact is a Series B embodied-AI company. Cortex, our VLA model, is deployed in live warehouse robotic cells across the EU and US. Zurich is our newest research hub, focused on the manipulation and control problems that sit underneath Cortex. The role This is a Research Engineer position. It is scoped to the data generation layer of the VLA stack: teleoperation hardware and software, retargeting pipelines that map human demonstrations onto robot hands, and the data collection infrastructure that feeds Cortex. It requires building the systems that produce the data those models train on, and working closely with the training team on what that data needs to look like. What you'll do Build and operate teleoperation systems for dexterous manipulation, including retargeting algorithms that map human hand and arm motion onto robot end-effectors Design and maintain scalable, UMI-style data collection hardware and software that other engineers at Sereact rely on Benchmark control and retargeting approaches using rigorous, human-factors-informed methodology Instrument and support the physical robots deployed in the Zurich hub, including day-to-day work on the control stack Work with the model-training team to define what data they need and close the loop on data quality Build tooling or infrastructure outside your immediate brief when it unblocks the wider team What you'll bring MSc (or equivalent, in progress) in robotics, mechanical engineering, or a closely related field, with a thesis or capstone project on manipulation, teleoperation, or retargeting Hands-on experience building a data collection device or system for robot learning (UMI or a comparable system), not just operating one someone else built Working knowledge of retargeting algorithms for mapping human input onto robot hands or end-effectors 1 to 2 years of combined research, internship, or industry experience in robotics, mechatronics, or a related engineering discipline Software and systems engineering skills strong enough to build and maintain infrastructure other engineers rely on, not only research-grade prototypes Comfortable working as an individual contributor in a small, still-forming team Nice to have A conference submission on manipulation, teleoperation, or retargeting where the candidate is an author (an MSc thesis submitted to a venue like CoRL counts; supervising a student team whose own work was later published does not) Teaching or TA experience in a robotics course Some exposure to large-model training, even without an independent training record A concrete example of building something outside the formal role brief because the team needed it Location: Zurich Area, Switzerland: This role is based in our Zurich office, offering a vibrant ecosystem for robotics and AI. What We Offer: Free meals at the workplace. Flexible working hours and the option to work from home when needed. Direct collaboration with founders and world-leading AI experts. Access to large-scale compute clusters and proprietary robotic datasets. A key role in shaping the future of embodied AI. Competitive compensation and a relocation package for the Zurich area Find more English Speaking Jobs in Switzerland on Arbeitnow",
+   "description": "Research Engineer, Manipulation Data & Teleoperation — Zurich This role owns the data generation layer of Sereact's VLA stack: teleoperation systems and data collection infrastructure that feed Cortex, built from our Zurich research hub. About Sereact Sereact is a Series B embodied-AI company. Cortex, our VLA model, is deployed in live warehouse robotic cells across the EU and US. Zurich is our newest research hub, focused on the manipulation and control problems that sit underneath Cortex. The role This is a Research Engineer position. It is scoped to the data generation layer of the VLA stack: teleoperation hardware and software, retargeting pipelines that map human demonstrations onto robot hands, and the data collection infrastructure that feeds Cortex. It requires building the systems that produce the data those models train on, and working closely with the training team on what that data needs to look like. What you'll do Build and operate teleoperation systems for dexterous manipulation, including retargeting algorithms that map human hand and arm motion onto robot end-effectors Design and maintain scalable, UMI-style data collection hardware and software that other engineers at Sereact rely on Benchmark control and retargeting approaches using rigorous, human-factors-informed methodology Instrument and support the physical robots deployed in the Zurich hub, including day-to-day work on the control stack Work with the model-training team to define what data they need and close the loop on data quality Build tooling or infrastructure outside your immediate brief when it unblocks the wider team What you'll bring MSc (or equivalent, in progress) in robotics, mechanical engineering, or a closely related field, with a thesis or capstone project on manipulation, teleoperation, or retargeting Hands-on experience building a data collection device or system for robot learning (UMI or a comparable system), not just operating one someone else built Working knowledge of retargeting algorithms for mapping human input onto robot hands or end-effectors 1 to 2 years of combined research, internship, or industry experience in robotics, mechatronics, or a related engineering discipline Software and systems engineering skills strong enough to build and maintain infrastructure other engineers rely on, not only research-grade prototypes Comfortable working as an individual contributor in a small, still-forming team Nice to have A conference submission on manipulation, teleoperation, or retargeting where the candidate is an author (an MSc thesis submitted to a venue like CoRL counts; supervising a student team whose own work was later published does not) Teaching or TA experience in a robotics course Some exposure to large-model training, even without an independent training record A concrete example of building something outside the formal role brief because the team needed it Location: Zurich Area, Switzerland: This role is based in our Zurich office, offering a vibrant ecosystem for robotics and AI. What We Offer: Free meals at the workplace. Flexible working hours and the option to work from home when needed. Direct collaboration with founders and world-leading AI experts. Access to large-scale compute clusters and proprietary robotic datasets. A key role in shaping the future of embodied AI. Competitive compensation and a relocation package for the Zurich area Find Jobs in Switzerland on Arbeitnow",
    "url": "https://www.arbeitnow.ch/jobs/companies/sereact-gmbh/research-engineer-zurich-318019",
    "posted": "2026-10-24T23:40:15+00:00",
    "remote": false,
@@ -1208,7 +952,7 @@
    "title": "Praktikum Anwendungsentwicklung (w/m/d)",
    "company": "SWOOFLE GmbH",
    "location": "Berlin",
-   "description": "SWOOFLE ist der einzige Eventmöbelanbieter, der via InstantBooking online Möbel vermietet. Unsere Designmöbel werden nachhaltig in Berlin produziert. Unser Team ist von Anfang 20 bis 80 sehr breit aufgestellt, wodurch Hierarchien entfallen und Innovation aus Tradition gewonnen wird. Du suchst noch nach einem Pflichtpraktikum für deine Ausbildung oder dein Studium im Bereich Anwendungsentwicklung? Oder möchtest du ein freiwilliges Praktikum absolvieren? Zum nächstmöglichen Zeitpunkt suchen wir Studenten und Studentinnen für ein dreimonatiges oder längeres Praktikum. Aufgaben · Wartung und Erweiterung unserer Website und des innovativen InstantBooking-Tools. · Pflege und Administration der Datenbank. · Wartung und Erweiterung diverser interner Webanwendungen. · Umsetzung von neuen und innovativen Anwendungen. Qualifikation · Grundkenntnisse in JavaScript, PHP, CSS und HTML-Methoden · Von Vorteil sind Kenntnisse zu WordPress, WooCommerce, Node.js sowie npm · Verständnis von Git sowie von Frontend-Frameworks wie Vue 3 · Entwicklung auf Betriebssystemen wie Windows 11 und Linux Debian · Grundlegendes Verständnis zum Arbeiten über SSH und CLI · Du denkst „Out-of-the-box“, bist kreativ und ein wenig verrückt · Du bist kommunikativ · Sehr gute Deutsch-und Englischkenntnisse, andere Sprachen sind von Vorteil · Du bist teamfähig und flexibel· Du bist organisiert, zuverlässig Benefits · Kein Kaffeekocher-Praktikum! Du wirst aktives Teammitglied · Einen umfänglichen Einblick in unser Unternehmen und unsere Arbeitsweise · Flexible Arbeitszeiten! Bei uns muss keiner vor 10 Uhr im Büro sein · Raum für Kreativität und Eigenständigkeit · Entspannte Arbeitsatmosphäre und ergonomisches Sitzen · Flache Hierarchien! Jeder packt mit an und lernt neben seinen Haupttätigkeiten alle Positionen kennen · Jede Menge Getränke · Teilnahme an vielen spannenden Events und Abendveranstaltungen Wir schauen uns stets nach neuen Talenten und innovativen Köpfen um, die unser junges Team verstärken. Bei uns hat jeder die Möglichkeit Konzepte schnell umzusetzen und in jede Position hineinzuschnuppern. Bei uns herrschen flache Hierarchien und eine Menge Humor. Bei SWOOFLE kannst du Dich kreativ einbringen und deine Ideen in die Tat umsetzen. Find Jobs in Germany on Arbeitnow",
+   "description": "SWOOFLE ist der einzige Eventmöbelanbieter, der via InstantBooking online Möbel vermietet. Unsere Designmöbel werden nachhaltig in Berlin produziert. Unser Team ist von Anfang 20 bis 80 sehr breit aufgestellt, wodurch Hierarchien entfallen und Innovation aus Tradition gewonnen wird. Du suchst noch nach einem Pflichtpraktikum für deine Ausbildung oder dein Studium im Bereich Anwendungsentwicklung? Oder möchtest du ein freiwilliges Praktikum absolvieren? Zum nächstmöglichen Zeitpunkt suchen wir Studenten und Studentinnen für ein dreimonatiges oder längeres Praktikum. Aufgaben · Wartung und Erweiterung unserer Website und des innovativen InstantBooking-Tools. · Pflege und Administration der Datenbank. · Wartung und Erweiterung diverser interner Webanwendungen. · Umsetzung von neuen und innovativen Anwendungen. Qualifikation · Grundkenntnisse in JavaScript, PHP, CSS und HTML-Methoden · Von Vorteil sind Kenntnisse zu WordPress, WooCommerce, Node.js sowie npm · Verständnis von Git sowie von Frontend-Frameworks wie Vue 3 · Entwicklung auf Betriebssystemen wie Windows 11 und Linux Debian · Grundlegendes Verständnis zum Arbeiten über SSH und CLI · Du denkst „Out-of-the-box“, bist kreativ und ein wenig verrückt · Du bist kommunikativ · Sehr gute Deutsch-und Englischkenntnisse, andere Sprachen sind von Vorteil · Du bist teamfähig und flexibel· Du bist organisiert, zuverlässig Benefits · Kein Kaffeekocher-Praktikum! Du wirst aktives Teammitglied · Einen umfänglichen Einblick in unser Unternehmen und unsere Arbeitsweise · Flexible Arbeitszeiten! Bei uns muss keiner vor 10 Uhr im Büro sein · Raum für Kreativität und Eigenständigkeit · Entspannte Arbeitsatmosphäre und ergonomisches Sitzen · Flache Hierarchien! Jeder packt mit an und lernt neben seinen Haupttätigkeiten alle Positionen kennen · Jede Menge Getränke · Teilnahme an vielen spannenden Events und Abendveranstaltungen Wir schauen uns stets nach neuen Talenten und innovativen Köpfen um, die unser junges Team verstärken. Bei uns hat jeder die Möglichkeit Konzepte schnell umzusetzen und in jede Position hineinzuschnuppern. Bei uns herrschen flache Hierarchien und eine Menge Humor. Bei SWOOFLE kannst du Dich kreativ einbringen und deine Ideen in die Tat umsetzen. Find more English Speaking Jobs in Germany on Arbeitnow",
    "url": "https://www.arbeitnow.com/jobs/companies/swoofle-gmbh/praktikum-anwendungsentwicklung-berlin-174622",
    "posted": "2026-10-24T22:00:29+00:00",
    "remote": false,
@@ -1237,6 +981,24 @@
    ],
    "region": "europe",
    "first_seen": "2026-10-25T10:13:35.035910+00:00"
+  },
+  {
+   "source": "arbeitnow",
+   "src_id": "site-reliability-engineer-london-276230",
+   "title": "Site Reliability Engineer",
+   "company": "Voleon",
+   "location": "London",
+   "description": "Voleon is a technology company that applies state-of-the-art AI and machine learning techniques to real-world problems in finance. For nearly two decades, we have led our industry and worked at the frontier of applying AI/ML to investment management. We have become a multibillion-dollar asset manager, and we have ambitious goals for the future. Your colleagues will include internationally recognized experts in artificial intelligence and machine learning research as well as highly experienced finance and technology professionals. The people who shape our company come from other backgrounds, including concert music performances, humanitarian aid, opera singing, sports writing, and BMX racing. You will be part of a team that loves to succeed together. In addition to our enriching and collegial working environment, we offer highly competitive compensation and benefits packages, technology talks by our experts, a beautiful modern office, daily catered lunches, and more. As a Site Reliability Engineer (SRE), you will work at the intersection of production operations and software development as you improve, manage, and monitor production-critical infrastructure and data pipelines. At Voleon, many SREs serve together on a Production Operations team tasked with improving shared production infrastructure. Others are embedded with teams of software engineers to improve specific production systems owned by those teams. Voleon SREs work on important real-world problems and collaborate with passionate and talented colleagues in an empowering, results-driven environment. This role is a way to make a real difference: your contributions will make our critical systems more reliable, lower operational risk, and increase the efficiency of our engineering effort. Responsibilities Improve fault-tolerance and maintainability of code in proprietary data pipelines and trading systems Diagnose and fix bugs in code Lead complex deployments Automate manual workflows Track and prioritize outstanding production-related issues Share an on-call rotation responding to incidents to ensure the continuous operation of production-critical systems Requirements Experience with coding and debugging Python Experience with Linux Familiarity with Relational Databases & SQL Sharp analytical and problem-solving skills and a persistent drive to make things work (better) Strong growth mindset and a passion for learning Strong technical communication skills Attention to detail 2 years of relevant industry experience An undergraduate degree or comparable training in a quantitative field or equivalent, relevant industry experience Preferred Qualifications Familiarity with best practices concerning code maintainability, documentation, quality assurance, continuous integration and deployment Experience supporting production systems Experience with any of the following: gRPC microservices, Postgres, Pandas, Golang, R, Git, Jenkins, Bazel, Prometheus, Grafana, Airflow, Kubernetes “Friends of Voleon” Candidate Referral Program If you have a great candidate in mind for this role and would like to have the potential to earn $7,500 if your referred candidate is successfully hired and employed by The Voleon Group, please use this form to submit your referral. For more details regarding eligibility, terms and conditions please make sure to review the Voleon Referral Bonus Program . Equal Opportunity Employer The Voleon Group is an Equal Opportunity employer. Applicants are considered without regard to race, color, religion, creed, national origin, age, sex, gender, marital status, sexual orientation and identity, genetic information, veteran status, citizenship, or any other factors prohibited by local, state, or federal law. Find more English Speaking Jobs in United Kingdom on Arbeitnow",
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/voleon/site-reliability-engineer-london-276230",
+   "posted": "2026-10-25T09:40:15+00:00",
+   "remote": false,
+   "id": "303b227aac5e505f",
+   "score": 42,
+   "why": [
+    "skills: python, postgres, machine learning, jenkins, ai"
+   ],
+   "region": "europe",
+   "first_seen": "2026-10-25T11:07:31.407817+00:00"
   },
   {
    "source": "greenhouse",
@@ -1276,25 +1038,6 @@
    "first_seen": "2026-10-24T10:42:44.059696+00:00"
   },
   {
-   "source": "adzuna",
-   "src_id": "5919241973",
-   "title": "Software Engineer (Junior Developer)",
-   "company": "CWBI",
-   "location": "Padova, Provincia di Padova, IT",
-   "description": "Questa posizione è in CWBI Il processo di selezione sarà interamente gestito CWBI. CWBI è una software house italiana con sede a Padova specializzata nel settore Fintech e del Banking. L'azienda si posiziona come partner tecnologico per soggetti vigilati, banche, istituti di pagamento (PSP) e aziende che necessitano di soluzioni avanzate per la gestione dei flussi finanziari e la digitalizzazione dei processi. Lavorare in un contesto come CWBI significa immergersi nel cuore pulsante dell'ingeg…",
-   "url": "https://www.adzuna.it/details/5919241973?utm_medium=api&utm_source=04d4f8bc",
-   "posted": "2026-10-08T18:00:18+00:00",
-   "remote": false,
-   "id": "9bc21ed631fb0be1",
-   "score": 40,
-   "why": [
-    "title",
-    "junior-friendly"
-   ],
-   "region": "other",
-   "first_seen": "2026-10-22T11:34:08.378438+00:00"
-  },
-  {
    "source": "arbeitnow",
    "src_id": "ml-intern-optimization-quality-monitoring-zurich-167634",
    "title": "ML Intern: Optimization Quality & Monitoring",
@@ -1319,7 +1062,7 @@
    "title": "Software-Entwickler:in .NET / Azure 80-100%",
    "company": "p3b AG",
    "location": "Bern",
-   "description": "Dank deiner Erfahrung auf \"Professional\" Level, entwickelst du mit dem Team moderne Applikationen – von der Idee bis zum erfolgreichen Abschluss. Aufgaben Dein Job Du entwickelst Business-Applikationen für anspruchsvolle Benutzer:innen aus unterschiedlichen Branchen Von der Datenmodellierung über das Backend bis zum Frontend bringst du deine Fachkenntnisse ein Die Anforderungen der Kund:innen übersetzt du gekonnt und vermittelst erfolgreich zwischen den Parteien Qualität ist sehr wichtig: Deinen Code ergänzt du um Unit- und Integrations-Tests zum Wohle der Nachhaltigkeit Ausserdem bist du Teil eines agilen Teams, welches sich sinnvoll selbst organisiert übernimmst du Mitverantwortung für den Tech-Stack und entscheidest bei künftigen Technologien mit stehst du unseren Kund:innen bei technischen Anliegen beratend zur Seite Qualifikation Dein Profil Abgeschlossene Aus-/Weiterbildung in Informatik auf Stufe EFZ, HF oder ähnlich Du kannst mindestens 4 Jahre Berufserfahrung in der Microsoft Software-Entwicklung ausweisen Kenntnisse im Backend : C# / .NET mit Visual Studio Kenntnisse im Frontend : Angular oder React mit JavaScript oder TypeScript Begriffe wie SQL, MSSQL Server, Git, Azure, Azure DevOps oder CI/CD sind natürlich auch keine Fremdwörter Sehr gute Deutschkenntnisse (Level C1) sind zwingend , jede weitere Sprache ein Plus Deine Persönlichkeit Du bist offen für Neues, stellst Fragen und willst verstehen, bevor du loslegst Im Team macht dir so schnell niemand was vor – du bringst dich mit Herzblut ein Logisches Denken ist für dich kein Pflichtprogramm, sondern deine Superpower Du lernst schnell, erkennst Muster und findest oft die passende Lösung Benefits Dein neuer Arbeitgeber Langjährige Kund:innen von p3b im Grossraum Bern suchen dich! Dienstleistungen rund um die Software-Entwicklung stehen im Zentrum Seit vielen Jahren erfolgreich am Schweizer IT-Markt, mit breitem Kundenstamm und spannendem Projekt-Portfolio Attraktive Arbeitsbedingungen mit echter Work-Life-Balance Der Bewerbungsprozess wird auf Augenhöhe geführt, überzeuge dich selbst! Dein Gewinn Teilzeit und Homeoffice werden unterstützt Flexible Arbeitszeitmodelle \"work smart\" Moderner Arbeitsplatz in offenen Räumlichkeiten Familiäres, persönliches Arbeitsumfeld sowie kollegialer Umgang Kurze Entscheidungswege Arbeitgeber:in, die mit dem Geist der Zeit geht! Find Jobs in Switzerland on Arbeitnow",
+   "description": "Dank deiner Erfahrung auf \"Professional\" Level, entwickelst du mit dem Team moderne Applikationen – von der Idee bis zum erfolgreichen Abschluss. Aufgaben Dein Job Du entwickelst Business-Applikationen für anspruchsvolle Benutzer:innen aus unterschiedlichen Branchen Von der Datenmodellierung über das Backend bis zum Frontend bringst du deine Fachkenntnisse ein Die Anforderungen der Kund:innen übersetzt du gekonnt und vermittelst erfolgreich zwischen den Parteien Qualität ist sehr wichtig: Deinen Code ergänzt du um Unit- und Integrations-Tests zum Wohle der Nachhaltigkeit Ausserdem bist du Teil eines agilen Teams, welches sich sinnvoll selbst organisiert übernimmst du Mitverantwortung für den Tech-Stack und entscheidest bei künftigen Technologien mit stehst du unseren Kund:innen bei technischen Anliegen beratend zur Seite Qualifikation Dein Profil Abgeschlossene Aus-/Weiterbildung in Informatik auf Stufe EFZ, HF oder ähnlich Du kannst mindestens 4 Jahre Berufserfahrung in der Microsoft Software-Entwicklung ausweisen Kenntnisse im Backend : C# / .NET mit Visual Studio Kenntnisse im Frontend : Angular oder React mit JavaScript oder TypeScript Begriffe wie SQL, MSSQL Server, Git, Azure, Azure DevOps oder CI/CD sind natürlich auch keine Fremdwörter Sehr gute Deutschkenntnisse (Level C1) sind zwingend , jede weitere Sprache ein Plus Deine Persönlichkeit Du bist offen für Neues, stellst Fragen und willst verstehen, bevor du loslegst Im Team macht dir so schnell niemand was vor – du bringst dich mit Herzblut ein Logisches Denken ist für dich kein Pflichtprogramm, sondern deine Superpower Du lernst schnell, erkennst Muster und findest oft die passende Lösung Benefits Dein neuer Arbeitgeber Langjährige Kund:innen von p3b im Grossraum Bern suchen dich! Dienstleistungen rund um die Software-Entwicklung stehen im Zentrum Seit vielen Jahren erfolgreich am Schweizer IT-Markt, mit breitem Kundenstamm und spannendem Projekt-Portfolio Attraktive Arbeitsbedingungen mit echter Work-Life-Balance Der Bewerbungsprozess wird auf Augenhöhe geführt, überzeuge dich selbst! Dein Gewinn Teilzeit und Homeoffice werden unterstützt Flexible Arbeitszeitmodelle \"work smart\" Moderner Arbeitsplatz in offenen Räumlichkeiten Familiäres, persönliches Arbeitsumfeld sowie kollegialer Umgang Kurze Entscheidungswege Arbeitgeber:in, die mit dem Geist der Zeit geht! Find more English Speaking Jobs in Switzerland on Arbeitnow",
    "url": "https://www.arbeitnow.ch/jobs/companies/p3b-ag/software-entwicklerin-net-azure-80-100-bern-143843",
    "posted": "2026-10-23T10:01:29+00:00",
    "remote": false,
@@ -1390,25 +1133,6 @@
   },
   {
    "source": "arbeitnow",
-   "src_id": "software-engineer-net-woerden-170023",
-   "title": "Software Engineer (.NET)",
-   "company": "CCS Connects",
-   "location": "Woerden, Utrecht, Nederland",
-   "description": "Your Mission As a Software Engineer at CCS, you'll play a key role in our modernization journey—bridging legacy systems with future-ready solutions. You’ll help deliver innovative, high-quality software that transforms how our clients operate. Modernization is not just about adopting new technologies—it’s about continuously improving how we build, learn, and grow. You love experimenting, learning by doing, and inspiring others to raise the bar. What You’ll Do You’ll join a team focused on modernizing our insurance back-office systems—critical components in our clients' ecosystems. Your main focus will be on SureCore , our next-gen solution that works in tandem with Level , our trusted legacy platform. This hybrid approach lets us evolve system functionality domain by domain. You enjoy working at the intersection of old and new tech, and you thrive on technical challenges that require creativity and collaboration. Your Skills & Experience Must-have: Strong experience with .NET Hands-on knowledge of Domain-Driven Design (DDD) Comfortable with Docker and container orchestration Proficient in GitHub for version control and collaboration Familiar with both relational and NoSQL databases Understanding of CI/CD pipelines, automation, and cloud-native patterns Excellent team player with clear communication skills and a love for continuous learning Nice-to-have: Background in non-life or income insurance Experience with Infrastructure as Code (IaC), preferably Pulumi Familiarity with Azure and/or .NET Aspire What We Offer Competitive gross salary: €4,500 – €5,750 per month, depending on experience 8.33% holiday allowance and 25 vacation days (option to buy up to 20 extra) Workweek of 32–40 hours, tailored to your needs Laptop and phone provided Remote work expense allowance and budget for an ergonomic home office setup 1-year contract with the intention of permanent employment Pension plan with low personal contribution and discounts on group insurance Access to a company fitness program and bike plan Option to work abroad (up to 30 consecutive days per year) Fun team activities organized by our dedicated FUN team A future you build with us: you bring the ambition, we offer the opportunities Why Join CCS? Because at CCS, work means more than a job. It’s a space to be yourself, make real impact, and keep growing. We're passionate about technology, people, and sustainability—and we believe that work should be filled with purpose, progress, and joy. You’re the missing link in our team. Let’s build the future together. 🚀 Let’s Connect! Are you excited about this position? Apply now with your CV or LinkedIn profile. For questions about the procedure, you can email Find Jobs in Netherlands on Arbeitnow",
-   "url": "https://www.arbeitnow.nl/jobs/companies/ccs-connects/software-engineer-net-woerden-170023",
-   "posted": "2026-10-24T05:51:41+00:00",
-   "remote": false,
-   "id": "07626a1d26e3a158",
-   "score": 40,
-   "why": [
-    "title",
-    "skills: docker, ci/cd, azure"
-   ],
-   "region": "other",
-   "first_seen": "2026-10-24T10:42:44.059696+00:00"
-  },
-  {
-   "source": "arbeitnow",
    "src_id": "graduate-technology-strategy-analyst-physical-sciences-engineering-2027-start-389045",
    "title": "Graduate Technology Strategy Analyst, Physical Sciences / Engineering (2027 start)",
    "company": "Cambridgeconsultantslimited",
@@ -1447,6 +1171,27 @@
   },
   {
    "source": "arbeitnow",
+   "src_id": "medior-full-stack-developer-php-typescript-amsterdam-360493",
+   "title": "Medior Full Stack Developer (PHP / TypeScript)",
+   "company": "MediaLab Online BV",
+   "location": "Amsterdam",
+   "description": "Keep Media Moving MediaLab is a SaaS platform for distribution, viewing and storage of media assets, used by broadcasters, media producers, sports organizations and international brands. Think drone footage from a live event, raw camera files from a TV production, or source files well over 100GB, all moving through systems that need to handle them reliably. Every day, content viewed by millions of people moves through our systems, so reliability is a core requirement. As a developer, you will maintain and extend the applications behind our B2B SaaS platform. The platform runs across AWS, Azure and hybrid environments, and we are not tied to a single cloud vendor. We are a small but professional team based in Amsterdam, providing an enterprise-grade hosted software solution to international customers. Being a small team means this role calls for a flexible mindset, but it also means real ownership and responsibility over the parts of the platform you work on. We believe people are capable of more than a checklist suggests. If you don't meet every requirement listed below but think you're a good fit, we encourage you to apply anyway. Tasks You will: Build and evolve features across the MediaLab SaaS platform, frontend and backend Participate in technical discussions and contribute to architectural decisions Work directly with customers or stakeholders to understand requirements and test implementations Review code and test merge requests from fellow developers Debug and troubleshoot production issues to keep the platform stable Improve reliability, scalability and maintainability of core systems Apply a security-first and privacy-focused mindset to keep customer data safe Explore AI-assisted media workflows, such as metadata extraction, face detection and automation Requirements Your skills: Experience: 3+ years as a developer in application development PHP: Experience with modern PHP and object-oriented programming JavaScript/TypeScript: Experience with modern JavaScript or TypeScript Development tools: Experience with modern development workflows (Git, Composer, Webpack, Docker, CI/CD) Quality mindset: Strong attention to detail, a thorough testing approach and a commitment to maintainable code Teamwork: Ability to collaborate with colleagues to ship features together Communication: Ability to communicate progress and tradeoffs with stakeholders during development cycles Work permit: You already hold a valid work permit for the Netherlands, we are not able to offer visa sponsorship for this role Bonus points if you have experience with Experience with our stack: MySQL, Redis, Memcached, OpenSearch, ImageMagick, FFmpeg, Linux, AWS, Azure Experience with React Native or Electron Experience designing multi-tenant, high-availability systems, including failover and disaster recovery Experience with media handling or transcoding Experience applying AI in development workflows or product features Benefits What we offer Salary range €3.500 - €5.000 gross per month based on 40 hours 24 days of paid leave plus 8% holiday allowance Pension via BeFrank Annual bonus based on personal KPIs Hybrid setup: 2 days in the office, flexible the rest of the week Cloud training and certifications NS business card or travel allowance Real autonomy: you set your own pace within a collaborative team Free lunch and good coffee at the office Process After you apply, we'll review your submission and may invite you to a short video screening. If that goes well, you'll be invited to our Amsterdam office for a follow-up conversation about the product, the platform and how you approach your work. Find Jobs in Netherlands on Arbeitnow",
+   "url": "https://www.arbeitnow.nl/jobs/companies/medialab-online-bv/medior-full-stack-developer-php-typescript-amsterdam-360493",
+   "posted": "2026-10-25T09:00:56+00:00",
+   "remote": false,
+   "id": "5c9ee94b261cac72",
+   "score": 40,
+   "why": [
+    "title",
+    "skills: react, php, typescript, docker, ci/cd, mysql",
+    "seniority mismatch",
+    "visa/relocation"
+   ],
+   "region": "europe",
+   "first_seen": "2026-10-25T11:07:31.407817+00:00"
+  },
+  {
+   "source": "arbeitnow",
    "src_id": "graduate-hardware-engineer-slough-gb-25277",
    "title": "Graduate Hardware Engineer",
    "company": "Octopus Energy Group",
@@ -1465,90 +1210,12 @@
    "first_seen": "2026-10-25T10:13:35.035910+00:00"
   },
   {
-   "source": "adzuna",
-   "src_id": "5902851792",
-   "title": "Junior Java Software Developer",
-   "company": "Fasanara",
-   "location": "London, UK, GB",
-   "description": "About Fasanara Founded in 2011, Fasanara is a global asset manager and technology platform. We manage c. USD 6 billion AUM (as of December 31, 2025) in Fintech strategies on behalf of pension funds and insurance companies in Europe and North America. With c.110 employees globally, we are a pioneer investor in Fintech Lending, enabling Real Economy Impact. Fasanara manages the largest and longest standing Fintech Lending fund in Europe and invests in early-stage Fintech companies via its venture…",
-   "url": "https://www.adzuna.co.uk/jobs/details/5902851792?utm_medium=api&utm_source=04d4f8bc",
-   "posted": "2026-09-29T15:19:50+00:00",
-   "remote": false,
-   "id": "e2c4326004b953e5",
-   "score": 38,
-   "why": [
-    "skills: java",
-    "junior-friendly"
-   ],
-   "region": "europe",
-   "first_seen": "2026-10-22T11:34:08.378438+00:00"
-  },
-  {
-   "source": "adzuna",
-   "src_id": "5938003252",
-   "title": "Junior Python Developer",
-   "company": "MCS Group",
-   "location": "Belfast, Northern Ireland, GB",
-   "description": "Junior Python Developer Salary: Up to £35,000 Location: Belfast - Hybrid Permanent The Opportunity We are partnering with an innovative technology business to recruit a Junior Python Developer to join its growing engineering team. This is an excellent opportunity for an aspiring developer to contribute to the development of real-world software products while building their technical expertise within a supportive and collaborative environment. The Role: As a Junior Python Developer, you'll focus…",
-   "url": "https://www.adzuna.co.uk/jobs/land/ad/5938003252?se=dFv9hVzQ8RG17O__M5KguQ&utm_medium=api&utm_source=04d4f8bc&v=D2E07775822B63F5BEA90AA90F1E8CA6594CD0D3",
-   "posted": "2026-10-22T14:59:24+00:00",
-   "remote": false,
-   "id": "cab6f8d2e4f08f77",
-   "score": 38,
-   "why": [
-    "skills: python",
-    "junior-friendly"
-   ],
-   "region": "europe",
-   "first_seen": "2026-10-23T11:23:36.456769+00:00"
-  },
-  {
-   "source": "arbeitnow",
-   "src_id": "junior-supply-chain-engineer-operations-h-f-issy-les-moulineaux-410004",
-   "title": "Junior Supply Chain Engineer - Operations (H/F)",
-   "company": "Withings",
-   "location": "Issy-les-Moulineaux, France",
-   "description": "Chez Withings, nous souhaitons redonner aux individus le contrôle de leur santé. Nous avons l’obsession de créer des produits beaux et intuitifs, afin que chacun puisse les utiliser facilement au quotidien; nos balances connectées, montres hybrides, tensiomètres, moniteurs de sommeil et tous les dispositifs de notre gamme sont aujourd’hui utilisés par des millions d’utilisateurs. Notre objectif : permettre la prévention, le dépistage et l’accompagnement d’un certain nombre de maladies chroniques via des produits et des services innovants, afin de révolutionner la manière dont on prend soin de notre santé . Au sein de l'équipe Supply Chain basée à Issy-les-Moulineaux, nous recherchons un·e Junior Supply Chain Engineer – Opérations en CDI. Vous serez le point de contact de nos entrepôts en France et aux États-Unis, et le référent des opérations physiques : rework, reconditionnement, opérations à valeur ajoutée et retours B2B et B2C. En collaboration avec les équipes ADV, Planning, Qualité et Service Client, ainsi qu'avec nos collègues aux États-Unis et en Chine, vous veillerez à la fiabilisation de ces flux, à l'évaluation de leur performance et de leurs coûts. Vos missions principales : 1. Entrepôts et stocks Être le point de contact de nos entrepôts en France, aux États-Unis et en Asie, et veiller au respect des process. Garantir la fiabilité des stocks : inventaires tournants et trimestriels, réconciliation 3PL / ERP, traitement du stock dormant. Mettre en place les opérations à valeur ajoutée : rework, kitting, personnalisation. 2. Retours et reconditionnement Gérer les retours B2B et B2C, et harmoniser les process entre l'Europe, les États-Unis et l'Asie. Piloter la chaîne de refurb (diagnostic, tests qualité, remise en stock) et le suivi des pièces détachées. 3. Performance et coûts Suivre les KPIs opérationnels (stocks, délais, retours, transporteurs) et produire le reporting mensuel. Analyser les coûts logistiques, contrôler la facturation des prestataires et identifier des leviers d'économie. 4. Automatisation et process Automatiser les flux de données avec nos prestataires (Python, API, Shopify Flow) et maintenir les tableaux de bord de l'équipe. Rédiger et tenir à jour les procédures opérationnelles (SOP). Requirements Vous êtes titulaire d'un Bac +5 spécialisé dans la Supply ou issu d’une école d’ingénieur ou équivalent. Une première expérience (stage, alternance ou 0 à 2 ans) en logistique, entreposage ou opérations. Vous maîtrisez Excel, savez travailler avec SQL et analyser des bases de données ; des connaissances en Python sont un vrai atout. Vous connaissez le fonctionnement d'un ERP et d'un WMS, et vous êtes à l'aise avec les outils informatiques (Pack Office, Google Suite, IA). Anglais professionnel courant : vous travaillerez au quotidien avec des prestataires et des collègues en Europe, aux États-Unis et en Asie. Rigueur, proactivité, autonomie, sens de l'organisation et adaptabilité : vous êtes force de proposition et d'amélioration. Vous avez une aisance relationnelle pour faire avancer des sujets avec des partenaires externes et des équipes internes variées. Benefits Rejoindre l’aventure Withings, c’est : Intégrer un des pionniers et leaders mondiaux de la santé connectée, plusieurs fois primé au Consumer Electronic Show Contribuer à des projets innovants et ambitieux pour la santé de demain dans un environnement agile et en constante évolution Intégrer une entreprise internationale, membre de la FrenchTech 120, dont les équipes sont basées à Issy-les-Moulineaux, Boston, Hong-Kong et Shenzhen Participer à l’amélioration continue de nos produits et services en les bêta-testant avant leur sortie, notamment lors de nos nombreuses sessions sportives entre collègues Bénéficier de nombreux avantages : Stock Options, smartphone et ordinateur de votre choix, réductions pour des activités culturelles et sportives, restaurant d’entreprise, et bien plus encore Participer à la Withings Med Academy en assistant à des ",
-   "url": "https://www.arbeitnow.fr/jobs/companies/withings/junior-supply-chain-engineer-operations-h-f-issy-les-moulineaux-410004",
-   "posted": "2026-10-23T04:20:12+00:00",
-   "remote": false,
-   "id": "b8473d3975c39d73",
-   "score": 38,
-   "why": [
-    "skills: python",
-    "junior-friendly"
-   ],
-   "region": "europe",
-   "first_seen": "2026-10-23T11:23:36.456769+00:00"
-  },
-  {
-   "source": "arbeitnow",
-   "src_id": "senior-software-engineer-moorgate-173856",
-   "title": "Senior Software Engineer",
-   "company": "Checkatrade",
-   "location": "Moorgate London",
-   "description": "Powering Great Work We started as the place to find a trusted trade. Now, as we shape the future of home improvement, we're building the tech to transform that landscape for everyone - better products, smarter data, AI where it actually helps - so trades can spend less time on admin and consumers can find someone they trust, first time. That's Powering Great Work, and it's why every team here exists: 🔧 Trades spend less time on admin and more on winning work and growing their business 🏠 Homeowners get a trusted trade, first time, every time 🚀 We get to build products that change homes and lives across the country As our next Senior Software Engineer in Trust & Safety, you'll own the systems that decide how tradespeople are checked, how reviews are processed and how our marketplace stays honest at scale. You'll work alongside the vetting and reviews teams, who are on the front line of trust, and build the infrastructure that lets them work with confidence. When something breaks in production, you'll lead the response. When something looks brittle at design time, you'll say so. The job, unfiltered: Own and evolve the systems behind how tradespeople are verified, how reviews flow through our platform and how content is moderated. Lead the response when things break: read distributed traces, correlate logs across services and find the cause, not just the symptom. Design event-driven workflows that are reliable by default: idempotent, retryable, with dead-letter handling that doesn't need a 2am wake-up to unpick. Work directly with the vetting and reviews teams to understand what trust means day to day, then build systems that hold up to it. Tighten the operational seams: better monitoring, clearer alerting, locked-down auth and outbox patterns that keep data consistent. The fit: Strong TypeScript. You're comfortable owning a service end to end, from schema to deployment. Fastify or a similar Node.js framework, and enough HTTP know-how that it rarely surprises you. Event-driven instincts: you know what idempotency means in practice and why the outbox pattern exists. Full-stack comfort, Next.js included. You ship the frontend as happily as the service behind it. Datadog fluency (APM traces, log search, metric queries), SQL for diagnostics during an incident, and GCP basics such as Pub/Sub backlogs and DLQs. Experience leading production incidents, not just being in them. You communicate clearly under pressure and drive to a fix. An eye for systemic problems at review time, not at post-mortem time, and a habit of making the people around you better. Regular use of AI tools like Cursor or Claude Code, and a keen interest in helping the team get more out of them. You don't need to know our Trust & Safety domain yet (the review lifecycle, vetting disposition logic, publish timing). You'll pick it up. What matters is that you learn fast and take it seriously. (Don't self-select out because you don't tick every box. We'd rather meet you.) What you get 💰 Competitive salary, annual bonus & equity scheme 🩺 Health, wellbeing and learning support 🚲 Gym membership, Smart Tech Scheme, Cycle Scheme 🎂 Birthday/special day leave, buy & sell holiday scheme ❤️ 1 week's paid charity leave, and more How this goes Screening call with one of our Talent Acquisition Partners Technical interview with members of the team Final stage with the hiring manager and a senior stakeholder Not this one? Stay close anyway. Join the Talent Community and we'll ping you the second something better fits. About us We’re Checkatrade – the UK’s leading platform for finding a tradesperson. With more than 50,000 trades listed and over 6 million reviews, we help homeowners get jobs done right and help tradespeople grow their business. We’re growing fast, with big plans to become the go-to brand for home improvements. If you care about great work, take pride in the details, and want to make an impact, you’ll fit right in. Find more English Speaking Jobs in United Kingdom on Arbe",
-   "url": "https://www.arbeitnow.co.uk/jobs/companies/checkatrade/senior-software-engineer-moorgate-173856",
-   "posted": "2026-10-24T08:40:13+00:00",
-   "remote": false,
-   "id": "d60921f5149e6d90",
-   "score": 38,
-   "why": [
-    "title",
-    "skills: node, node.js, typescript, ai",
-    "junior-friendly",
-    "seniority mismatch"
-   ],
-   "region": "europe",
-   "first_seen": "2026-10-24T10:42:44.059696+00:00"
-  },
-  {
    "source": "arbeitnow",
    "src_id": "financial-analyst-london-119757",
    "title": "Financial Analyst",
    "company": "Encord",
    "location": "London",
-   "description": "About us Encord is the universal data layer for AI that helps 300+ AI teams train and run models on the right data. Our platform indexes, curates, annotates, and evaluates data across the full AI lifecycle, from development through production. Trusted by Woven by Toyota, AXA, UiPath, Zipline, and more. We're an ambitious team of 100+ working at the frontier of AI and have raised $60M in Series C funding from Wellington Management, CRV, Next47 and Y Combinator. The role As Finance Associate at Encord, you'll own the operational core of our finance function, including: supplier payments, customer invoicing, and month-end reconciliations - ensuring everything runs accurately and on time. You'll partner closely with the wider finance function and cross-functional teams across the business, helping make finance a great partner to the rest of the company. The day-to-day processes are yours to run and improve: where something is manual or unclear, you'll have the real opportunity to make it better. It's a strong fit for someone early in their finance career who takes ownership seriously and wants their work to underpin the teams building tools for multimodal AI. What you'll do Manage day-to-day bookkeeping, accounts payable, VAT returns and accounts receivable. Process employee expense reports and ensure adherence to company policies. Oversee client invoicing and manage billing workflows. Assist with month-end close procedures, bank reconciliations, and general ledger maintenance. Support financial reporting, budgeting, and variance analysis. Collaborate on ad-hoc finance and operational projects as they arise. Who we're looking for Precision in the core. You take pride in managing the transactional heart of the company. You aren't just processing invoices or reconciling accounts; you view accuracy in bookkeeping and compliance as the critical foundation that allows us to move fast and make informed decisions. A builder of systems. You don’t just accept manual processes as status quo. Whether it’s improving expense workflows or refining billing, you look for the \"better way\" to do things, ensuring our financial systems scale as quickly as our business. Collaborative by nature. You recognize that effective finance isn’t a back-office function—it’s a partner to the business. You’re ready to bridge the gap between financial operations and the cross-functional teams building the tools for multimodal AI. Ready for high-growth ownership. You are early in your finance career, but you crave responsibility. You want a role where your daily output directly supports our growth, and you’re hungry for the professional development that comes from operating in a fast-paced environment. Experience requirements Degree in Finance, Accounting, Economics, or a related quantitative field. 1-2 years of experience in a finance, accounting, or analytical role (tech or startup experience is a plus, but not required). Solid foundational knowledge of bookkeeping, accounts payable/receivable, and invoicing. Strong attention to detail, accuracy, and organizational skills. Proficiency in spreadsheet software and financial tools. An understanding of AI-native finance stacks would be advantageous Proactive mindset with the ability to adapt in a fast-paced, growing environment. Why Encord Competitive salary, commission, and equity in a high-growth startup Strong in-person culture — most of the team works from our London office 4+ days/week 25 days annual leave + UK public holidays Annual learning & development budget Travel for customer visits, events, and conferences across the UK and Europe Daily lunches & dinners Monthly socials & bi-annual team offsites Find more English Speaking Jobs in United Kingdom on Arbeitnow",
+   "description": "About us Encord is the universal data layer for AI that helps 300+ AI teams train and run models on the right data. Our platform indexes, curates, annotates, and evaluates data across the full AI lifecycle, from development through production. Trusted by Woven by Toyota, AXA, UiPath, Zipline, and more. We're an ambitious team of 100+ working at the frontier of AI and have raised $60M in Series C funding from Wellington Management, CRV, Next47 and Y Combinator. The role As Finance Associate at Encord, you'll own the operational core of our finance function, including: supplier payments, customer invoicing, and month-end reconciliations - ensuring everything runs accurately and on time. You'll partner closely with the wider finance function and cross-functional teams across the business, helping make finance a great partner to the rest of the company. The day-to-day processes are yours to run and improve: where something is manual or unclear, you'll have the real opportunity to make it better. It's a strong fit for someone early in their finance career who takes ownership seriously and wants their work to underpin the teams building tools for multimodal AI. What you'll do Manage day-to-day bookkeeping, accounts payable, VAT returns and accounts receivable. Process employee expense reports and ensure adherence to company policies. Oversee client invoicing and manage billing workflows. Assist with month-end close procedures, bank reconciliations, and general ledger maintenance. Support financial reporting, budgeting, and variance analysis. Collaborate on ad-hoc finance and operational projects as they arise. Who we're looking for Precision in the core. You take pride in managing the transactional heart of the company. You aren't just processing invoices or reconciling accounts; you view accuracy in bookkeeping and compliance as the critical foundation that allows us to move fast and make informed decisions. A builder of systems. You don’t just accept manual processes as status quo. Whether it’s improving expense workflows or refining billing, you look for the \"better way\" to do things, ensuring our financial systems scale as quickly as our business. Collaborative by nature. You recognize that effective finance isn’t a back-office function—it’s a partner to the business. You’re ready to bridge the gap between financial operations and the cross-functional teams building the tools for multimodal AI. Ready for high-growth ownership. You are early in your finance career, but you crave responsibility. You want a role where your daily output directly supports our growth, and you’re hungry for the professional development that comes from operating in a fast-paced environment. Experience requirements Degree in Finance, Accounting, Economics, or a related quantitative field. 1-2 years of experience in a finance, accounting, or analytical role (tech or startup experience is a plus, but not required). Solid foundational knowledge of bookkeeping, accounts payable/receivable, and invoicing. Strong attention to detail, accuracy, and organizational skills. Proficiency in spreadsheet software and financial tools. An understanding of AI-native finance stacks would be advantageous Proactive mindset with the ability to adapt in a fast-paced, growing environment. Why Encord Competitive salary, commission, and equity in a high-growth startup Strong in-person culture — most of the team works from our London office 4+ days/week 25 days annual leave + UK public holidays Annual learning & development budget Travel for customer visits, events, and conferences across the UK and Europe Daily lunches & dinners Monthly socials & bi-annual team offsites Find Jobs in United Kingdom on Arbeitnow",
    "url": "https://www.arbeitnow.co.uk/jobs/companies/encord/financial-analyst-london-119757",
    "posted": "2026-10-24T14:40:13+00:00",
    "remote": false,
@@ -1581,11 +1248,30 @@
   },
   {
    "source": "arbeitnow",
+   "src_id": "stage-data-engineer-reporting-bi-f-h-mars-2027-pouzauges-468050",
+   "title": "STAGE - Data Engineer/Reporting BI F/H - Mars 2027",
+   "company": "FLEURY MICHON",
+   "location": "Pouzauges, Pays de la Loire, France",
+   "description": "🚀 Envie de transformer la donnée en véritable levier de décision ? Chez Fleury Michon, la donnée est au cœur de nombreux enjeux business. Pour renforcer notre équipe Data au sein de la DSI , nous recherchons un(e) stagiaire Data Engineer/Reporting BI pour contribuer à la chaîne de valeur de la donnée, de sa structuration jusqu’à sa restitution. L’objectif ? Transformer des données en informations utiles et accessibles aux équipes de l’entreprise , grâce à des modèles de données fiables et des rapports Power BI adaptés aux besoins des métiers. Une mission concrète, à cheval entre data engineering et Business Intelligence , avec un impact réel sur les différents départements de l’entreprise ! 🔎 Votre mission Encadré(e) par un tuteur expérimenté, vous serez amené(e) à intervenir sur l’ensemble de la chaîne de valeur de la donnée. Comprendre les besoins des métiers Échanger avec les équipes métiers (commerce, finance, production, digital…) pour comprendre leurs besoins. Traduire ces besoins en modèles de données adaptés. Structurer et fiabiliser la donnée Développer et optimiser des requêtes SQL sur notre datalake Snowflake : extraction, transformation et modélisation. Participer à la fiabilisation et à l’automatisation des flux de données : sourcing, contrôles qualité… Documenter les traitements et les modèles de données. Transformer la donnée en outils de pilotage Concevoir des rapports et modèles Power BI , notamment avec Power Query M et DAX. Contribuer à l’optimisation et à la maintenance des rapports et flux existants. Participer à l’amélioration de la gouvernance Data et Power BI. Accompagner les utilisateurs Accompagner les équipes dans l’appropriation des rapports créés. Être à l’écoute de leurs besoins et contribuer à faire évoluer les solutions proposées. 💡 Un stage pour développer une vision complète de la Data Ce stage vous permettra de travailler de la donnée brute jusqu'à sa valorisation , en lien direct avec les équipes métiers. Vous découvrirez ainsi différentes facettes de la Data : SQL, modélisation, Snowflake, Power BI, qualité des données, visualisation et gouvernance . Vous serez également amené(e) à échanger avec des interlocuteurs aux profils variés et à comprendre leurs enjeux business. Dans un souci d’accessibilité et de clarté, l’écriture inclusive n’est pas utilisée dans cette annonce. Les termes employés au masculin se réfèrent aussi bien au genre féminin que masculin. 👤 Le profil que nous recherchons Vous préparez actuellement un Bac+5 / Master 2 , en informatique, data engineering ou au sein d’une école d’ingénieur généraliste avec une spécialisation Data / BI. Nous recherchons idéalement un profil mixte développement / BI , avec de bonnes bases en SQL et une bonne connaissance de Power BI. Vous avez des connaissances en : SQL – indispensable ; modélisation de données, relationnelle et/ou dimensionnelle ; Power BI , Power Query M et DAX, ou un autre outil de BI (Tableau, Qlik…) ; visualisation de données. La connaissance de Snowflake , Python et/ou Git serait un plus, tout comme une première connaissance du secteur de la grande distribution. Vous avez du talent. Nous avons hâte de le voir s'exprimer. Rejoignez une équipe engagée, bénéficiez d'un accompagnement personnalisé et profitez d'un environnement qui favorise votre développement professionnel et personnel. ✨ Parcours d'intégration • Formation • Communauté d’alternants et de stagiaires • Télétravail ( 2 jours/semaine) • Hub Nantes et La Rochelle • CSE • Restaurant d’entreprise • Perspectives d’évolution • Magasin d'usine • Accompagnement à la recherche de logement • Un recrutement simple et rapide Parce qu'un recrutement réussi commence par des échanges de qualité : 1️⃣ Un premier échange en visioconférence avec un chargé de recrutement pour faire connaissance et répondre à vos questions. 2️⃣ Une rencontre avec votre futur manager et votre interlocuteur RH pour échanger sur le poste, vos motivations et votre projet professionnel. Dans le cadre ",
+   "url": "https://www.arbeitnow.fr/jobs/companies/fleury-michon/stage-data-engineer-reporting-bi-f-h-mars-2027-pouzauges-468050",
+   "posted": "2026-10-24T17:51:47+00:00",
+   "remote": false,
+   "id": "f7efcad47d136b4c",
+   "score": 38,
+   "why": [
+    "skills: python",
+    "junior-friendly"
+   ],
+   "region": "europe",
+   "first_seen": "2026-10-25T11:07:31.407817+00:00"
+  },
+  {
+   "source": "arbeitnow",
    "src_id": "werkstudentin-ai-automation-energy-berlin-339347",
    "title": "Werkstudent:in AI & Automation - Energy (m/w/d)",
    "company": "1KOMMA5˚",
    "location": "Berlin",
-   "description": "1KOMMA5° Bei 1KOMMA5° bauen wir Europas führende Energie-Software-Plattform “Heartbeat” und schaffen so ein virtuelles Kraftwerk , das Photovoltaik, Stromspeicher, Wärmepumpen und Ladesäulen der Kunden verknüpft und so die Rentabilität vernetzter Kundenanlagen deutlich erhöht. Wir bieten Kunden zudem einen \" One-Stop-Shop\" für den Kauf und die Installation individueller und intelligenter Energie-Systemlösungen, damit jeder Haushalt schnell und professionell klimaneutral wohnen, heizen und mobil sein kann. Gleichzeitig arbeiten wir in unserer Technologie-Sparte an der Weiterentwicklung und dem Ausbau der Heartbeat-Software, um Kunden weltweit mit dem Strommarkt zu vernetzen und so immer den günstigsten und saubersten Stromtarif anbieten zu können. Erfahre über unser Product & Tech Team! Deine Position Als Team Energy sind wir Teil des Product und Tech Teams von 1KOMMA5°. Wir arbeiten täglich daran, dass unsere digitalen Produkte tausenden Kund:innen weltweit zur Verfügung stehen. Wir wachsen stark und suchen deshalb weitere Verstärkung! Was zählt ist, dass du motiviert bist, die untenstehende Aufgaben anzugehen, Gas (bzw. Strom) zu geben und eine steile Lernkurve suchst. Du übernimmst eigenständig KI- und Automatisierungsprojekte – von der RAG-gestützten Datenverarbeitung bis hin zur automatisierten Kundenkommunikation Du nutzt Automatisierungsplattformen für schnelles Prototyping von KI-Anwendungen Dabei arbeitest du direkt mit unserem Process- und Operations-Team zusammen, um konkrete Herausforderungen im Tagesgeschäft zu verstehen Du dokumentierst deine Workflows in unserer Wissensdatenbank und machst unseren Teamkontext für KI-Agenten nutzbar Du evaluierst neue KI-Tools und Automatisierungsplattformen und bringst proaktiv Vorschläge ein, wie wir operative Prozesse verbessern und automatisieren können Dein Profil Du studierst Wirtschaftsinformatik, Informatik, Data Science oder ein vergleichbares Fach – oder bist tech-affin mit nachweisbarer Erfahrung Du hast praktische Erfahrung mit Automatisierungsplattformen (z. B. n8n, Make, Zapier) und der Arbeit mit KI-Agenten Du verstehst API-Grundlagen (Webhooks, REST, JSON) und weißt, wie du diese produktiv einsetzt Du denkst in Prozessen und hast Freude daran, repetitive Aufgaben durch smarte Lösungen zu ersetzen Du besitzt eine ausgeprägte hands-on Mentalität und bringst proaktiv Initiativen voran Du bist noch mindestens zwei Semester an einer deutschen Hochschule immatrikuliert und kannst uns 15-20 Stunden pro Woche und in den Semesterferien bis zu 40 Stunden pro Woche unterstützen Für diese Stelle ist es unerlässlich, dass du dich wohl damit fühlst fließend auf Deutsch zu kommunizieren (mind. C1 Niveau) Du suchst eine steile Lernkurve und bist offen für Feedback - jeder Mensch kann dazulernen, genau dafür wollen wir Raum geben Du hast bereits erste Erfahrung in der Energiewirtschaft? Super! Du bist noch Rookie in der Branche? Kein Problem – für uns zählt Motivation und Lernwille! Benefits Du hast die Möglichkeit in unseren brandneuen Büros in der Hamburger Innenstadt, Berlin & München zu arbeiten und/oder remote Flexible Arbeitszeiten, die sich gut mit deinem Studium vereinbaren lassen Nutze dein technisches Equipment auch abseits der Arbeit in deiner Freizeit Viel Eigenverantwortung und die Möglichkeit eigene Themen zu übernehmen Du bewegst dich in flachen Hierarchien mit viel Entwicklungspotenzial Mit deiner Arbeit unterstützt du den Megatrend “Energie- und Mobilitätswende” und leistest einen konkreten Beitrag zum nachhaltigen Umbau unserer Energie-Infrastruktur Sei aktiv und nutze das Angebot von über 7.600 Sportpartnern mit dem EGYM-Wellpass Profitiere von Benefits & Rabatten durch Futurebens Find more English Speaking Jobs in Germany on Arbeitnow",
+   "description": "1KOMMA5° Bei 1KOMMA5° bauen wir Europas führende Energie-Software-Plattform “Heartbeat” und schaffen so ein virtuelles Kraftwerk , das Photovoltaik, Stromspeicher, Wärmepumpen und Ladesäulen der Kunden verknüpft und so die Rentabilität vernetzter Kundenanlagen deutlich erhöht. Wir bieten Kunden zudem einen \" One-Stop-Shop\" für den Kauf und die Installation individueller und intelligenter Energie-Systemlösungen, damit jeder Haushalt schnell und professionell klimaneutral wohnen, heizen und mobil sein kann. Gleichzeitig arbeiten wir in unserer Technologie-Sparte an der Weiterentwicklung und dem Ausbau der Heartbeat-Software, um Kunden weltweit mit dem Strommarkt zu vernetzen und so immer den günstigsten und saubersten Stromtarif anbieten zu können. Erfahre über unser Product & Tech Team! Deine Position Als Team Energy sind wir Teil des Product und Tech Teams von 1KOMMA5°. Wir arbeiten täglich daran, dass unsere digitalen Produkte tausenden Kund:innen weltweit zur Verfügung stehen. Wir wachsen stark und suchen deshalb weitere Verstärkung! Was zählt ist, dass du motiviert bist, die untenstehende Aufgaben anzugehen, Gas (bzw. Strom) zu geben und eine steile Lernkurve suchst. Du übernimmst eigenständig KI- und Automatisierungsprojekte – von der RAG-gestützten Datenverarbeitung bis hin zur automatisierten Kundenkommunikation Du nutzt Automatisierungsplattformen für schnelles Prototyping von KI-Anwendungen Dabei arbeitest du direkt mit unserem Process- und Operations-Team zusammen, um konkrete Herausforderungen im Tagesgeschäft zu verstehen Du dokumentierst deine Workflows in unserer Wissensdatenbank und machst unseren Teamkontext für KI-Agenten nutzbar Du evaluierst neue KI-Tools und Automatisierungsplattformen und bringst proaktiv Vorschläge ein, wie wir operative Prozesse verbessern und automatisieren können Dein Profil Du studierst Wirtschaftsinformatik, Informatik, Data Science oder ein vergleichbares Fach – oder bist tech-affin mit nachweisbarer Erfahrung Du hast praktische Erfahrung mit Automatisierungsplattformen (z. B. n8n, Make, Zapier) und der Arbeit mit KI-Agenten Du verstehst API-Grundlagen (Webhooks, REST, JSON) und weißt, wie du diese produktiv einsetzt Du denkst in Prozessen und hast Freude daran, repetitive Aufgaben durch smarte Lösungen zu ersetzen Du besitzt eine ausgeprägte hands-on Mentalität und bringst proaktiv Initiativen voran Du bist noch mindestens zwei Semester an einer deutschen Hochschule immatrikuliert und kannst uns 15-20 Stunden pro Woche und in den Semesterferien bis zu 40 Stunden pro Woche unterstützen Für diese Stelle ist es unerlässlich, dass du dich wohl damit fühlst fließend auf Deutsch zu kommunizieren (mind. C1 Niveau) Du suchst eine steile Lernkurve und bist offen für Feedback - jeder Mensch kann dazulernen, genau dafür wollen wir Raum geben Du hast bereits erste Erfahrung in der Energiewirtschaft? Super! Du bist noch Rookie in der Branche? Kein Problem – für uns zählt Motivation und Lernwille! Benefits Du hast die Möglichkeit in unseren brandneuen Büros in der Hamburger Innenstadt, Berlin & München zu arbeiten und/oder remote Flexible Arbeitszeiten, die sich gut mit deinem Studium vereinbaren lassen Nutze dein technisches Equipment auch abseits der Arbeit in deiner Freizeit Viel Eigenverantwortung und die Möglichkeit eigene Themen zu übernehmen Du bewegst dich in flachen Hierarchien mit viel Entwicklungspotenzial Mit deiner Arbeit unterstützt du den Megatrend “Energie- und Mobilitätswende” und leistest einen konkreten Beitrag zum nachhaltigen Umbau unserer Energie-Infrastruktur Sei aktiv und nutze das Angebot von über 7.600 Sportpartnern mit dem EGYM-Wellpass Profitiere von Benefits & Rabatten durch Futurebens Find Jobs in Germany on Arbeitnow",
    "url": "https://www.arbeitnow.com/jobs/companies/1komma50/werkstudentin-ai-automation-energy-berlin-339347",
    "posted": "2026-10-24T18:47:24+00:00",
    "remote": false,
@@ -1661,7 +1347,7 @@
    "title": "Customer Support Specialist",
    "company": "Ultimate Marketing",
    "location": "Worldwide",
-   "description": "Tags: customer support, Remote Work, Social Media, Communication, Worldwide. Join Our Global Customer Engagement Network Company: Ultimate Marketing LLC Location: Worldwide | Remote Employment Type: Independent Contractor (1099 for eligible U.S. contractors) Compensation: Performance-Based | Payments Every 3 Calendar Days About the Opportunity Ultimate Marketing LLC is expanding its global network of remote professionals to support our brands: Our growing global business ecosystem includes the following brands, platforms, and specialized services: Direct Acquisitionsâ¢ Tokenized Fundingâ¢ Perfect Data Directâ¢ Cybersecurity & Compliance Juris Audit on-Demandâ¢ Insights by PDDâ¢ Web4Comâ¢ (Web4â¢) Together, these initiatives support business acquisitions, financial innovation, digital infrastructure, cybersecurity, regulatory compliance, and global business development. We are seeking motivated individuals interested in customer engagement, digital communications, business development, and online support opportunities. Our growing business ecosystem includes business acquisitions, digital technology, cybersecurity, compliance, and innovative financial solutions. This opportunity provides flexibility (your time zone), remote participation, and performance-based earning potential. Responsibilities Engage through social media (no calls, emailing, or meetings)with prospective customers and business contacts. Respond to inquiries and provide helpful information. Introduce interested individuals to relevant company services. Support digital outreach and customer engagement activities. Direct prospective customers to appropriate online resources. Maintain professional communication and accurate activity records. Compensation & Payment Schedule This is a 1099 independent contractor opportunity with performance-based compensation. This is not commission-based pay but does include exciting bonuses.Â Compensation includes two earning opportunities: Individual Performance Bonuses: Earn bonuses based on verified, qualifying individual activities and results. Worldwide Network Share Bonuses: A designated percentage of qualifying worldwide network earnings is distributed among eligible team members, providing additional earning opportunities through collective performance. Payments are processed every three calendar days for verified, qualifying results, according to the compensation agreement. Qualifications Strong written communication skills. Reliable internet access. Ability to work independently. Basic familiarity with online communication tools. Professional attitude and attention to detail. Customer service or digital marketing experience is helpful. Special Requirements â 15-Minute Skills Demonstration Applicants will participate in a brief, 15-minute interactive skills demonstration. This is not a pass-or-fail examination. Instead, it helps us understand your communication abilities, social media experience, and individual strengths. During the session, applicants will demonstrate three types of social media engagement: Engagement: Respond professionally to a social media post. Communication: Demonstrate how to introduce Ultimate Marketing's brands. Customer Support: Respond to a customer inquiry. Our objective is to identify your strengths and provide appropriate paid training, guidance, and opportunities for professional development. Why Join Us? Work remotely Flexible scheduling Bonus earning potential Milestone Incentives Home Office Stipend Career Advancement Internship Opportunities Relocation Opportunities Apply Today Visit our Careers page to learn about available opportunities and submit your application. Ultimate Marketing LLC â Building Opportunities Across Borders. Please mention the word **BENEFICIALLY** and tag RMTcyLjIwMy4xOTcuMjQw when applying to show you read the job post completely (#RMTcyLjIwMy4xOTcuMjQw). This is a beta feature to avoid spam applicants. Companies can search these words to find applican",
+   "description": "Tags: customer support, Remote Work, Social Media, Communication, Worldwide. Join Our Global Customer Engagement Network Company: Ultimate Marketing LLC Location: Worldwide | Remote Employment Type: Independent Contractor (1099 for eligible U.S. contractors) Compensation: Performance-Based | Payments Every 3 Calendar Days About the Opportunity Ultimate Marketing LLC is expanding its global network of remote professionals to support our brands: Our growing global business ecosystem includes the following brands, platforms, and specialized services: Direct Acquisitionsâ¢ Tokenized Fundingâ¢ Perfect Data Directâ¢ Cybersecurity & Compliance Juris Audit on-Demandâ¢ Insights by PDDâ¢ Web4Comâ¢ (Web4â¢) Together, these initiatives support business acquisitions, financial innovation, digital infrastructure, cybersecurity, regulatory compliance, and global business development. We are seeking motivated individuals interested in customer engagement, digital communications, business development, and online support opportunities. Our growing business ecosystem includes business acquisitions, digital technology, cybersecurity, compliance, and innovative financial solutions. This opportunity provides flexibility (your time zone), remote participation, and performance-based earning potential. Responsibilities Engage through social media (no calls, emailing, or meetings)with prospective customers and business contacts. Respond to inquiries and provide helpful information. Introduce interested individuals to relevant company services. Support digital outreach and customer engagement activities. Direct prospective customers to appropriate online resources. Maintain professional communication and accurate activity records. Compensation & Payment Schedule This is a 1099 independent contractor opportunity with performance-based compensation. This is not commission-based pay but does include exciting bonuses.Â Compensation includes two earning opportunities: Individual Performance Bonuses: Earn bonuses based on verified, qualifying individual activities and results. Worldwide Network Share Bonuses: A designated percentage of qualifying worldwide network earnings is distributed among eligible team members, providing additional earning opportunities through collective performance. Payments are processed every three calendar days for verified, qualifying results, according to the compensation agreement. Qualifications Strong written communication skills. Reliable internet access. Ability to work independently. Basic familiarity with online communication tools. Professional attitude and attention to detail. Customer service or digital marketing experience is helpful. Special Requirements â 15-Minute Skills Demonstration Applicants will participate in a brief, 15-minute interactive skills demonstration. This is not a pass-or-fail examination. Instead, it helps us understand your communication abilities, social media experience, and individual strengths. During the session, applicants will demonstrate three types of social media engagement: Engagement: Respond professionally to a social media post. Communication: Demonstrate how to introduce Ultimate Marketing's brands. Customer Support: Respond to a customer inquiry. Our objective is to identify your strengths and provide appropriate paid training, guidance, and opportunities for professional development. Why Join Us? Work remotely Flexible scheduling Bonus earning potential Milestone Incentives Home Office Stipend Career Advancement Internship Opportunities Relocation Opportunities Apply Today Visit our Careers page to learn about available opportunities and submit your application. Ultimate Marketing LLC â Building Opportunities Across Borders. Please mention the word **BENEFICIALLY** and tag RMjAuMTEyLjEyMi40OA== when applying to show you read the job post completely (#RMjAuMTEyLjEyMi40OA==). This is a beta feature to avoid spam applicants. Companies can search these words to find applican",
    "url": "https://remoteOK.com/remote-jobs/remote-customer-support-specialist-ultimate-marketing-1137512",
    "posted": "2026-10-14T01:31:49+00:00",
    "remote": true,
