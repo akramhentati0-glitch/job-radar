@@ -15,6 +15,7 @@ jobs:
           JOOBLE_KEY: ${{ secrets.JOOBLE_KEY }}
           ADZUNA_ID: ${{ secrets.ADZUNA_ID }}
           ADZUNA_KEY: ${{ secrets.ADZUNA_KEY }}
+          RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
       - name: Commit data (keeps first_seen history)
         run: |
           git config user.name "job-radar"; git config user.email "job-radar@users.noreply.github.com"
