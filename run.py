@@ -267,6 +267,36 @@ def f_ats(boards):
     return out
 
 
+# ---- JSearch via RapidAPI (aggregates Google for Jobs, which includes many LinkedIn/Indeed postings).
+# Free plan is tiny and hard-limited, so each run uses only max_requests_per_run queries, rotating through
+# the list day by day. Key goes in the RAPIDAPI_KEY secret. A quota/429 error ends the source quietly.
+def f_jsearch(cfg):
+    key = os.environ.get("RAPIDAPI_KEY")
+    if not key: raise RuntimeError("RAPIDAPI_KEY not set (free plan at rapidapi.com, API: JSearch)")
+    qs = cfg["queries"]; per = int(cfg.get("max_requests_per_run", 3))
+    start = (datetime.now(timezone.utc).timetuple().tm_yday * per) % len(qs)
+    todays = [qs[(start + i) % len(qs)] for i in range(min(per, len(qs)))]
+    hdr = {"X-RapidAPI-Key": key, "X-RapidAPI-Host": "jsearch.p.rapidapi.com"}
+    out, stopped = [], ""
+    for q in todays:
+        try:
+            d = http("https://jsearch.p.rapidapi.com/search?" + urllib.parse.urlencode(
+                {"query": q, "page": 1, "num_pages": 1, "date_posted": cfg.get("date_posted", "week")}), headers=hdr)
+        except urllib.error.HTTPError as e:
+            if e.code in (429, 403) and out: stopped = f"quota/limit reached ({e.code})"; break
+            raise
+        for j in d.get("data") or []:
+            loc = ", ".join(x for x in (j.get("job_city"), j.get("job_state"), j.get("job_country")) if x)
+            pub = j.get("job_publisher") or ""
+            out.append(job("jsearch", j.get("job_id"), j.get("job_title", ""), j.get("employer_name", ""), loc,
+                           (f"Listed on {pub}. " if pub else "") + (j.get("job_description") or ""),
+                           j.get("job_apply_link") or j.get("job_google_link") or "",
+                           to_iso(j.get("job_posted_at_datetime_utc")), bool(j.get("job_is_remote"))))
+        time.sleep(1)
+    f_jsearch.note = stopped
+    return out
+
+
 # ---------------- scoring ----------------
 def has(text, term):
     return re.search(r"(?<![a-z0-9])" + re.escape(term) + r"(?![a-z0-9])", text) is not None
@@ -308,12 +338,14 @@ def main(argv):
         tasks = {"arbeitnow": f_arbeitnow, "jobtech_sweden": f_jobtech, "remotive": f_remotive, "jobicy": f_jobicy,
                  "jooble": lambda: f_jooble(S["jooble"]), "adzuna": lambda: f_adzuna(S["adzuna"]),
                  "keejob": f_keejob, "remoteok": f_remoteok, "reed": lambda: f_reed(S["reed"]),
-                 "ats": lambda: f_ats(S["ats"]["boards"])}
+                 "ats": lambda: f_ats(S["ats"]["boards"]), "jsearch": lambda: f_jsearch(S["jsearch"])}
         for name, fn in tasks.items():
-            if not S.get(name): continue
+            cfg_ = S.get(name)
+            if not cfg_ or (isinstance(cfg_, dict) and cfg_.get("enabled") is False): continue
             try:
                 got = fn(); jobs += got; health[name] = f"ok ({len(got)})"
                 if name == "ats" and getattr(f_ats, "note", ""): health[name] += " · " + f_ats.note
+                if name == "jsearch" and getattr(f_jsearch, "note", ""): health[name] += " · " + f_jsearch.note
             except Exception as e:  # one dead source must not kill the run
                 health[name] = f"FAILED: {type(e).__name__}: {e}"
     cutoff = datetime.now(timezone.utc) - timedelta(days=CFG["max_age_days"])

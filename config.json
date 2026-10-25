@@ -280,6 +280,25 @@
     "lever:spotify",
     "ashby:linear"
    ]
+  },
+  "jsearch": {
+   "enabled": false,
+   "max_requests_per_run": 3,
+   "date_posted": "week",
+   "queries": [
+    "junior full stack developer in Tunisia",
+    "développeur junior in Tunisie",
+    "junior software developer in Dubai, UAE",
+    "junior software developer in Saudi Arabia",
+    "junior software developer in Qatar",
+    "graduate software engineer in Germany",
+    "développeur junior in France",
+    "junior software developer in Netherlands",
+    "junior software engineer in Sweden",
+    "junior software developer in Belgium",
+    "junior frontend developer remote",
+    "junior backend developer remote"
+   ]
   }
  }
 }
