@@ -282,7 +282,7 @@
    ]
   },
   "jsearch": {
-   "enabled": false,
+   "enabled": true,
    "max_requests_per_run": 3,
    "date_posted": "week",
    "queries": [
