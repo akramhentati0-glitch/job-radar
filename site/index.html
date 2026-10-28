@@ -74,7 +74,7 @@ const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&g
 const st=j=>ST[j.id]||"new";
 const fit=j=>j.score>=70?["f-hi","Strong"]:j.score>=50?["f-mid","Good"]:["f-lo","Maybe"];
 const ago=iso=>{const d=Math.floor((Date.now()-new Date(iso))/864e5);return d<=0?"today":d===1?"yesterday":d+" days ago"};
-const inTab=(j,t)=>t==="all"?st(j)!=="ignored":t==="today"?(st(j)==="new"&&j.score>=60):st(j)===t;
+const inTab=(j,t)=>t==="all"?(st(j)==="new"||st(j)==="saved"):t==="today"?(st(j)==="new"&&j.score>=60):st(j)===t;
 function set(id,v){ST[id]=(st({id})===v&&v!=="new")?"new":v;save();render()}
 function render(){
   const q=document.getElementById("q").value.toLowerCase(),r=document.getElementById("reg").value,m=+document.getElementById("min").value;
